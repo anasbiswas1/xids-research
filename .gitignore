@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+
+# Trained models and intermediate outputs
+models/*.pkl
+models/*.h5
+models/*.pt
+calibrators/*.pkl
+shap_values/*.npz
+shap_values/*.pkl
+
+# Colab artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
