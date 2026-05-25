@@ -237,3 +237,11 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# SHAP value arrays (too large for git)
+shap_values/*.npy
+shap_values/*.pkl
+shap_values/**/*.npy
+calibrators/*.pkl
+calibrators/**/*.npy
+calibrators/**/*.pkl
