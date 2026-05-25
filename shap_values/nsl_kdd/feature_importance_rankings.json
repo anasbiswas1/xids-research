@@ -1,0 +1,1736 @@
+{
+  "rf_binary_cw": {
+    "overall": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.08498059958219528
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.05044764652848244
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.03870745003223419
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.03622845932841301
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.03121182881295681
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.028840314596891403
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.02804361656308174
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.02670828066766262
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.021940482780337334
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.021744731813669205
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.02156745083630085
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.019736170768737793
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.017879009246826172
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.017240922898054123
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "mean_abs_shap": 0.0158602986484766
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.014138566330075264
+      },
+      {
+        "feature": "serror_rate",
+        "mean_abs_shap": 0.013352970592677593
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.0121463593095541
+      },
+      {
+        "feature": "srv_serror_rate",
+        "mean_abs_shap": 0.011635310016572475
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.011343535967171192
+      }
+    ]
+  },
+  "xgb_binary_cw": {
+    "overall": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 3.8849422931671143
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 1.1857835054397583
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 1.072624683380127
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 1.0352203845977783
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.713697075843811
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.6886101365089417
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.5441248416900635
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.5289067625999451
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.5229662656784058
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.40560218691825867
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.40233612060546875
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.3866117000579834
+      },
+      {
+        "feature": "service_ecr_i",
+        "mean_abs_shap": 0.3587534725666046
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.25260820984840393
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.23906166851520538
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "mean_abs_shap": 0.23550917208194733
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.21873752772808075
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.21591204404830933
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.20768247544765472
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.20492571592330933
+      }
+    ]
+  },
+  "dnn_binary_cw": {
+    "overall": [
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.8079485893249512
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.7189761400222778
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.625298023223877
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.6118925213813782
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.5915924906730652
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.4947352409362793
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.43226319551467896
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.40674009919166565
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.3403538763523102
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.3354189991950989
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.31468039751052856
+      },
+      {
+        "feature": "srv_serror_rate",
+        "mean_abs_shap": 0.3085273504257202
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.2918705642223358
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.28732818365097046
+      },
+      {
+        "feature": "flag_REJ",
+        "mean_abs_shap": 0.2269345372915268
+      },
+      {
+        "feature": "service_ftp",
+        "mean_abs_shap": 0.22018586099147797
+      },
+      {
+        "feature": "srv_rerror_rate",
+        "mean_abs_shap": 0.21779955923557281
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.21065528690814972
+      },
+      {
+        "feature": "serror_rate",
+        "mean_abs_shap": 0.20657454431056976
+      },
+      {
+        "feature": "flag_RSTR",
+        "mean_abs_shap": 0.20077534019947052
+      }
+    ]
+  },
+  "rf_5class_smote": {
+    "Normal": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.06817608326673508
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.05508776009082794
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.048463668674230576
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.03318354859948158
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.027247466146945953
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.023822814226150513
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.022117845714092255
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.02068597637116909
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.02045285701751709
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.01991705223917961
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.01839877851307392
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.017056168988347054
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.016656750813126564
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.016109509393572807
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.015955299139022827
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.015940310433506966
+      },
+      {
+        "feature": "service_telnet",
+        "mean_abs_shap": 0.015436740592122078
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.01404600404202938
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.013945787213742733
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.013604357838630676
+      }
+    ],
+    "DoS": [
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.030876237899065018
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.03043965995311737
+      },
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.028394239023327827
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.025146041065454483
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.023685958236455917
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.022794164717197418
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.021698765456676483
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.02018505334854126
+      },
+      {
+        "feature": "serror_rate",
+        "mean_abs_shap": 0.01995070092380047
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.01961095817387104
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.016406266018748283
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.016051240265369415
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.015050586313009262
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.014517308212816715
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.013906716369092464
+      },
+      {
+        "feature": "srv_serror_rate",
+        "mean_abs_shap": 0.011741181835532188
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.010278793051838875
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.008262542076408863
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.007396255619823933
+      },
+      {
+        "feature": "service_ecr_i",
+        "mean_abs_shap": 0.006899739149957895
+      }
+    ],
+    "Probe": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.05859924852848053
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.033188894391059875
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.03308578208088875
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.024137308821082115
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.021848518401384354
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.021266214549541473
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.02033025212585926
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.020223941653966904
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.01918661780655384
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.017673125490546227
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.017039772123098373
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.01618094928562641
+      },
+      {
+        "feature": "service_eco_i",
+        "mean_abs_shap": 0.01426156610250473
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.011683851480484009
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.01089080423116684
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.010859889909625053
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "mean_abs_shap": 0.010231896303594112
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.00995725579559803
+      },
+      {
+        "feature": "serror_rate",
+        "mean_abs_shap": 0.009646615013480186
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.008571875281631947
+      }
+    ],
+    "R2L": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.026577016338706017
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.02330605313181877
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.022845009341835976
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.02211785688996315
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.01923118531703949
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.016535164788365364
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.015119819901883602
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.013954302296042442
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.01229782123118639
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.010683002881705761
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.010643168352544308
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.00989256240427494
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.009541509672999382
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.008315764367580414
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.0073882644064724445
+      },
+      {
+        "feature": "service_ftp",
+        "mean_abs_shap": 0.007373305037617683
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.007323977071791887
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.006079060956835747
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.006034616380929947
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.00596562959253788
+      }
+    ],
+    "U2R": [
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.030141374096274376
+      },
+      {
+        "feature": "service_telnet",
+        "mean_abs_shap": 0.024183789268136024
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.022233186289668083
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.01996413990855217
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.015724482014775276
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.014684244059026241
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.01240314356982708
+      },
+      {
+        "feature": "num_file_creations",
+        "mean_abs_shap": 0.01143860723823309
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.01103319600224495
+      },
+      {
+        "feature": "num_compromised",
+        "mean_abs_shap": 0.010519539006054401
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.010094490833580494
+      },
+      {
+        "feature": "root_shell",
+        "mean_abs_shap": 0.010093293152749538
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.008147681131958961
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.008139007724821568
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.007092135958373547
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.006571073550730944
+      },
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.006077914033085108
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.005947199650108814
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.004914144519716501
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.0047817714512348175
+      }
+    ],
+    "overall": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.037564925849437714
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.025958478450775146
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.02499210275709629
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.024701327085494995
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.02085287868976593
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.01736912503838539
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.015344376675784588
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.015160352922976017
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.014143986627459526
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.01284891925752163
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.012347191572189331
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.012192838825285435
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.012120549567043781
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.011862595565617085
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.011493351310491562
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.011066458187997341
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.011005206033587456
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.010307117365300655
+      },
+      {
+        "feature": "service_telnet",
+        "mean_abs_shap": 0.010004247538745403
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.009915205650031567
+      }
+    ]
+  },
+  "xgb_5class_smote": {
+    "Normal": [
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 2.0879504680633545
+      },
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 1.2593742609024048
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.5878795981407166
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.5309954881668091
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.4237953722476959
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.3697986602783203
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.35484564304351807
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "mean_abs_shap": 0.31172803044319153
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.2267785668373108
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.22396785020828247
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.19298070669174194
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.18829885125160217
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.18448995053768158
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.13556236028671265
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.1286129206418991
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.11129555851221085
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.10424711555242538
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.10410059243440628
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.0890398696064949
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "mean_abs_shap": 0.07451507449150085
+      }
+    ],
+    "DoS": [
+      {
+        "feature": "count",
+        "mean_abs_shap": 1.9512903690338135
+      },
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.9251434206962585
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.8300155997276306
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.6399328708648682
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.532204270362854
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.49649778008461
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.3787849247455597
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.36947715282440186
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.3627544045448303
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.3228180408477783
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.29680997133255005
+      },
+      {
+        "feature": "serror_rate",
+        "mean_abs_shap": 0.2692031264305115
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.25678393244743347
+      },
+      {
+        "feature": "wrong_fragment",
+        "mean_abs_shap": 0.23230816423892975
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.1836846023797989
+      },
+      {
+        "feature": "service_ecr_i",
+        "mean_abs_shap": 0.18211469054222107
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.17215347290039062
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.15113702416419983
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.14068062603473663
+      },
+      {
+        "feature": "protocol_type_udp",
+        "mean_abs_shap": 0.12767471373081207
+      }
+    ],
+    "Probe": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 1.9943989515304565
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 1.2706941366195679
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.767350435256958
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.5896679162979126
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.5385346412658691
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.5357007384300232
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.5235610008239746
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.5180167555809021
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.4165944755077362
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "mean_abs_shap": 0.36876553297042847
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.3190954029560089
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.26720288395881653
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.26081886887550354
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.18277257680892944
+      },
+      {
+        "feature": "service_eco_i",
+        "mean_abs_shap": 0.1763734519481659
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.14280271530151367
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.13437850773334503
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.11213942617177963
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.10166565328836441
+      },
+      {
+        "feature": "service_smtp",
+        "mean_abs_shap": 0.09757377207279205
+      }
+    ],
+    "R2L": [
+      {
+        "feature": "count",
+        "mean_abs_shap": 1.836374282836914
+      },
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 1.2612550258636475
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.8052611351013184
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.7799897789955139
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.4659746587276459
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.3773208558559418
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.37692511081695557
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.2920534908771515
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.241698756814003
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.21919958293437958
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.2156558781862259
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.1923065334558487
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.18614766001701355
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.16426783800125122
+      },
+      {
+        "feature": "num_failed_logins",
+        "mean_abs_shap": 0.14794547855854034
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.1456913948059082
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.12476256489753723
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.10481875389814377
+      },
+      {
+        "feature": "service_smtp",
+        "mean_abs_shap": 0.10150420665740967
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.09285945445299149
+      }
+    ],
+    "U2R": [
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 1.6352379322052002
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 1.4568337202072144
+      },
+      {
+        "feature": "service_telnet",
+        "mean_abs_shap": 0.8838183283805847
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.5645166039466858
+      },
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 0.4740758240222931
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.47157594561576843
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.42671236395835876
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.3646313548088074
+      },
+      {
+        "feature": "service_other",
+        "mean_abs_shap": 0.34814900159835815
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.32978999614715576
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.2790606915950775
+      },
+      {
+        "feature": "num_compromised",
+        "mean_abs_shap": 0.2645460069179535
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.24002915620803833
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.22945785522460938
+      },
+      {
+        "feature": "num_file_creations",
+        "mean_abs_shap": 0.21552859246730804
+      },
+      {
+        "feature": "num_root",
+        "mean_abs_shap": 0.18614839017391205
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.16879819333553314
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.16362009942531586
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.1624954640865326
+      },
+      {
+        "feature": "protocol_type_udp",
+        "mean_abs_shap": 0.15499241650104523
+      }
+    ],
+    "overall": [
+      {
+        "feature": "src_bytes",
+        "mean_abs_shap": 1.1828480958938599
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.9461793899536133
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.7911500334739685
+      },
+      {
+        "feature": "dst_bytes",
+        "mean_abs_shap": 0.662404477596283
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.6124976277351379
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.4112491011619568
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.33015260100364685
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.3268584609031677
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.27758604288101196
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.2618694007396698
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.24729421734809875
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.22164767980575562
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.2080053985118866
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.1998066008090973
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.1910856068134308
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.19107303023338318
+      },
+      {
+        "feature": "service_telnet",
+        "mean_abs_shap": 0.19074855744838715
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.17248718440532684
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "mean_abs_shap": 0.15896376967430115
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.15186572074890137
+      }
+    ]
+  },
+  "dnn_5class_smote": {
+    "Normal": [
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 1.1711488962173462
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.989417552947998
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.6122884154319763
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.5540807843208313
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.4687058627605438
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.39430469274520874
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.36428242921829224
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.3640802502632141
+      },
+      {
+        "feature": "service_ftp",
+        "mean_abs_shap": 0.3386646509170532
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.2983701229095459
+      },
+      {
+        "feature": "service_pop_3",
+        "mean_abs_shap": 0.288115531206131
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.2846314609050751
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.27623650431632996
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.23697571456432343
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.2358999103307724
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.23185789585113525
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.2236950546503067
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.21586672961711884
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.21520450711250305
+      },
+      {
+        "feature": "srv_serror_rate",
+        "mean_abs_shap": 0.18456438183784485
+      }
+    ],
+    "DoS": [
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 1.2757071256637573
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 1.2516170740127563
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.8794789910316467
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.8505862951278687
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.6988088488578796
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.6914957165718079
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.597724974155426
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.5815040469169617
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.570223867893219
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.5408685803413391
+      },
+      {
+        "feature": "flag_SF",
+        "mean_abs_shap": 0.45373794436454773
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.4216245710849762
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.3922606110572815
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.3698035776615143
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.35824012756347656
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.3554399311542511
+      },
+      {
+        "feature": "srv_serror_rate",
+        "mean_abs_shap": 0.35395896434783936
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.34786349534988403
+      },
+      {
+        "feature": "srv_rerror_rate",
+        "mean_abs_shap": 0.32925117015838623
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.3219665288925171
+      }
+    ],
+    "Probe": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 1.1102217435836792
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.9647575616836548
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.6622951030731201
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.5668485760688782
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.5323827266693115
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.5106641054153442
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.50151526927948
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.45650210976600647
+      },
+      {
+        "feature": "service_eco_i",
+        "mean_abs_shap": 0.4284200966358185
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.3929508328437805
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "mean_abs_shap": 0.3491136133670807
+      },
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.3331942558288574
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.30236557126045227
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.2917170822620392
+      },
+      {
+        "feature": "service_private",
+        "mean_abs_shap": 0.2724020183086395
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.24298937618732452
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.2138676792383194
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.2107909619808197
+      },
+      {
+        "feature": "flag_RSTR",
+        "mean_abs_shap": 0.18430490791797638
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.18430253863334656
+      }
+    ],
+    "R2L": [
+      {
+        "feature": "hot",
+        "mean_abs_shap": 1.6051501035690308
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 1.5202503204345703
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 1.0209423303604126
+      },
+      {
+        "feature": "service_ftp",
+        "mean_abs_shap": 0.672038733959198
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.6551219820976257
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.6045252680778503
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.575234591960907
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.5719729661941528
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.516614556312561
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.511861264705658
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.4662419557571411
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.43752071261405945
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.4156644344329834
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.36954572796821594
+      },
+      {
+        "feature": "service_pop_3",
+        "mean_abs_shap": 0.3260944187641144
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.32033514976501465
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.2880506217479706
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.25968223810195923
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.24562418460845947
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.21666783094406128
+      }
+    ],
+    "U2R": [
+      {
+        "feature": "hot",
+        "mean_abs_shap": 1.0288937091827393
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.9688117504119873
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.8015186190605164
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.7678239941596985
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.7012150883674622
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.6408673524856567
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.5422013401985168
+      },
+      {
+        "feature": "root_shell",
+        "mean_abs_shap": 0.49142128229141235
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.48289036750793457
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.47667255997657776
+      },
+      {
+        "feature": "service_telnet",
+        "mean_abs_shap": 0.37269100546836853
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.37105926871299744
+      },
+      {
+        "feature": "service_pop_3",
+        "mean_abs_shap": 0.3705882728099823
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.3492998480796814
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.3274504840373993
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "mean_abs_shap": 0.313305526971817
+      },
+      {
+        "feature": "service_ftp",
+        "mean_abs_shap": 0.2726763188838959
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.26943129301071167
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.2648806571960449
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.25822967290878296
+      }
+    ],
+    "overall": [
+      {
+        "feature": "hot",
+        "mean_abs_shap": 0.9108795523643494
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "mean_abs_shap": 0.8985573053359985
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "mean_abs_shap": 0.6995044350624084
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "mean_abs_shap": 0.6939240097999573
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "mean_abs_shap": 0.6801420450210571
+      },
+      {
+        "feature": "dst_host_count",
+        "mean_abs_shap": 0.6179401874542236
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "mean_abs_shap": 0.5272544622421265
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "mean_abs_shap": 0.4626982510089874
+      },
+      {
+        "feature": "count",
+        "mean_abs_shap": 0.42977431416511536
+      },
+      {
+        "feature": "is_guest_login",
+        "mean_abs_shap": 0.40472835302352905
+      },
+      {
+        "feature": "srv_count",
+        "mean_abs_shap": 0.36885353922843933
+      },
+      {
+        "feature": "same_srv_rate",
+        "mean_abs_shap": 0.3644747734069824
+      },
+      {
+        "feature": "service_http",
+        "mean_abs_shap": 0.3435269892215729
+      },
+      {
+        "feature": "service_ftp",
+        "mean_abs_shap": 0.332389235496521
+      },
+      {
+        "feature": "rerror_rate",
+        "mean_abs_shap": 0.3278438448905945
+      },
+      {
+        "feature": "logged_in",
+        "mean_abs_shap": 0.32310548424720764
+      },
+      {
+        "feature": "flag_S0",
+        "mean_abs_shap": 0.31832748651504517
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "mean_abs_shap": 0.2895340323448181
+      },
+      {
+        "feature": "service_ftp_data",
+        "mean_abs_shap": 0.2619689106941223
+      },
+      {
+        "feature": "diff_srv_rate",
+        "mean_abs_shap": 0.2397606074810028
+      }
+    ]
+  }
+}
