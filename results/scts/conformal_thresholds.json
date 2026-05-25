@@ -1,0 +1,86 @@
+{
+  "rf_binary_cw": {
+    "0.05": {
+      "threshold": 0.77248322147651,
+      "empirical_coverage": 0.9730305180979418
+    },
+    "0.1": {
+      "threshold": 0.22751677852348995,
+      "empirical_coverage": 0.9217530163236338
+    },
+    "0.2": {
+      "threshold": 0.10952380952380958,
+      "empirical_coverage": 0.8078424414478353
+    }
+  },
+  "xgb_binary_cw": {
+    "0.05": {
+      "threshold": 0.6435483694076538,
+      "empirical_coverage": 0.9646912704045423
+    },
+    "0.1": {
+      "threshold": 0.6226069927215576,
+      "empirical_coverage": 0.9024130589070263
+    },
+    "0.2": {
+      "threshold": 0.4052976965904236,
+      "empirical_coverage": 0.8050035486160397
+    }
+  },
+  "dnn_binary_cw": {
+    "0.05": {
+      "threshold": 0.7981528043746948,
+      "empirical_coverage": 0.9488999290276792
+    },
+    "0.1": {
+      "threshold": 0.7478693127632141,
+      "empirical_coverage": 0.9020581973030518
+    },
+    "0.2": {
+      "threshold": 0.2521306872367859,
+      "empirical_coverage": 0.8234563520227112
+    }
+  },
+  "rf_5class_smote": {
+    "0.05": {
+      "threshold": 0.9631312573373568,
+      "empirical_coverage": 0.9536905606813343
+    },
+    "0.1": {
+      "threshold": 0.7814995313699038,
+      "empirical_coverage": 0.9048970901348474
+    },
+    "0.2": {
+      "threshold": 0.6653771760154739,
+      "empirical_coverage": 0.8282469836763662
+    }
+  },
+  "xgb_5class_smote": {
+    "0.05": {
+      "threshold": 0.9916921854019165,
+      "empirical_coverage": 0.9542228530872959
+    },
+    "0.1": {
+      "threshold": 0.9098409414291382,
+      "empirical_coverage": 0.9095102909865153
+    },
+    "0.2": {
+      "threshold": 0.5878670811653137,
+      "empirical_coverage": 0.8055358410220014
+    }
+  },
+  "dnn_5class_smote": {
+    "0.05": {
+      "threshold": 0.9092733860015869,
+      "empirical_coverage": 0.9499645138396026
+    },
+    "0.1": {
+      "threshold": 0.9082064032554626,
+      "empirical_coverage": 0.9033002129169624
+    },
+    "0.2": {
+      "threshold": 0.6264452934265137,
+      "empirical_coverage": 0.8003903477643719
+    }
+  }
+}
