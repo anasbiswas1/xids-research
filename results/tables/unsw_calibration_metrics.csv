@@ -1,0 +1,7 @@
+Model,Target,ECE before,ECE after,ECE Δ%,Adapt-ECE before,Adapt-ECE after,Brier before,Brier after
+rf_binary_cw,binary,0.0624,0.0062,90.1,0.0611,0.0072,0.2155,0.1449
+xgb_binary_cw,binary,0.056,0.003,94.6,0.0556,0.0037,0.1973,0.127
+dnn_binary_cw,binary,0.0634,0.0036,94.4,0.0651,0.0048,0.2162,0.1461
+rf_5class_smote,multiclass,0.0924,0.0366,60.4,0.0922,0.033,0.3756,0.2822
+xgb_5class_smote,multiclass,0.107,0.0427,60.1,0.1071,0.0389,0.3639,0.2534
+dnn_5class_smote,multiclass,0.1288,0.0626,51.4,0.1288,0.0625,0.4223,0.2731
