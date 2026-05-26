@@ -1,0 +1,254 @@
+{
+  "rf_binary_cw": [
+    [
+      "Destination Port",
+      0.05868872255086899
+    ],
+    [
+      "Packet Length Std",
+      0.02589615434408188
+    ],
+    [
+      "Min Packet Length",
+      0.02360425889492035
+    ],
+    [
+      "Max Packet Length",
+      0.02328341268002987
+    ],
+    [
+      "Bwd Packet Length Std",
+      0.023163864389061928
+    ],
+    [
+      "Packet Length Variance",
+      0.022489700466394424
+    ],
+    [
+      "Bwd Packet Length Min",
+      0.02226807363331318
+    ],
+    [
+      "Average Packet Size",
+      0.022221388295292854
+    ],
+    [
+      "Init_Win_bytes_forward",
+      0.020924115553498268
+    ],
+    [
+      "Fwd Packet Length Min",
+      0.0184624083340168
+    ]
+  ],
+  "xgb_binary_cw": [
+    [
+      "Destination Port",
+      1.7396817207336426
+    ],
+    [
+      "Init_Win_bytes_forward",
+      1.397857427597046
+    ],
+    [
+      "Bwd Packet Length Min",
+      1.2526227235794067
+    ],
+    [
+      "Bwd Packet Length Std",
+      1.1686373949050903
+    ],
+    [
+      "Init_Win_bytes_backward",
+      1.0902196168899536
+    ],
+    [
+      "Bwd Packet Length Mean",
+      0.8855170607566833
+    ],
+    [
+      "Average Packet Size",
+      0.7682297825813293
+    ],
+    [
+      "Flow IAT Min",
+      0.5547481775283813
+    ],
+    [
+      "Flow Duration",
+      0.45309317111968994
+    ],
+    [
+      "min_seg_size_forward",
+      0.39710772037506104
+    ]
+  ],
+  "dnn_binary_cw": [
+    [
+      "PSH Flag Count",
+      0.9919875264167786
+    ],
+    [
+      "Min Packet Length",
+      0.8644775152206421
+    ],
+    [
+      "Bwd Packet Length Std",
+      0.5988532304763794
+    ],
+    [
+      "Average Packet Size",
+      0.44331860542297363
+    ],
+    [
+      "Bwd Packets/s",
+      0.4116402864456177
+    ],
+    [
+      "Packet Length Std",
+      0.3955536186695099
+    ],
+    [
+      "ACK Flag Count",
+      0.39379116892814636
+    ],
+    [
+      "Init_Win_bytes_forward",
+      0.38978955149650574
+    ],
+    [
+      "Packet Length Variance",
+      0.31028908491134644
+    ],
+    [
+      "Destination Port",
+      0.2943271994590759
+    ]
+  ],
+  "rf_5class_smote": [
+    [
+      "Destination Port",
+      0.042517077177762985
+    ],
+    [
+      "Bwd Packet Length Min",
+      0.021177416667342186
+    ],
+    [
+      "Bwd Packets/s",
+      0.012787695042788982
+    ],
+    [
+      "Total Fwd Packets",
+      0.01236627995967865
+    ],
+    [
+      "Init_Win_bytes_forward",
+      0.012152599170804024
+    ],
+    [
+      "Subflow Fwd Packets",
+      0.011648153886198997
+    ],
+    [
+      "Bwd Packet Length Std",
+      0.011233866214752197
+    ],
+    [
+      "Packet Length Variance",
+      0.010244919918477535
+    ],
+    [
+      "PSH Flag Count",
+      0.009972106665372849
+    ],
+    [
+      "Subflow Fwd Bytes",
+      0.009588725864887238
+    ]
+  ],
+  "xgb_5class_smote": [
+    [
+      "Destination Port",
+      2.1293461322784424
+    ],
+    [
+      "Bwd Packets/s",
+      0.7093946933746338
+    ],
+    [
+      "Init_Win_bytes_forward",
+      0.6052696108818054
+    ],
+    [
+      "Total Length of Fwd Packets",
+      0.4728640913963318
+    ],
+    [
+      "Flow IAT Min",
+      0.3580642342567444
+    ],
+    [
+      "PSH Flag Count",
+      0.35763612389564514
+    ],
+    [
+      "Init_Win_bytes_backward",
+      0.34323012828826904
+    ],
+    [
+      "min_seg_size_forward",
+      0.29547059535980225
+    ],
+    [
+      "Bwd Packet Length Min",
+      0.24471312761306763
+    ],
+    [
+      "Total Fwd Packets",
+      0.2354634702205658
+    ]
+  ],
+  "dnn_5class_smote": [
+    [
+      "PSH Flag Count",
+      0.9430161118507385
+    ],
+    [
+      "ACK Flag Count",
+      0.7252093553543091
+    ],
+    [
+      "Init_Win_bytes_forward",
+      0.6725306510925293
+    ],
+    [
+      "Min Packet Length",
+      0.6677284240722656
+    ],
+    [
+      "Destination Port",
+      0.5455417633056641
+    ],
+    [
+      "Bwd Packets/s",
+      0.40979060530662537
+    ],
+    [
+      "Fwd IAT Std",
+      0.3408598005771637
+    ],
+    [
+      "Down/Up Ratio",
+      0.3364429771900177
+    ],
+    [
+      "Bwd Packet Length Std",
+      0.33562716841697693
+    ],
+    [
+      "Bwd IAT Total",
+      0.3355238735675812
+    ]
+  ]
+}

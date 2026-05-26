@@ -1,0 +1,61 @@
+Model,Rank,Feature,mean_abs_SHAP
+rf_binary_cw,1,Destination Port,0.05868872255086899
+rf_binary_cw,2,Packet Length Std,0.02589615434408188
+rf_binary_cw,3,Min Packet Length,0.02360425889492035
+rf_binary_cw,4,Max Packet Length,0.02328341268002987
+rf_binary_cw,5,Bwd Packet Length Std,0.023163864389061928
+rf_binary_cw,6,Packet Length Variance,0.022489700466394424
+rf_binary_cw,7,Bwd Packet Length Min,0.02226807363331318
+rf_binary_cw,8,Average Packet Size,0.022221388295292854
+rf_binary_cw,9,Init_Win_bytes_forward,0.020924115553498268
+rf_binary_cw,10,Fwd Packet Length Min,0.0184624083340168
+xgb_binary_cw,1,Destination Port,1.7396817207336426
+xgb_binary_cw,2,Init_Win_bytes_forward,1.397857427597046
+xgb_binary_cw,3,Bwd Packet Length Min,1.2526227235794067
+xgb_binary_cw,4,Bwd Packet Length Std,1.1686373949050903
+xgb_binary_cw,5,Init_Win_bytes_backward,1.0902196168899536
+xgb_binary_cw,6,Bwd Packet Length Mean,0.8855170607566833
+xgb_binary_cw,7,Average Packet Size,0.7682297825813293
+xgb_binary_cw,8,Flow IAT Min,0.5547481775283813
+xgb_binary_cw,9,Flow Duration,0.45309317111968994
+xgb_binary_cw,10,min_seg_size_forward,0.39710772037506104
+dnn_binary_cw,1,PSH Flag Count,0.9919875264167786
+dnn_binary_cw,2,Min Packet Length,0.8644775152206421
+dnn_binary_cw,3,Bwd Packet Length Std,0.5988532304763794
+dnn_binary_cw,4,Average Packet Size,0.44331860542297363
+dnn_binary_cw,5,Bwd Packets/s,0.4116402864456177
+dnn_binary_cw,6,Packet Length Std,0.3955536186695099
+dnn_binary_cw,7,ACK Flag Count,0.39379116892814636
+dnn_binary_cw,8,Init_Win_bytes_forward,0.38978955149650574
+dnn_binary_cw,9,Packet Length Variance,0.31028908491134644
+dnn_binary_cw,10,Destination Port,0.2943271994590759
+rf_5class_smote,1,Destination Port,0.042517077177762985
+rf_5class_smote,2,Bwd Packet Length Min,0.021177416667342186
+rf_5class_smote,3,Bwd Packets/s,0.012787695042788982
+rf_5class_smote,4,Total Fwd Packets,0.01236627995967865
+rf_5class_smote,5,Init_Win_bytes_forward,0.012152599170804024
+rf_5class_smote,6,Subflow Fwd Packets,0.011648153886198997
+rf_5class_smote,7,Bwd Packet Length Std,0.011233866214752197
+rf_5class_smote,8,Packet Length Variance,0.010244919918477535
+rf_5class_smote,9,PSH Flag Count,0.009972106665372849
+rf_5class_smote,10,Subflow Fwd Bytes,0.009588725864887238
+xgb_5class_smote,1,Destination Port,2.1293461322784424
+xgb_5class_smote,2,Bwd Packets/s,0.7093946933746338
+xgb_5class_smote,3,Init_Win_bytes_forward,0.6052696108818054
+xgb_5class_smote,4,Total Length of Fwd Packets,0.4728640913963318
+xgb_5class_smote,5,Flow IAT Min,0.3580642342567444
+xgb_5class_smote,6,PSH Flag Count,0.35763612389564514
+xgb_5class_smote,7,Init_Win_bytes_backward,0.34323012828826904
+xgb_5class_smote,8,min_seg_size_forward,0.29547059535980225
+xgb_5class_smote,9,Bwd Packet Length Min,0.24471312761306763
+xgb_5class_smote,10,Total Fwd Packets,0.2354634702205658
+dnn_5class_smote,1,PSH Flag Count,0.9430161118507385
+dnn_5class_smote,2,ACK Flag Count,0.7252093553543091
+dnn_5class_smote,3,Init_Win_bytes_forward,0.6725306510925293
+dnn_5class_smote,4,Min Packet Length,0.6677284240722656
+dnn_5class_smote,5,Destination Port,0.5455417633056641
+dnn_5class_smote,6,Bwd Packets/s,0.40979060530662537
+dnn_5class_smote,7,Fwd IAT Std,0.3408598005771637
+dnn_5class_smote,8,Down/Up Ratio,0.3364429771900177
+dnn_5class_smote,9,Bwd Packet Length Std,0.33562716841697693
+dnn_5class_smote,10,Bwd IAT Total,0.3355238735675812
