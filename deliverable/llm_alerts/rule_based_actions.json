@@ -1,0 +1,2716 @@
+{
+  "rf_binary_cw": [
+    {
+      "stab_idx": 33,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 47.57473373413086
+    },
+    {
+      "stab_idx": 25,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 47.57473373413086
+    },
+    {
+      "stab_idx": 20,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 51.73183059692383
+    },
+    {
+      "stab_idx": 158,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 212,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 263,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 398,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 205,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 68.3003158569336
+    },
+    {
+      "stab_idx": 129,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 190,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 68.3003158569336
+    },
+    {
+      "stab_idx": 323,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 336,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 63.391788482666016
+    },
+    {
+      "stab_idx": 106,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 28,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.26842498779297
+    },
+    {
+      "stab_idx": 1025,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 69.95708465576172
+    },
+    {
+      "stab_idx": 1316,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 61.58349609375
+    },
+    {
+      "stab_idx": 1601,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 65.50343322753906
+    },
+    {
+      "stab_idx": 1369,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 71.35528564453125
+    },
+    {
+      "stab_idx": 839,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 71.35528564453125
+    },
+    {
+      "stab_idx": 1148,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 71.22714233398438
+    },
+    {
+      "stab_idx": 1487,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 71.35528564453125
+    },
+    {
+      "stab_idx": 1234,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 66.45201110839844
+    },
+    {
+      "stab_idx": 1367,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 71.22714233398438
+    },
+    {
+      "stab_idx": 1430,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 61.58349609375
+    },
+    {
+      "stab_idx": 1554,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 71.35528564453125
+    },
+    {
+      "stab_idx": 1556,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 65.50343322753906
+    },
+    {
+      "stab_idx": 154,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 86.05301666259766
+    },
+    {
+      "stab_idx": 218,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 361,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 127,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 357,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 371,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 91,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 86.05301666259766
+    },
+    {
+      "stab_idx": 12,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 180,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 377,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 32,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 86.05301666259766
+    },
+    {
+      "stab_idx": 341,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.13976287841797
+    },
+    {
+      "stab_idx": 1174,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 88.3597412109375
+    },
+    {
+      "stab_idx": 717,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.88716888427734
+    },
+    {
+      "stab_idx": 1034,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.88716888427734
+    },
+    {
+      "stab_idx": 991,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 86.7578353881836
+    },
+    {
+      "stab_idx": 926,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 88.3597412109375
+    },
+    {
+      "stab_idx": 641,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 86.7578353881836
+    },
+    {
+      "stab_idx": 1003,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 94.47229766845703
+    },
+    {
+      "stab_idx": 1614,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 76.39645385742188
+    },
+    {
+      "stab_idx": 578,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 81.05756378173828
+    },
+    {
+      "stab_idx": 728,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 76.85804748535156
+    },
+    {
+      "stab_idx": 939,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.88716888427734
+    },
+    {
+      "stab_idx": 424,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 86.7578353881836
+    }
+  ],
+  "xgb_binary_cw": [
+    {
+      "stab_idx": 369,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 49.73749542236328
+    },
+    {
+      "stab_idx": 316,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 41.71923065185547
+    },
+    {
+      "stab_idx": 226,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 35.55464553833008
+    },
+    {
+      "stab_idx": 68,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 38.6608772277832
+    },
+    {
+      "stab_idx": 228,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 35.55663299560547
+    },
+    {
+      "stab_idx": 58,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 49.125144958496094
+    },
+    {
+      "stab_idx": 303,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 47.39561080932617
+    },
+    {
+      "stab_idx": 41,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 44.79836654663086
+    },
+    {
+      "stab_idx": 346,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 47.96781539916992
+    },
+    {
+      "stab_idx": 191,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 35.5567626953125
+    },
+    {
+      "stab_idx": 237,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 45.74058532714844
+    },
+    {
+      "stab_idx": 105,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 41.719879150390625
+    },
+    {
+      "stab_idx": 1485,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 38.66474533081055
+    },
+    {
+      "stab_idx": 600,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 49.73748779296875
+    },
+    {
+      "stab_idx": 1235,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 45.74065399169922
+    },
+    {
+      "stab_idx": 1608,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 49.73748779296875
+    },
+    {
+      "stab_idx": 776,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 41.867835998535156
+    },
+    {
+      "stab_idx": 771,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 47.9686164855957
+    },
+    {
+      "stab_idx": 1201,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 41.71925735473633
+    },
+    {
+      "stab_idx": 1186,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 49.125213623046875
+    },
+    {
+      "stab_idx": 1566,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 49.12486267089844
+    },
+    {
+      "stab_idx": 840,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 49.73748779296875
+    },
+    {
+      "stab_idx": 492,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Attack",
+      "scts_v2": 44.113929748535156
+    },
+    {
+      "stab_idx": 865,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 49.73748779296875
+    },
+    {
+      "stab_idx": 14,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.97569274902344
+    },
+    {
+      "stab_idx": 198,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 65.09849548339844
+    },
+    {
+      "stab_idx": 233,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 55.53852462768555
+    },
+    {
+      "stab_idx": 264,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 55.5800666809082
+    },
+    {
+      "stab_idx": 241,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.20649719238281
+    },
+    {
+      "stab_idx": 361,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.83721160888672
+    },
+    {
+      "stab_idx": 282,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.54248809814453
+    },
+    {
+      "stab_idx": 178,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 59.959293365478516
+    },
+    {
+      "stab_idx": 48,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.6097183227539
+    },
+    {
+      "stab_idx": 168,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.5973129272461
+    },
+    {
+      "stab_idx": 381,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.8359603881836
+    },
+    {
+      "stab_idx": 147,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.434326171875
+    },
+    {
+      "stab_idx": 1308,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 52.75007629394531
+    },
+    {
+      "stab_idx": 1345,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 53.66951370239258
+    },
+    {
+      "stab_idx": 1229,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 52.75006866455078
+    },
+    {
+      "stab_idx": 1390,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 53.66951370239258
+    },
+    {
+      "stab_idx": 552,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.83428955078125
+    },
+    {
+      "stab_idx": 1612,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 53.66953659057617
+    },
+    {
+      "stab_idx": 459,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 59.96013259887695
+    },
+    {
+      "stab_idx": 679,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.875244140625
+    },
+    {
+      "stab_idx": 745,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.83428955078125
+    },
+    {
+      "stab_idx": 919,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 53.669517517089844
+    },
+    {
+      "stab_idx": 1214,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 53.66951370239258
+    },
+    {
+      "stab_idx": 537,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 61.701072692871094
+    },
+    {
+      "stab_idx": 16,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.30194854736328
+    },
+    {
+      "stab_idx": 0,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.06342315673828
+    },
+    {
+      "stab_idx": 379,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.05923461914062
+    },
+    {
+      "stab_idx": 26,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 75.0609359741211
+    },
+    {
+      "stab_idx": 399,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 79.07758331298828
+    },
+    {
+      "stab_idx": 186,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 75.39474487304688
+    },
+    {
+      "stab_idx": 113,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 79.95973205566406
+    },
+    {
+      "stab_idx": 229,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.1680679321289
+    },
+    {
+      "stab_idx": 62,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.3551254272461
+    },
+    {
+      "stab_idx": 391,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.14293670654297
+    },
+    {
+      "stab_idx": 349,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 87.3441390991211
+    },
+    {
+      "stab_idx": 122,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.31732177734375
+    },
+    {
+      "stab_idx": 1035,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 75.73645782470703
+    },
+    {
+      "stab_idx": 565,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 84.07379913330078
+    },
+    {
+      "stab_idx": 425,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 81.30111694335938
+    },
+    {
+      "stab_idx": 456,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 86.49687194824219
+    },
+    {
+      "stab_idx": 902,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 75.73645782470703
+    },
+    {
+      "stab_idx": 414,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 81.3551254272461
+    },
+    {
+      "stab_idx": 900,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 75.24456024169922
+    },
+    {
+      "stab_idx": 733,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 80.2369613647461
+    },
+    {
+      "stab_idx": 621,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 75.26960754394531
+    },
+    {
+      "stab_idx": 806,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 80.15780639648438
+    },
+    {
+      "stab_idx": 514,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 87.35804748535156
+    },
+    {
+      "stab_idx": 950,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 80.7503662109375
+    }
+  ],
+  "dnn_binary_cw": [
+    {
+      "stab_idx": 168,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 63.84833526611328
+    },
+    {
+      "stab_idx": 328,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 73.52909088134766
+    },
+    {
+      "stab_idx": 376,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 367,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 73.52909088134766
+    },
+    {
+      "stab_idx": 238,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 69.86927032470703
+    },
+    {
+      "stab_idx": 377,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 68.35914611816406
+    },
+    {
+      "stab_idx": 39,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.92814636230469
+    },
+    {
+      "stab_idx": 358,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.86848449707031
+    },
+    {
+      "stab_idx": 122,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.92814636230469
+    },
+    {
+      "stab_idx": 195,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 69.86927032470703
+    },
+    {
+      "stab_idx": 282,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.92814636230469
+    },
+    {
+      "stab_idx": 221,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.92814636230469
+    },
+    {
+      "stab_idx": 1468,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 1173,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 472,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 807,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 68.35914611816406
+    },
+    {
+      "stab_idx": 1312,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 1159,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 1427,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 73.52909088134766
+    },
+    {
+      "stab_idx": 1210,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 1545,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 67.16230773925781
+    },
+    {
+      "stab_idx": 1395,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 749,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 69.86927032470703
+    },
+    {
+      "stab_idx": 1418,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Attack",
+      "scts_v2": 74.80545043945312
+    },
+    {
+      "stab_idx": 26,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.60482788085938
+    },
+    {
+      "stab_idx": 393,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.60482788085938
+    },
+    {
+      "stab_idx": 348,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 84.1697998046875
+    },
+    {
+      "stab_idx": 56,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.72383880615234
+    },
+    {
+      "stab_idx": 383,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.60482788085938
+    },
+    {
+      "stab_idx": 255,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 75.69342041015625
+    },
+    {
+      "stab_idx": 297,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.45181274414062
+    },
+    {
+      "stab_idx": 351,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.60482788085938
+    },
+    {
+      "stab_idx": 289,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.60482788085938
+    },
+    {
+      "stab_idx": 153,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.60482788085938
+    },
+    {
+      "stab_idx": 360,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.55406188964844
+    },
+    {
+      "stab_idx": 249,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.72383880615234
+    },
+    {
+      "stab_idx": 1517,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.89269256591797
+    },
+    {
+      "stab_idx": 923,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 87.71935272216797
+    },
+    {
+      "stab_idx": 831,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 86.67375183105469
+    },
+    {
+      "stab_idx": 1595,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 87.2500991821289
+    },
+    {
+      "stab_idx": 1570,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 79.9803466796875
+    },
+    {
+      "stab_idx": 1101,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.79714965820312
+    },
+    {
+      "stab_idx": 650,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.79714965820312
+    },
+    {
+      "stab_idx": 427,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 81.93101501464844
+    },
+    {
+      "stab_idx": 994,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 87.71935272216797
+    },
+    {
+      "stab_idx": 683,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.79714965820312
+    },
+    {
+      "stab_idx": 713,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 92.79714965820312
+    },
+    {
+      "stab_idx": 727,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Attack",
+      "scts_v2": 87.71935272216797
+    }
+  ],
+  "rf_5class_smote": [
+    {
+      "stab_idx": 1072,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 49.46658706665039
+    },
+    {
+      "stab_idx": 804,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 43.80483627319336
+    },
+    {
+      "stab_idx": 1145,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 46.202842712402344
+    },
+    {
+      "stab_idx": 1142,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 46.549217224121094
+    },
+    {
+      "stab_idx": 344,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "U2R",
+      "scts_v2": 46.27806091308594
+    },
+    {
+      "stab_idx": 578,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 32.5488395690918
+    },
+    {
+      "stab_idx": 1093,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 41.008968353271484
+    },
+    {
+      "stab_idx": 571,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 43.64072799682617
+    },
+    {
+      "stab_idx": 112,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "DoS",
+      "scts_v2": 41.65718078613281
+    },
+    {
+      "stab_idx": 894,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 49.860877990722656
+    },
+    {
+      "stab_idx": 720,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 48.666080474853516
+    },
+    {
+      "stab_idx": 1170,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 45.654972076416016
+    },
+    {
+      "stab_idx": 1417,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 49.36054611206055
+    },
+    {
+      "stab_idx": 1564,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 44.498878479003906
+    },
+    {
+      "stab_idx": 1435,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 46.15276336669922
+    },
+    {
+      "stab_idx": 1409,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 38.35465621948242
+    },
+    {
+      "stab_idx": 1319,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 36.000396728515625
+    },
+    {
+      "stab_idx": 1354,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 44.498878479003906
+    },
+    {
+      "stab_idx": 1567,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 44.073238372802734
+    },
+    {
+      "stab_idx": 1557,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 36.54976272583008
+    },
+    {
+      "stab_idx": 1420,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 43.89469909667969
+    },
+    {
+      "stab_idx": 1446,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 39.52480697631836
+    },
+    {
+      "stab_idx": 1404,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 48.2590217590332
+    },
+    {
+      "stab_idx": 1222,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 44.498878479003906
+    },
+    {
+      "stab_idx": 1132,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 74.71605682373047
+    },
+    {
+      "stab_idx": 668,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 74.71605682373047
+    },
+    {
+      "stab_idx": 542,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 74.71605682373047
+    },
+    {
+      "stab_idx": 308,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 59.694541931152344
+    },
+    {
+      "stab_idx": 1153,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 59.90217971801758
+    },
+    {
+      "stab_idx": 70,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 68.71197509765625
+    },
+    {
+      "stab_idx": 813,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 64.39708709716797
+    },
+    {
+      "stab_idx": 10,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 74.71605682373047
+    },
+    {
+      "stab_idx": 636,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 59.694541931152344
+    },
+    {
+      "stab_idx": 563,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 52.650821685791016
+    },
+    {
+      "stab_idx": 788,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 74.71605682373047
+    },
+    {
+      "stab_idx": 1011,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 52.998966217041016
+    },
+    {
+      "stab_idx": 1497,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 63.60601043701172
+    },
+    {
+      "stab_idx": 1573,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 53.33290100097656
+    },
+    {
+      "stab_idx": 1413,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 52.82878875732422
+    },
+    {
+      "stab_idx": 1584,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 61.74031066894531
+    },
+    {
+      "stab_idx": 1274,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 63.19894790649414
+    },
+    {
+      "stab_idx": 1543,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 50.89641189575195
+    },
+    {
+      "stab_idx": 1622,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "U2R",
+      "scts_v2": 51.204593658447266
+    },
+    {
+      "stab_idx": 1275,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 56.113739013671875
+    },
+    {
+      "stab_idx": 1233,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 54.843204498291016
+    },
+    {
+      "stab_idx": 1521,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 59.377235412597656
+    },
+    {
+      "stab_idx": 1305,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 56.367576599121094
+    },
+    {
+      "stab_idx": 1608,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 58.05253219604492
+    },
+    {
+      "stab_idx": 1151,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 86.57167053222656
+    },
+    {
+      "stab_idx": 1155,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 696,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 705,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1130,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 397,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1068,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 86.57167053222656
+    },
+    {
+      "stab_idx": 906,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 493,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 148,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 901,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 290,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1454,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 86.57167053222656
+    },
+    {
+      "stab_idx": 1471,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1359,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1509,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1352,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1315,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1428,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 86.57167053222656
+    },
+    {
+      "stab_idx": 1466,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1571,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1499,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1505,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    },
+    {
+      "stab_idx": 1334,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.6227798461914
+    }
+  ],
+  "xgb_5class_smote": [
+    {
+      "stab_idx": 556,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 46.92637634277344
+    },
+    {
+      "stab_idx": 1067,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 49.779815673828125
+    },
+    {
+      "stab_idx": 725,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 44.87480926513672
+    },
+    {
+      "stab_idx": 430,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 48.185874938964844
+    },
+    {
+      "stab_idx": 861,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 48.18571090698242
+    },
+    {
+      "stab_idx": 718,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 44.87491226196289
+    },
+    {
+      "stab_idx": 1140,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 45.242496490478516
+    },
+    {
+      "stab_idx": 777,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 48.18611145019531
+    },
+    {
+      "stab_idx": 643,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 47.23090362548828
+    },
+    {
+      "stab_idx": 112,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 44.874813079833984
+    },
+    {
+      "stab_idx": 905,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "DoS",
+      "scts_v2": 43.326255798339844
+    },
+    {
+      "stab_idx": 824,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 45.563140869140625
+    },
+    {
+      "stab_idx": 1214,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 48.19931411743164
+    },
+    {
+      "stab_idx": 1276,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 48.80803298950195
+    },
+    {
+      "stab_idx": 1572,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 48.18598556518555
+    },
+    {
+      "stab_idx": 1324,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 48.308231353759766
+    },
+    {
+      "stab_idx": 1288,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 49.66077423095703
+    },
+    {
+      "stab_idx": 1432,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 44.4842643737793
+    },
+    {
+      "stab_idx": 1452,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 46.75130844116211
+    },
+    {
+      "stab_idx": 1523,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 47.25050354003906
+    },
+    {
+      "stab_idx": 1265,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 47.691654205322266
+    },
+    {
+      "stab_idx": 1555,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 49.93793487548828
+    },
+    {
+      "stab_idx": 1514,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 49.748573303222656
+    },
+    {
+      "stab_idx": 1201,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 46.75065994262695
+    },
+    {
+      "stab_idx": 697,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 57.72007751464844
+    },
+    {
+      "stab_idx": 1183,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 66.15568542480469
+    },
+    {
+      "stab_idx": 138,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 61.6140022277832
+    },
+    {
+      "stab_idx": 756,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 57.1148567199707
+    },
+    {
+      "stab_idx": 1129,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 73.40946960449219
+    },
+    {
+      "stab_idx": 992,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 50.5012092590332
+    },
+    {
+      "stab_idx": 1106,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 71.02962493896484
+    },
+    {
+      "stab_idx": 1069,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 57.612586975097656
+    },
+    {
+      "stab_idx": 742,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 66.16786193847656
+    },
+    {
+      "stab_idx": 119,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 69.85208892822266
+    },
+    {
+      "stab_idx": 467,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 66.15898895263672
+    },
+    {
+      "stab_idx": 1141,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 70.86335754394531
+    },
+    {
+      "stab_idx": 1480,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 56.15381622314453
+    },
+    {
+      "stab_idx": 1202,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 57.09029006958008
+    },
+    {
+      "stab_idx": 1243,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 53.85166931152344
+    },
+    {
+      "stab_idx": 1258,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 56.939762115478516
+    },
+    {
+      "stab_idx": 1592,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 55.288124084472656
+    },
+    {
+      "stab_idx": 1467,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 70.48243713378906
+    },
+    {
+      "stab_idx": 1559,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 56.36199188232422
+    },
+    {
+      "stab_idx": 1506,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 56.921607971191406
+    },
+    {
+      "stab_idx": 1495,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 52.50747299194336
+    },
+    {
+      "stab_idx": 1267,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 66.20558166503906
+    },
+    {
+      "stab_idx": 1530,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 52.59310531616211
+    },
+    {
+      "stab_idx": 1385,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 57.091800689697266
+    },
+    {
+      "stab_idx": 438,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 80.92838287353516
+    },
+    {
+      "stab_idx": 1169,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 81.13870239257812
+    },
+    {
+      "stab_idx": 335,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 75.08131408691406
+    },
+    {
+      "stab_idx": 337,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.20832824707031
+    },
+    {
+      "stab_idx": 80,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.31974029541016
+    },
+    {
+      "stab_idx": 144,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 87.29961395263672
+    },
+    {
+      "stab_idx": 221,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.33770751953125
+    },
+    {
+      "stab_idx": 187,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.3551254272461
+    },
+    {
+      "stab_idx": 485,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 86.80517578125
+    },
+    {
+      "stab_idx": 590,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 81.3551254272461
+    },
+    {
+      "stab_idx": 358,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.29877471923828
+    },
+    {
+      "stab_idx": 750,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 87.35804748535156
+    },
+    {
+      "stab_idx": 1552,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.85746765136719
+    },
+    {
+      "stab_idx": 1368,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.32879638671875
+    },
+    {
+      "stab_idx": 1344,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 75.7726058959961
+    },
+    {
+      "stab_idx": 1471,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.453125
+    },
+    {
+      "stab_idx": 1423,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.1296615600586
+    },
+    {
+      "stab_idx": 1287,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 80.42276000976562
+    },
+    {
+      "stab_idx": 1476,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 76.94831848144531
+    },
+    {
+      "stab_idx": 1454,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 79.75448608398438
+    },
+    {
+      "stab_idx": 1283,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 76.40663146972656
+    },
+    {
+      "stab_idx": 1596,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.03536224365234
+    },
+    {
+      "stab_idx": 1363,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 76.92749786376953
+    },
+    {
+      "stab_idx": 1359,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 78.39449310302734
+    }
+  ],
+  "dnn_5class_smote": [
+    {
+      "stab_idx": 25,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 41.61763000488281
+    },
+    {
+      "stab_idx": 125,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 40.383155822753906
+    },
+    {
+      "stab_idx": 935,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 46.984107971191406
+    },
+    {
+      "stab_idx": 1057,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 47.51013946533203
+    },
+    {
+      "stab_idx": 428,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 43.31388473510742
+    },
+    {
+      "stab_idx": 1025,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "DoS",
+      "scts_v2": 46.247535705566406
+    },
+    {
+      "stab_idx": 181,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 48.1524543762207
+    },
+    {
+      "stab_idx": 992,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 43.88377380371094
+    },
+    {
+      "stab_idx": 1144,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 43.05840301513672
+    },
+    {
+      "stab_idx": 782,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 46.31025314331055
+    },
+    {
+      "stab_idx": 344,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "DoS",
+      "scts_v2": 45.07564926147461
+    },
+    {
+      "stab_idx": 908,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 49.00021743774414
+    },
+    {
+      "stab_idx": 1576,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 48.371578216552734
+    },
+    {
+      "stab_idx": 1618,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 44.0423469543457
+    },
+    {
+      "stab_idx": 1505,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 47.07772445678711
+    },
+    {
+      "stab_idx": 1455,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 49.14862060546875
+    },
+    {
+      "stab_idx": 1545,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 49.09080505371094
+    },
+    {
+      "stab_idx": 1539,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 45.91452407836914
+    },
+    {
+      "stab_idx": 1620,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "DoS",
+      "scts_v2": 46.941898345947266
+    },
+    {
+      "stab_idx": 1520,
+      "action": "ENRICH",
+      "rationale": "low-trust normal prediction; gather more context before clearing",
+      "predicted_class": "Normal",
+      "scts_v2": 43.31388473510742
+    },
+    {
+      "stab_idx": 1422,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 42.970367431640625
+    },
+    {
+      "stab_idx": 1381,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 42.95148468017578
+    },
+    {
+      "stab_idx": 1312,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "Probe",
+      "scts_v2": 45.433868408203125
+    },
+    {
+      "stab_idx": 1392,
+      "action": "ENRICH",
+      "rationale": "low-trust attack prediction; enrich with threat intel before action",
+      "predicted_class": "R2L",
+      "scts_v2": 48.5615348815918
+    },
+    {
+      "stab_idx": 905,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 54.52752685546875
+    },
+    {
+      "stab_idx": 529,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 61.36677932739258
+    },
+    {
+      "stab_idx": 257,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 72.03874206542969
+    },
+    {
+      "stab_idx": 912,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 50.866676330566406
+    },
+    {
+      "stab_idx": 1097,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 65.16885375976562
+    },
+    {
+      "stab_idx": 1003,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 71.88348388671875
+    },
+    {
+      "stab_idx": 433,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "DoS",
+      "scts_v2": 74.05982971191406
+    },
+    {
+      "stab_idx": 1111,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 66.48332214355469
+    },
+    {
+      "stab_idx": 313,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 71.66360473632812
+    },
+    {
+      "stab_idx": 859,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 58.552330017089844
+    },
+    {
+      "stab_idx": 1172,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 51.115299224853516
+    },
+    {
+      "stab_idx": 948,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "Probe",
+      "scts_v2": 54.68864440917969
+    },
+    {
+      "stab_idx": 1628,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 70.41426849365234
+    },
+    {
+      "stab_idx": 1210,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 60.132713317871094
+    },
+    {
+      "stab_idx": 1494,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 69.93151092529297
+    },
+    {
+      "stab_idx": 1469,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 74.97309112548828
+    },
+    {
+      "stab_idx": 1441,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 55.76247024536133
+    },
+    {
+      "stab_idx": 1621,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 66.68914794921875
+    },
+    {
+      "stab_idx": 1461,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 50.866676330566406
+    },
+    {
+      "stab_idx": 1418,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 51.99234390258789
+    },
+    {
+      "stab_idx": 1406,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 51.99234390258789
+    },
+    {
+      "stab_idx": 1609,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "U2R",
+      "scts_v2": 71.65774536132812
+    },
+    {
+      "stab_idx": 1571,
+      "action": "MONITOR",
+      "rationale": "moderate-trust normal prediction; log and observe",
+      "predicted_class": "Normal",
+      "scts_v2": 59.90913009643555
+    },
+    {
+      "stab_idx": 1546,
+      "action": "ESCALATE",
+      "rationale": "moderate-trust attack prediction; route to Tier-2 analyst",
+      "predicted_class": "R2L",
+      "scts_v2": 54.680179595947266
+    },
+    {
+      "stab_idx": 890,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 76.26140594482422
+    },
+    {
+      "stab_idx": 972,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "Probe",
+      "scts_v2": 85.79505920410156
+    },
+    {
+      "stab_idx": 754,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 86.45695495605469
+    },
+    {
+      "stab_idx": 1162,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 81.29177856445312
+    },
+    {
+      "stab_idx": 1158,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 89.3863296508789
+    },
+    {
+      "stab_idx": 682,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 86.45358276367188
+    },
+    {
+      "stab_idx": 552,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 92.39007568359375
+    },
+    {
+      "stab_idx": 631,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 86.43128204345703
+    },
+    {
+      "stab_idx": 755,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 86.4119644165039
+    },
+    {
+      "stab_idx": 553,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 92.33651733398438
+    },
+    {
+      "stab_idx": 346,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 84.65266418457031
+    },
+    {
+      "stab_idx": 750,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "DoS",
+      "scts_v2": 86.43819427490234
+    },
+    {
+      "stab_idx": 1454,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 79.62372589111328
+    },
+    {
+      "stab_idx": 1208,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 85.69259643554688
+    },
+    {
+      "stab_idx": 1466,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 77.80030059814453
+    },
+    {
+      "stab_idx": 1439,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 82.598876953125
+    },
+    {
+      "stab_idx": 1201,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "R2L",
+      "scts_v2": 87.8902587890625
+    },
+    {
+      "stab_idx": 1238,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "R2L",
+      "scts_v2": 86.78157043457031
+    },
+    {
+      "stab_idx": 1443,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 91.77855682373047
+    },
+    {
+      "stab_idx": 1329,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 85.84099578857422
+    },
+    {
+      "stab_idx": 1438,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "R2L",
+      "scts_v2": 80.53225708007812
+    },
+    {
+      "stab_idx": 1317,
+      "action": "BLOCK",
+      "rationale": "high-trust attack prediction; immediate containment justified",
+      "predicted_class": "R2L",
+      "scts_v2": 81.21755981445312
+    },
+    {
+      "stab_idx": 1271,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 85.84174346923828
+    },
+    {
+      "stab_idx": 1563,
+      "action": "BENIGN",
+      "rationale": "high-trust normal-traffic prediction",
+      "predicted_class": "Normal",
+      "scts_v2": 85.84171295166016
+    }
+  ]
+}
