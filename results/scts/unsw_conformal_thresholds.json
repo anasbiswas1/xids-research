@@ -1,86 +1,86 @@
 {
   "rf_binary_cw": {
     "0.05": {
-      "threshold": 0.9997879558948262,
-      "empirical_coverage": 1.0
+      "threshold": 0.6966966966966968,
+      "empirical_coverage": 0.9536114962813563
     },
     "0.1": {
-      "threshold": 0.9997879558948262,
-      "empirical_coverage": 1.0
+      "threshold": 0.5372340425531915,
+      "empirical_coverage": 0.9009832345896887
     },
     "0.2": {
-      "threshold": 0.9997879558948262,
-      "empirical_coverage": 1.0
+      "threshold": 0.27263045793397234,
+      "empirical_coverage": 0.8062523635446868
     }
   },
   "xgb_binary_cw": {
     "0.05": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.7021276950836182,
+      "empirical_coverage": 0.9544938862977436
     },
     "0.1": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.4753788113594055,
+      "empirical_coverage": 0.9087356611622337
     },
     "0.2": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.2686648368835449,
+      "empirical_coverage": 0.8375772091264339
     }
   },
   "dnn_binary_cw": {
     "0.05": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.6800000071525574,
+      "empirical_coverage": 0.9524769948317157
     },
     "0.1": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.5290610790252686,
+      "empirical_coverage": 0.9125803605193495
     },
     "0.2": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.31662267446517944,
+      "empirical_coverage": 0.8117988150762637
     }
   },
   "rf_5class_smote": {
     "0.05": {
-      "threshold": 0.9999010694495502,
-      "empirical_coverage": 0.9856296483045506
+      "threshold": 0.8204793557114897,
+      "empirical_coverage": 0.9505861590823144
     },
     "0.1": {
-      "threshold": 0.9999010694495502,
-      "empirical_coverage": 0.9856296483045506
+      "threshold": 0.7053298705918092,
+      "empirical_coverage": 0.8986512038320937
     },
     "0.2": {
-      "threshold": 0.9996864610895797,
-      "empirical_coverage": 0.8170301273162738
+      "threshold": 0.5617050277020255,
+      "empirical_coverage": 0.7991302155552754
     }
   },
   "xgb_5class_smote": {
     "0.05": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.738711953163147,
+      "empirical_coverage": 0.9509012983738813
     },
     "0.1": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.6541579961776733,
+      "empirical_coverage": 0.8977688138157065
     },
     "0.2": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.5516766309738159,
+      "empirical_coverage": 0.8099710071851759
     }
   },
   "dnn_5class_smote": {
     "0.05": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.6945945620536804,
+      "empirical_coverage": 0.945480902558931
     },
     "0.1": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.6334806680679321,
+      "empirical_coverage": 0.8941762258918442
     },
     "0.2": {
-      "threshold": 1.0,
-      "empirical_coverage": 1.0
+      "threshold": 0.5366500616073608,
+      "empirical_coverage": 0.7958527669229799
     }
   }
 }
