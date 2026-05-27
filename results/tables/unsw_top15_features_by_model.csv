@@ -1,0 +1,16 @@
+Rank,rf_binary_cw,xgb_binary_cw,dnn_binary_cw,rf_5class_smote,xgb_5class_smote,dnn_5class_smote
+1,sttl,sttl,sttl,sttl,sttl,sttl
+2,ct_state_ttl,ct_state_ttl,dttl,ct_dst_src_ltm,smean,dttl
+3,dttl,sbytes,ct_state_ttl,ct_srv_dst,sbytes,dmean
+4,ct_srv_dst,smean,ct_srv_dst,sbytes,sloss,smean
+5,state_INT,ct_srv_dst,ct_dst_src_ltm,smean,ct_dst_src_ltm,ct_state_ttl
+6,ackdat,dbytes,proto_tcp,ct_state_ttl,ct_src_dport_ltm,ct_dst_src_ltm
+7,ct_dst_src_ltm,ct_srv_src,dmean,dmean,proto_udp,ct_srv_dst
+8,tcprtt,ct_dst_src_ltm,ct_srv_src,dttl,ct_srv_dst,ct_src_dport_ltm
+9,dload,ct_dst_sport_ltm,swin,proto_udp,dmean,proto_unas
+10,smean,proto_unas,proto_unas,dbytes,ct_srv_src,state_CON
+11,dmean,dmean,state_REQ,dload,dbytes,state_REQ
+12,dbytes,proto_udp,state_CON,sload,dloss,service_http
+13,sloss,dload,ct_dst_ltm,sloss,synack,ct_srv_src
+14,swin,sloss,ackdat,state_INT,rate,dload
+15,synack,dttl,sload,ct_srv_src,service_-,sload

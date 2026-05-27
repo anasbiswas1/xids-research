@@ -1,0 +1,11 @@
+Rank,Normal,DoS,Probe,R2L,U2R
+1,sttl,ct_dst_sport_ltm,sbytes,sbytes,ct_dst_src_ltm
+2,ct_state_ttl,smean,smean,dloss,ct_src_dport_ltm
+3,sbytes,ct_src_ltm,proto_udp,dbytes,proto_udp
+4,smean,ct_srv_dst,sjit,ct_dst_src_ltm,service_-
+5,ct_dst_src_ltm,sbytes,rate,sttl,sbytes
+6,ct_srv_dst,proto_udp,dmean,smean,dbytes
+7,sloss,sloss,service_http,ct_src_ltm,rate
+8,synack,sttl,dur,dmean,smean
+9,sinpkt,ct_src_dport_ltm,ct_srv_src,ct_srv_src,ackdat
+10,dmean,ct_srv_src,sload,ct_srv_dst,sttl
