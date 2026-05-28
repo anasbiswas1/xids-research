@@ -1,0 +1,10 @@
+Model,Target,Accuracy,F1-macro,F1-weighted,MCC,AUC-ROC,R2L F1,U2R F1,Time (s)
+rf_binary_cw,binary,0.9985,0.9976,0.9985,0.9952,0.9998,,,44.9
+xgb_binary_cw,binary,0.999,0.9984,0.999,0.9968,0.9999,,,3.3
+dnn_binary_cw,binary,0.9694,0.9537,0.9701,0.9101,0.9969,,,31.7
+rf_5class_smote,multiclass,0.9983,0.9571,0.9983,0.9948,,0.9602,0.8333,258.8
+xgb_5class_smote,multiclass,0.9989,0.9782,0.9989,0.9966,,0.9732,0.9231,19.0
+dnn_5class_smote,multiclass,0.9606,0.7265,0.9635,0.8957,,0.5366,0.2759,139.7
+rf_5class_cw,multiclass,0.9982,0.9584,0.9982,0.9946,,0.968,0.8333,46.2
+xgb_5class_cw,multiclass,0.999,0.9799,0.999,0.997,,0.9709,0.9333,5.7
+dnn_5class_cw,multiclass,0.8227,0.54,0.8634,0.6638,,0.1003,0.045,9.2
