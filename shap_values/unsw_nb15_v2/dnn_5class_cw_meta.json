@@ -1,0 +1,19 @@
+{
+  "dataset": "unsw_nb15_v2",
+  "model": "dnn_5class_cw",
+  "model_type": "dnn",
+  "shap_shape": [
+    1000,
+    194,
+    5
+  ],
+  "n_background": 100,
+  "n_eval": 1000,
+  "n_features": 194,
+  "n_classes": 5,
+  "time_seconds": 326.9,
+  "timestamp": "2026-05-29T13:05:01.650821",
+  "explainer": "GradientExplainer",
+  "shap_target": "probabilities (softmax)",
+  "note": "SHAP computed on raw model output. For DNN, softmax wrapper applied so SHAP is on probabilities. Calibration is a post-hoc transformation applied separately; SHAP shows what features drive the underlying model predictions which then get calibrated downstream."
+}
