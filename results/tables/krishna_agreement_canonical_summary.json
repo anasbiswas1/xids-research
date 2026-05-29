@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-05-29T19:08:26.848221",
+  "method": "canonical_shared_samples_per_dataset",
+  "n_datasets": 3,
+  "n_variants": 2,
+  "n_pairs": 3,
+  "n_k_values": 3,
+  "n_classes": 5,
+  "total_aggregate_rows": 54,
+  "total_perclass_rows": 270,
+  "total_sample_records": 18000,
+  "k10_aggregate_stats": {
+    "FA": {
+      "mean": 0.4710777777777779,
+      "min": 0.28580000000000033,
+      "max": 0.7428000000000013,
+      "median": 0.45429999999999904
+    },
+    "RA": {
+      "mean": 0.08086111111111106,
+      "min": 0.031500000000000125,
+      "max": 0.16229999999999906,
+      "median": 0.06720000000000032
+    },
+    "SA": {
+      "mean": 0.9958333333333331,
+      "min": 0.949,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "SRA": {
+      "mean": 0.08086111111111106,
+      "min": 0.031500000000000125,
+      "max": 0.16229999999999906,
+      "median": 0.06720000000000032
+    },
+    "RC": {
+      "mean": 0.2279670033670034,
+      "min": -0.19328484848484828,
+      "max": 0.606751515151515,
+      "median": 0.25713333333333344
+    },
+    "PRA": {
+      "mean": 0.586953086419753,
+      "min": 0.43264444444444417,
+      "max": 0.7322888888888891,
+      "median": 0.5952111111111105
+    }
+  },
+  "prediction_1_tree_vs_tree_higher": {
+    "supported_count": 5,
+    "total_count": 6,
+    "details": [
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_cw",
+        "rf-xgb RC": 0.569,
+        "rf-dnn RC": 0.015,
+        "xgb-dnn RC": -0.193,
+        "supports_pred1": 
