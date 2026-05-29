@@ -1,0 +1,207 @@
+{
+  "binary": {
+    "RF \u2194 XGB": {
+      "feature_agreement": 0.34149878041635007,
+      "rank_agreement": 0.1608,
+      "sign_agreement": 0.5333940476190476,
+      "signed_rank_agreement": 0.09960000000000001,
+      "rank_correlation": 0.0303077128870306,
+      "pairwise_rank_agreement": 0.5040161677804479,
+      "n_samples": 2000
+    },
+    "RF \u2194 DNN": {
+      "feature_agreement": 0.3155236354632639,
+      "rank_agreement": 0.11099999999999999,
+      "sign_agreement": 0.5234678571428572,
+      "signed_rank_agreement": 0.060599999999999994,
+      "rank_correlation": 0.04899520184828532,
+      "pairwise_rank_agreement": 0.5206090949942731,
+      "n_samples": 2000
+    },
+    "XGB \u2194 DNN": {
+      "feature_agreement": 0.25756211843711846,
+      "rank_agreement": 0.10735000000000003,
+      "sign_agreement": 0.5501011904761904,
+      "signed_rank_agreement": 0.06255,
+      "rank_correlation": -0.10972044685909574,
+      "pairwise_rank_agreement": 0.4504705463439209,
+      "n_samples": 2000
+    }
+  },
+  "five_class_aggregate": {
+    "RF \u2194 XGB": {
+      "feature_agreement": 0.5091268461930226,
+      "rank_agreement": 0.12055000000000002,
+      "sign_agreement": 0.3360902777777778,
+      "signed_rank_agreement": 0.046150000000000004,
+      "rank_correlation": 0.2723213338132456,
+      "pairwise_rank_agreement": 0.5971595426632191,
+      "n_samples": 2000
+    },
+    "RF \u2194 DNN": {
+      "feature_agreement": 0.3638275549699698,
+      "rank_agreement": 0.06659999999999999,
+      "sign_agreement": 0.6618289682539682,
+      "signed_rank_agreement": 0.05115000000000001,
+      "rank_correlation": 0.019494077168574174,
+      "pairwise_rank_agreement": 0.5047752856577546,
+      "n_samples": 2000
+    },
+    "XGB \u2194 DNN": {
+      "feature_agreement": 0.3488078628887452,
+      "rank_agreement": 0.07625000000000001,
+      "sign_agreement": 0.31633750000000005,
+      "signed_rank_agreement": 0.028399999999999998,
+      "rank_correlation": -0.12869146929173314,
+      "pairwise_rank_agreement": 0.44561383518442343,
+      "n_samples": 2000
+    }
+  },
+  "five_class_per_class": {
+    "RF \u2194 XGB": {
+      "Normal": {
+        "feature_agreement": 0.340791950568966,
+        "rank_agreement": 0.14339622641509434,
+        "sign_agreement": 0.9079909608211495,
+        "signed_rank_agreement": 0.13704974271012008,
+        "rank_correlation": 0.054039256823908643,
+        "pairwise_rank_agreement": 0.5071859501836296,
+        "n_samples": 1166
+      },
+      "DoS": {
+        "feature_agreement": 0.4300086724847326,
+        "rank_agreement": 0.09069767441860464,
+        "sign_agreement": 0.9062046265534638,
+        "signed_rank_agreement": 0.08449612403100776,
+        "rank_correlation": -0.010264700434298384,
+        "pairwise_rank_agreement": 0.4920534954734681,
+        "n_samples": 129
+      },
+      "Probe": {
+        "feature_agreement": 0.4000909221497457,
+        "rank_agreement": 0.1378787878787879,
+        "sign_agreement": 0.8139880952380952,
+        "signed_rank_agreement": 0.13030303030303034,
+        "rank_correlation": 0.2030158350187199,
+        "pairwise_rank_agreement": 0.5708910852961655,
+        "n_samples": 132
+      },
+      "R2L": {
+        "feature_agreement": 0.40453743560361205,
+        "rank_agreement": 0.07857142857142857,
+        "sign_agreement": 0.9053465136054424,
+        "signed_rank_agreement": 0.07392857142857144,
+        "rank_correlation": 0.08732585341829038,
+        "pairwise_rank_agreement": 0.528841778552913,
+        "n_samples": 560
+      },
+      "U2R": {
+        "feature_agreement": 0.39037094127591865,
+        "rank_agreement": 0.12307692307692308,
+        "sign_agreement": 0.9736263736263737,
+        "signed_rank_agreement": 0.12307692307692308,
+        "rank_correlation": 0.16305090083370624,
+        "pairwise_rank_agreement": 0.560629754860524,
+        "n_samples": 13
+      }
+    },
+    "RF \u2194 DNN": {
+      "Normal": {
+        "feature_agreement": 0.3240767092919672,
+        "rank_agreement": 0.07581475128644939,
+        "sign_agreement": 0.9500980151923548,
+        "signed_rank_agreement": 0.07272727272727272,
+        "rank_correlation": 0.056248053811632295,
+        "pairwise_rank_agreement": 0.5122237066510176,
+        "n_samples": 1166
+      },
+      "DoS": {
+        "feature_agreement": 0.2151570992560265,
+        "rank_agreement": 0.040310077519379844,
+        "sign_agreement": 0.7908268733850129,
+        "signed_rank_agreement": 0.030232558139534887,
+        "rank_correlation": -0.32134695796728335,
+        "pairwise_rank_agreement": 0.4022616815402473,
+        "n_samples": 129
+      },
+      "Probe": {
+        "feature_agreement": 0.3309422951098999,
+        "rank_agreement": 0.07045454545454546,
+        "sign_agreement": 0.9153318903318902,
+        "signed_rank_agreement": 0.06742424242424243,
+        "rank_correlation": -0.026577870506399447,
+        "pairwise_rank_agreement": 0.48711545084680463,
+        "n_samples": 132
+      },
+      "R2L": {
+        "feature_agreement": 0.2813338678926361,
+        "rank_agreement": 0.05375,
+        "sign_agreement": 0.8789583333333334,
+        "signed_rank_agreement": 0.046785714285714285,
+        "rank_correlation": -0.1776945325212879,
+        "pairwise_rank_agreement": 0.4350956214132077,
+        "n_samples": 560
+      },
+      "U2R": {
+        "feature_agreement": 0.26849043364880465,
+        "rank_agreement": 0.08461538461538463,
+        "sign_agreement": 1.0,
+        "signed_rank_agreement": 0.08461538461538463,
+        "rank_correlation": -0.16571289088906466,
+        "pairwise_rank_agreement": 0.44655440085304343,
+        "n_samples": 13
+      }
+    },
+    "XGB \u2194 DNN": {
+      "Normal": {
+        "feature_agreement": 0.25195021955930885,
+        "rank_agreement": 0.08456260720411664,
+        "sign_agreement": 0.8787572490402679,
+        "signed_rank_agreement": 0.07530017152658662,
+        "rank_correlation": -0.1331016660766994,
+        "pairwise_rank_agreement": 0.44674575822164364,
+        "n_samples": 1166
+      },
+      "DoS": {
+        "feature_agreement": 0.20704259274350714,
+        "rank_agreement": 0.040310077519379844,
+        "sign_agreement": 0.8488925802879291,
+        "signed_rank_agreement": 0.03255813953488372,
+        "rank_correlation": -0.3656117087386015,
+        "pairwise_rank_agreement": 0.3872449540550196,
+        "n_samples": 129
+      },
+      "Probe": {
+        "feature_agreement": 0.29283828916181853,
+        "rank_agreement": 0.10227272727272728,
+        "sign_agreement": 0.7385281385281384,
+        "signed_rank_agreement": 0.08787878787878788,
+        "rank_correlation": -0.03588629220116945,
+        "pairwise_rank_agreement": 0.46687820621644144,
+        "n_samples": 132
+      },
+      "R2L": {
+        "feature_agreement": 0.25770149827812366,
+        "rank_agreement": 0.041607142857142856,
+        "sign_agreement": 0.7851870748299319,
+        "signed_rank_agreement": 0.03428571428571429,
+        "rank_correlation": -0.2764547840073265,
+        "pairwise_rank_agreement": 0.4000210851884613,
+        "n_samples": 560
+      },
+      "U2R": {
+        "feature_agreement": 0.3159340659340659,
+        "rank_agreement": 0.08461538461538462,
+        "sign_agreement": 0.9871794871794872,
+        "signed_rank_agreement": 0.08461538461538462,
+        "rank_correlation": -0.040212427186192695,
+        "pairwise_rank_agreement": 0.48372781065088755,
+        "n_samples": 13
+      }
+    }
+  },
+  "config": {
+    "top_k": 10,
+    "n_shap_samples": 2000
+  }
+}

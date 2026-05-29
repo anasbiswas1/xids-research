@@ -1,0 +1,135 @@
+{
+  "run_timestamp": "2026-05-29T06:08:24.952725",
+  "total_time_minutes": 68.3,
+  "results": [
+    {
+      "dataset": "nsl_kdd_v2",
+      "model": "rf_5class_smote",
+      "status": "done",
+      "time_s": 167.3443624973297,
+      "shape": "(1000, 122, 5)"
+    },
+    {
+      "dataset": "nsl_kdd_v2",
+      "model": "xgb_5class_smote",
+      "status": "done",
+      "time_s": 13.806897401809692,
+      "shape": "(1000, 122, 5)"
+    },
+    {
+      "dataset": "nsl_kdd_v2",
+      "model": "dnn_5class_smote",
+      "status": "done",
+      "time_s": 326.1388111114502,
+      "shape": "(1000, 122, 5)"
+    },
+    {
+      "dataset": "nsl_kdd_v2",
+      "model": "rf_5class_cw",
+      "status": "done",
+      "time_s": 132.9529197216034,
+      "shape": "(1000, 122, 5)"
+    },
+    {
+      "dataset": "nsl_kdd_v2",
+      "model": "xgb_5class_cw",
+      "status": "done",
+      "time_s": 10.307012557983398,
+      "shape": "(1000, 122, 5)"
+    },
+    {
+      "dataset": "nsl_kdd_v2",
+      "model": "dnn_5class_cw",
+      "status": "done",
+      "time_s": 334.24955558776855,
+      "shape": "(1000, 122, 5)"
+    },
+    {
+      "dataset": "unsw_nb15_v2",
+      "model": "rf_5class_smote",
+      "status": "done",
+      "time_s": 1621.1866500377655,
+      "shape": "(1000, 194, 5)"
+    },
+    {
+      "dataset": "unsw_nb15_v2",
+      "model": "xgb_5class_smote",
+      "status": "done",
+      "time_s": 2.9049079418182373,
+      "shape": "(1000, 194, 5)"
+    },
+    {
+      "dataset": "unsw_nb15_v2",
+      "model": "rf_5class_cw",
+      "status": "done",
+      "time_s": 1277.9984638690948,
+      "shape": "(1000, 194, 5)"
+    },
+    {
+      "dataset": "unsw_nb15_v2",
+      "model": "xgb_5class_cw",
+      "status": "done",
+      "time_s": 2.08526349067688,
+      "shape": "(1000, 194, 5)"
+    },
+    {
+      "dataset": "cic_ids2017_v2",
+      "model": "rf_5class_smote",
+      "status": "done",
+      "time_s": 116.53120446205139,
+      "shape": "(1000, 78, 5)"
+    },
+    {
+      "dataset": "cic_ids2017_v2",
+      "model": "xgb_5class_smote",
+      "status": "done",
+      "time_s": 1.2718002796173096,
+      "shape": "(1000, 78, 5)"
+    },
+    {
+      "dataset": "cic_ids2017_v2",
+      "model": "rf_5class_cw",
+      "status": "done",
+      "time_s": 85.2265293598175,
+      "shape": "(1000, 78, 5)"
+    },
+    {
+      "dataset": "cic_ids2017_v2",
+      "model": "xgb_5class_cw",
+      "status": "done",
+      "time_s": 1.2390403747558594,
+      "shape": "(1000, 78, 5)"
+    }
+  ],
+  "errors": [
+    {
+      "dataset": "unsw_nb15_v2",
+      "model": "dnn_5class_smote",
+      "error": "KeyError: 'in_dim'",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_2718/3986749806.py\", line 27, in <cell line: 0>\n    meta, shape, elapsed = compute_shap_for_model(dataset, model_name)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/3630581405.py\", line 41, in compute_shap_for_model\n    wrapped_model = load_pytorch_dnn(path)\n                    ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/2324341878.py\", line 34, in load_pytorch_dnn\n    model = DNN(in_dim=ckpt['in_dim'], n_classes=ckpt['n_classes'],\n                       ~~~~^^^^^^^^^^\nKeyError: 'in_dim'\n"
+    },
+    {
+      "dataset": "unsw_nb15_v2",
+      "model": "dnn_5class_cw",
+      "error": "KeyError: 'in_dim'",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_2718/3986749806.py\", line 27, in <cell line: 0>\n    meta, shape, elapsed = compute_shap_for_model(dataset, model_name)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/3630581405.py\", line 41, in compute_shap_for_model\n    wrapped_model = load_pytorch_dnn(path)\n                    ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/2324341878.py\", line 34, in load_pytorch_dnn\n    model = DNN(in_dim=ckpt['in_dim'], n_classes=ckpt['n_classes'],\n                       ~~~~^^^^^^^^^^\nKeyError: 'in_dim'\n"
+    },
+    {
+      "dataset": "cic_ids2017_v2",
+      "model": "dnn_5class_smote",
+      "error": "KeyError: 'in_dim'",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_2718/3986749806.py\", line 27, in <cell line: 0>\n    meta, shape, elapsed = compute_shap_for_model(dataset, model_name)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/3630581405.py\", line 41, in compute_shap_for_model\n    wrapped_model = load_pytorch_dnn(path)\n                    ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/2324341878.py\", line 34, in load_pytorch_dnn\n    model = DNN(in_dim=ckpt['in_dim'], n_classes=ckpt['n_classes'],\n                       ~~~~^^^^^^^^^^\nKeyError: 'in_dim'\n"
+    },
+    {
+      "dataset": "cic_ids2017_v2",
+      "model": "dnn_5class_cw",
+      "error": "KeyError: 'in_dim'",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_2718/3986749806.py\", line 27, in <cell line: 0>\n    meta, shape, elapsed = compute_shap_for_model(dataset, model_name)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/3630581405.py\", line 41, in compute_shap_for_model\n    wrapped_model = load_pytorch_dnn(path)\n                    ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_2718/2324341878.py\", line 34, in load_pytorch_dnn\n    model = DNN(in_dim=ckpt['in_dim'], n_classes=ckpt['n_classes'],\n                       ~~~~^^^^^^^^^^\nKeyError: 'in_dim'\n"
+    }
+  ],
+  "config": {
+    "N_BACKGROUND": 100,
+    "N_EVAL": 1000,
+    "SEED": 42
+  }
+}

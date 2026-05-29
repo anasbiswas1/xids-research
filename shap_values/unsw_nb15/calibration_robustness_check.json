@@ -1,0 +1,39 @@
+{
+  "n_samples": 500,
+  "jaccard_top_k": 0.7647058823529411,
+  "spearman_rho": 0.6890916929415463,
+  "top_features_uncalibrated": [
+    "sttl",
+    "sloss",
+    "smean",
+    "sbytes",
+    "ct_src_dport_ltm",
+    "ct_dst_src_ltm",
+    "proto_udp",
+    "ct_srv_dst",
+    "dmean",
+    "dbytes",
+    "ct_srv_src",
+    "dloss",
+    "synack",
+    "rate",
+    "dload"
+  ],
+  "top_features_calibrated": [
+    "sttl",
+    "sbytes",
+    "smean",
+    "sloss",
+    "ct_dst_src_ltm",
+    "ct_srv_dst",
+    "dmean",
+    "ct_srv_src",
+    "dbytes",
+    "proto_unas",
+    "proto_udp",
+    "dloss",
+    "ct_state_ttl",
+    "rate",
+    "synack"
+  ]
+}

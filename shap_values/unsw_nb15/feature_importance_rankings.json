@@ -1,0 +1,464 @@
+{
+  "rf_binary_cw": [
+    {
+      "rank": 1,
+      "feature": "sttl",
+      "importance": 0.08387417666267005
+    },
+    {
+      "rank": 2,
+      "feature": "ct_state_ttl",
+      "importance": 0.05036212043262363
+    },
+    {
+      "rank": 3,
+      "feature": "dttl",
+      "importance": 0.0387987564386964
+    },
+    {
+      "rank": 4,
+      "feature": "ct_srv_dst",
+      "importance": 0.02421028768225965
+    },
+    {
+      "rank": 5,
+      "feature": "state_INT",
+      "importance": 0.01874179027692622
+    },
+    {
+      "rank": 6,
+      "feature": "ackdat",
+      "importance": 0.01807296832931947
+    },
+    {
+      "rank": 7,
+      "feature": "ct_dst_src_ltm",
+      "importance": 0.017681057519603208
+    },
+    {
+      "rank": 8,
+      "feature": "tcprtt",
+      "importance": 0.017546779369441913
+    },
+    {
+      "rank": 9,
+      "feature": "dload",
+      "importance": 0.016773160345365502
+    },
+    {
+      "rank": 10,
+      "feature": "smean",
+      "importance": 0.015562489466445804
+    },
+    {
+      "rank": 11,
+      "feature": "dmean",
+      "importance": 0.01521888287671474
+    },
+    {
+      "rank": 12,
+      "feature": "dbytes",
+      "importance": 0.01513813103403652
+    },
+    {
+      "rank": 13,
+      "feature": "sloss",
+      "importance": 0.014637760361315423
+    },
+    {
+      "rank": 14,
+      "feature": "swin",
+      "importance": 0.014452185657336726
+    },
+    {
+      "rank": 15,
+      "feature": "synack",
+      "importance": 0.014104101222349324
+    }
+  ],
+  "xgb_binary_cw": [
+    {
+      "rank": 1,
+      "feature": "sttl",
+      "importance": 3.4714062213897705
+    },
+    {
+      "rank": 2,
+      "feature": "ct_state_ttl",
+      "importance": 0.845676064491272
+    },
+    {
+      "rank": 3,
+      "feature": "sbytes",
+      "importance": 0.5242899656295776
+    },
+    {
+      "rank": 4,
+      "feature": "smean",
+      "importance": 0.4286675751209259
+    },
+    {
+      "rank": 5,
+      "feature": "ct_srv_dst",
+      "importance": 0.3965143859386444
+    },
+    {
+      "rank": 6,
+      "feature": "dbytes",
+      "importance": 0.300181120634079
+    },
+    {
+      "rank": 7,
+      "feature": "ct_srv_src",
+      "importance": 0.25807106494903564
+    },
+    {
+      "rank": 8,
+      "feature": "ct_dst_src_ltm",
+      "importance": 0.2502272129058838
+    },
+    {
+      "rank": 9,
+      "feature": "ct_dst_sport_ltm",
+      "importance": 0.20145459473133087
+    },
+    {
+      "rank": 10,
+      "feature": "proto_unas",
+      "importance": 0.18285667896270752
+    },
+    {
+      "rank": 11,
+      "feature": "dmean",
+      "importance": 0.18242943286895752
+    },
+    {
+      "rank": 12,
+      "feature": "proto_udp",
+      "importance": 0.17112840712070465
+    },
+    {
+      "rank": 13,
+      "feature": "dload",
+      "importance": 0.16601596772670746
+    },
+    {
+      "rank": 14,
+      "feature": "sloss",
+      "importance": 0.16349467635154724
+    },
+    {
+      "rank": 15,
+      "feature": "dttl",
+      "importance": 0.15392079949378967
+    }
+  ],
+  "dnn_binary_cw": [
+    {
+      "rank": 1,
+      "feature": "sttl",
+      "importance": 0.11008264624307834
+    },
+    {
+      "rank": 2,
+      "feature": "dttl",
+      "importance": 0.1017874438242719
+    },
+    {
+      "rank": 3,
+      "feature": "ct_state_ttl",
+      "importance": 0.04858447685012293
+    },
+    {
+      "rank": 4,
+      "feature": "ct_srv_dst",
+      "importance": 0.045539286422800036
+    },
+    {
+      "rank": 5,
+      "feature": "ct_dst_src_ltm",
+      "importance": 0.0308840561391942
+    },
+    {
+      "rank": 6,
+      "feature": "proto_tcp",
+      "importance": 0.02458677397162818
+    },
+    {
+      "rank": 7,
+      "feature": "dmean",
+      "importance": 0.023505538163467597
+    },
+    {
+      "rank": 8,
+      "feature": "ct_srv_src",
+      "importance": 0.022418024764329733
+    },
+    {
+      "rank": 9,
+      "feature": "swin",
+      "importance": 0.021946932390589535
+    },
+    {
+      "rank": 10,
+      "feature": "proto_unas",
+      "importance": 0.019496895097741426
+    },
+    {
+      "rank": 11,
+      "feature": "state_REQ",
+      "importance": 0.014462274521375211
+    },
+    {
+      "rank": 12,
+      "feature": "state_CON",
+      "importance": 0.013714910163850388
+    },
+    {
+      "rank": 13,
+      "feature": "ct_dst_ltm",
+      "importance": 0.006739603251461198
+    },
+    {
+      "rank": 14,
+      "feature": "ackdat",
+      "importance": 0.006244848980521996
+    },
+    {
+      "rank": 15,
+      "feature": "sload",
+      "importance": 0.005918392101685143
+    }
+  ],
+  "rf_5class_smote": [
+    {
+      "rank": 1,
+      "feature": "sttl",
+      "importance": 0.03027598061660087
+    },
+    {
+      "rank": 2,
+      "feature": "ct_dst_src_ltm",
+      "importance": 0.021245603945545914
+    },
+    {
+      "rank": 3,
+      "feature": "ct_srv_dst",
+      "importance": 0.017712850013022453
+    },
+    {
+      "rank": 4,
+      "feature": "sbytes",
+      "importance": 0.016891823893818648
+    },
+    {
+      "rank": 5,
+      "feature": "smean",
+      "importance": 0.01670923727445192
+    },
+    {
+      "rank": 6,
+      "feature": "ct_state_ttl",
+      "importance": 0.016512539453487417
+    },
+    {
+      "rank": 7,
+      "feature": "dmean",
+      "importance": 0.015693190974667485
+    },
+    {
+      "rank": 8,
+      "feature": "dttl",
+      "importance": 0.013556652225872693
+    },
+    {
+      "rank": 9,
+      "feature": "proto_udp",
+      "importance": 0.013513123824429346
+    },
+    {
+      "rank": 10,
+      "feature": "dbytes",
+      "importance": 0.01261361340845078
+    },
+    {
+      "rank": 11,
+      "feature": "dload",
+      "importance": 0.010879307340091017
+    },
+    {
+      "rank": 12,
+      "feature": "sload",
+      "importance": 0.010173474235657882
+    },
+    {
+      "rank": 13,
+      "feature": "sloss",
+      "importance": 0.009869860868802056
+    },
+    {
+      "rank": 14,
+      "feature": "state_INT",
+      "importance": 0.009115418902015119
+    },
+    {
+      "rank": 15,
+      "feature": "ct_srv_src",
+      "importance": 0.009095468991916393
+    }
+  ],
+  "xgb_5class_smote": [
+    {
+      "rank": 1,
+      "feature": "sttl",
+      "importance": 1.0450465679168701
+    },
+    {
+      "rank": 2,
+      "feature": "smean",
+      "importance": 0.40420231223106384
+    },
+    {
+      "rank": 3,
+      "feature": "sbytes",
+      "importance": 0.39643487334251404
+    },
+    {
+      "rank": 4,
+      "feature": "sloss",
+      "importance": 0.37792372703552246
+    },
+    {
+      "rank": 5,
+      "feature": "ct_dst_src_ltm",
+      "importance": 0.31972989439964294
+    },
+    {
+      "rank": 6,
+      "feature": "ct_src_dport_ltm",
+      "importance": 0.31709402799606323
+    },
+    {
+      "rank": 7,
+      "feature": "proto_udp",
+      "importance": 0.27950358390808105
+    },
+    {
+      "rank": 8,
+      "feature": "ct_srv_dst",
+      "importance": 0.21508260071277618
+    },
+    {
+      "rank": 9,
+      "feature": "dmean",
+      "importance": 0.17605967819690704
+    },
+    {
+      "rank": 10,
+      "feature": "ct_srv_src",
+      "importance": 0.16975137591362
+    },
+    {
+      "rank": 11,
+      "feature": "dbytes",
+      "importance": 0.16919557750225067
+    },
+    {
+      "rank": 12,
+      "feature": "dloss",
+      "importance": 0.14637824892997742
+    },
+    {
+      "rank": 13,
+      "feature": "synack",
+      "importance": 0.139245867729187
+    },
+    {
+      "rank": 14,
+      "feature": "rate",
+      "importance": 0.13748550415039062
+    },
+    {
+      "rank": 15,
+      "feature": "service_-",
+      "importance": 0.13373136520385742
+    }
+  ],
+  "dnn_5class_smote": [
+    {
+      "rank": 1,
+      "feature": "sttl",
+      "importance": 0.05310942663153828
+    },
+    {
+      "rank": 2,
+      "feature": "dttl",
+      "importance": 0.039227214400027494
+    },
+    {
+      "rank": 3,
+      "feature": "dmean",
+      "importance": 0.024618631439175746
+    },
+    {
+      "rank": 4,
+      "feature": "smean",
+      "importance": 0.021841982148385668
+    },
+    {
+      "rank": 5,
+      "feature": "ct_state_ttl",
+      "importance": 0.018473443057943954
+    },
+    {
+      "rank": 6,
+      "feature": "ct_dst_src_ltm",
+      "importance": 0.017286505039283227
+    },
+    {
+      "rank": 7,
+      "feature": "ct_srv_dst",
+      "importance": 0.015357083976781167
+    },
+    {
+      "rank": 8,
+      "feature": "ct_src_dport_ltm",
+      "importance": 0.012860880005294667
+    },
+    {
+      "rank": 9,
+      "feature": "proto_unas",
+      "importance": 0.012669424889882416
+    },
+    {
+      "rank": 10,
+      "feature": "state_CON",
+      "importance": 0.008236233682712726
+    },
+    {
+      "rank": 11,
+      "feature": "state_REQ",
+      "importance": 0.007243283200918778
+    },
+    {
+      "rank": 12,
+      "feature": "service_http",
+      "importance": 0.006292477053234593
+    },
+    {
+      "rank": 13,
+      "feature": "ct_srv_src",
+      "importance": 0.00542454980121716
+    },
+    {
+      "rank": 14,
+      "feature": "dload",
+      "importance": 0.005383980963006387
+    },
+    {
+      "rank": 15,
+      "feature": "sload",
+      "importance": 0.005190162994247271
+    }
+  ]
+}

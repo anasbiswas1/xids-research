@@ -1,0 +1,20 @@
+{
+  "nsl_kdd_v2/rf_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/nsl_kdd_v2/rf_5class_smote.pkl",
+  "nsl_kdd_v2/xgb_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/nsl_kdd_v2/xgb_5class_smote.pkl",
+  "nsl_kdd_v2/dnn_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/nsl_kdd_v2/dnn_5class_smote.pt",
+  "nsl_kdd_v2/rf_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/nsl_kdd_v2/rf_5class_cw.pkl",
+  "nsl_kdd_v2/xgb_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/nsl_kdd_v2/xgb_5class_cw.pkl",
+  "nsl_kdd_v2/dnn_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/nsl_kdd_v2/dnn_5class_cw.pt",
+  "unsw_nb15_v2/rf_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/unsw_nb15_v2/rf_5class_smote.joblib",
+  "unsw_nb15_v2/xgb_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/unsw_nb15_v2/xgb_5class_smote.joblib",
+  "unsw_nb15_v2/dnn_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/unsw_nb15_v2/dnn_5class_smote.pt",
+  "unsw_nb15_v2/rf_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/unsw_nb15_v2/rf_5class_cw.joblib",
+  "unsw_nb15_v2/xgb_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/unsw_nb15_v2/xgb_5class_cw.joblib",
+  "unsw_nb15_v2/dnn_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/unsw_nb15_v2/dnn_5class_cw.pt",
+  "cic_ids2017_v2/rf_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/cic_ids2017_v2/rf_5class_smote.joblib",
+  "cic_ids2017_v2/xgb_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/cic_ids2017_v2/xgb_5class_smote.joblib",
+  "cic_ids2017_v2/dnn_5class_smote": "/content/drive/MyDrive/XIDS_Research/xids-research/models/cic_ids2017_v2/dnn_5class_smote.pt",
+  "cic_ids2017_v2/rf_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/cic_ids2017_v2/rf_5class_cw.joblib",
+  "cic_ids2017_v2/xgb_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/cic_ids2017_v2/xgb_5class_cw.joblib",
+  "cic_ids2017_v2/dnn_5class_cw": "/content/drive/MyDrive/XIDS_Research/xids-research/models/cic_ids2017_v2/dnn_5class_cw.pt"
+}

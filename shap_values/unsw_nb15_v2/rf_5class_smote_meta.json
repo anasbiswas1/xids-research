@@ -1,0 +1,19 @@
+{
+  "dataset": "unsw_nb15_v2",
+  "model": "rf_5class_smote",
+  "model_type": "rf",
+  "shap_shape": [
+    1000,
+    194,
+    5
+  ],
+  "n_background": 100,
+  "n_eval": 1000,
+  "n_features": 194,
+  "n_classes": 5,
+  "time_seconds": 1621.2,
+  "timestamp": "2026-05-29T05:43:34.660530",
+  "explainer": "TreeExplainer",
+  "shap_target": "model output (tree)",
+  "note": "SHAP computed on raw model output. For DNN, softmax wrapper applied so SHAP is on probabilities. Calibration is a post-hoc transformation applied separately; SHAP shows what features drive the underlying model predictions which then get calibrated downstream."
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "cic_ids2017_v2",
+  "model": "xgb_5class_smote",
+  "model_type": "xgb",
+  "shap_shape": [
+    1000,
+    78,
+    5
+  ],
+  "n_background": 100,
+  "n_eval": 1000,
+  "n_features": 78,
+  "n_classes": 5,
+  "time_seconds": 1.3,
+  "timestamp": "2026-05-29T06:06:57.220938",
+  "explainer": "TreeExplainer",
+  "shap_target": "model output (tree)",
+  "note": "SHAP computed on raw model output. For DNN, softmax wrapper applied so SHAP is on probabilities. Calibration is a post-hoc transformation applied separately; SHAP shows what features drive the underlying model predictions which then get calibrated downstream."
+}

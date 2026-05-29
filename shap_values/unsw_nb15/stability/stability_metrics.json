@@ -1,0 +1,122 @@
+{
+  "rf_binary_cw": {
+    "gaussian": {
+      "jaccard_top10": 0.6143,
+      "lipschitz_median": 0.1324,
+      "f_fidelity": 0.374,
+      "n_samples": 215
+    },
+    "fgsm": {
+      "jaccard_top10": 0.5963,
+      "lipschitz_median": 0.1388,
+      "f_fidelity": 0.374,
+      "n_samples": 215
+    },
+    "pgd": {
+      "jaccard_top10": 0.6049,
+      "lipschitz_median": 0.1622,
+      "f_fidelity": 0.374,
+      "n_samples": 215
+    }
+  },
+  "xgb_binary_cw": {
+    "gaussian": {
+      "jaccard_top10": 0.4139,
+      "lipschitz_median": 5.9271,
+      "f_fidelity": 0.4157,
+      "n_samples": 215
+    },
+    "fgsm": {
+      "jaccard_top10": 0.3881,
+      "lipschitz_median": 6.779,
+      "f_fidelity": 0.4157,
+      "n_samples": 215
+    },
+    "pgd": {
+      "jaccard_top10": 0.3814,
+      "lipschitz_median": 7.871,
+      "f_fidelity": 0.4157,
+      "n_samples": 215
+    }
+  },
+  "rf_5class_smote": {
+    "gaussian": {
+      "jaccard_top10": 0.5484,
+      "lipschitz_median": 0.242,
+      "f_fidelity": 0.4531,
+      "n_samples": 215
+    },
+    "fgsm": {
+      "jaccard_top10": 0.5147,
+      "lipschitz_median": 0.2666,
+      "f_fidelity": 0.4531,
+      "n_samples": 215
+    },
+    "pgd": {
+      "jaccard_top10": 0.5271,
+      "lipschitz_median": 0.3002,
+      "f_fidelity": 0.4531,
+      "n_samples": 215
+    }
+  },
+  "xgb_5class_smote": {
+    "gaussian": {
+      "jaccard_top10": 0.4956,
+      "lipschitz_median": 7.0213,
+      "f_fidelity": 0.581,
+      "n_samples": 215
+    },
+    "fgsm": {
+      "jaccard_top10": 0.4494,
+      "lipschitz_median": 8.152,
+      "f_fidelity": 0.581,
+      "n_samples": 215
+    },
+    "pgd": {
+      "jaccard_top10": 0.4708,
+      "lipschitz_median": 9.7949,
+      "f_fidelity": 0.581,
+      "n_samples": 215
+    }
+  },
+  "dnn_binary_cw": {
+    "gaussian": {
+      "jaccard_top10": 0.6668,
+      "lipschitz_median": 0.1335,
+      "f_fidelity": 0.6002,
+      "n_samples": 509
+    },
+    "fgsm": {
+      "jaccard_top10": 0.665,
+      "lipschitz_median": 0.1385,
+      "f_fidelity": 0.6002,
+      "n_samples": 509
+    },
+    "pgd": {
+      "jaccard_top10": 0.6674,
+      "lipschitz_median": 0.1524,
+      "f_fidelity": 0.6002,
+      "n_samples": 509
+    }
+  },
+  "dnn_5class_smote": {
+    "gaussian": {
+      "jaccard_top10": 0.7052,
+      "lipschitz_median": 0.1492,
+      "f_fidelity": 0.5345,
+      "n_samples": 509
+    },
+    "fgsm": {
+      "jaccard_top10": 0.635,
+      "lipschitz_median": 0.2389,
+      "f_fidelity": 0.5345,
+      "n_samples": 509
+    },
+    "pgd": {
+      "jaccard_top10": 0.6281,
+      "lipschitz_median": 0.2921,
+      "f_fidelity": 0.5345,
+      "n_samples": 509
+    }
+  }
+}
