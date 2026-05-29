@@ -1,0 +1,20 @@
+{
+  "dataset": "unsw_nb15_v2",
+  "model": "rf_5class_cw",
+  "model_type": "rf",
+  "shap_shape": [
+    1000,
+    194,
+    5
+  ],
+  "n_background": 50,
+  "n_eval": 1000,
+  "n_features": 194,
+  "n_classes": 5,
+  "time_seconds": 1361.5,
+  "timestamp": "2026-05-29T18:39:53.607438",
+  "explainer": "TreeExplainer",
+  "shap_target": "model output (tree)",
+  "sample_selection": "canonical_shared_per_dataset",
+  "note": "SHAP computed on canonical per-dataset shared sample indices. All 3 architectures within a dataset use the same eval_idx and bg_idx. Required for cross-model agreement analysis (Notebook 06)."
+}

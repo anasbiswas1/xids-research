@@ -1,0 +1,20 @@
+{
+  "dataset": "nsl_kdd_v2",
+  "model": "dnn_5class_smote",
+  "model_type": "dnn",
+  "shap_shape": [
+    1000,
+    122,
+    5
+  ],
+  "n_background": 50,
+  "n_eval": 1000,
+  "n_features": 122,
+  "n_classes": 5,
+  "time_seconds": 318.6,
+  "timestamp": "2026-05-29T17:36:46.817897",
+  "explainer": "GradientExplainer",
+  "shap_target": "probabilities (softmax)",
+  "sample_selection": "canonical_shared_per_dataset",
+  "note": "SHAP computed on canonical per-dataset shared sample indices. All 3 architectures within a dataset use the same eval_idx and bg_idx. Required for cross-model agreement analysis (Notebook 06)."
+}
