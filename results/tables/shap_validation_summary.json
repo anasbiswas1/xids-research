@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-05-29T15:47:12.644691",
+  "n_models": 3,
+  "n_eval_samples": 100,
+  "n_background": 50,
+  "global_spearman_stats": {
+    "mean": 0.8542215602024639,
+    "min": 0.7761171544732229,
+    "max": 0.9062597505409697,
+    "median": 0.8802877755931992
+  },
+  "global_top5_overlap_stats": {
+    "mean": 3.3333333333333335,
+    "min": 2,
+    "max": 4,
+    "count_5of5": 0,
+    "count_4_or_better": 2
+  },
+  "per_class_spearman_stats": {
+    "mean": 0.8181548651122045,
+    "min": 0.7376879201015155,
+    "median": 0.8066560418200578,
+    "count_above_0.9": 2,
+    "count_above_0.8": 9,
+    "total": 15
+  }
+}
