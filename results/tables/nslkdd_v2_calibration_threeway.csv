@@ -1,0 +1,10 @@
+Model,Task,Brier pre,Brier hybrid,Brier dirichlet,Winner
+rf_binary_cw,binary,0.16328,0.16747,0.16628,pre
+xgb_binary_cw,binary,0.1988,0.19408,0.19292,dirichlet
+dnn_binary_cw,binary,0.17887,0.18054,0.17723,dirichlet
+rf_5class_smote,5-class,0.07231,0.08323,0.07973,pre
+xgb_5class_smote,5-class,0.07953,0.08039,0.08053,pre
+dnn_5class_smote,5-class,0.08437,0.08734,0.08626,pre
+rf_5class_cw,5-class,0.07914,0.08641,0.08375,pre
+xgb_5class_cw,5-class,0.08033,0.08012,0.08255,hybrid
+dnn_5class_cw,5-class,0.08041,0.0858,0.08352,pre
