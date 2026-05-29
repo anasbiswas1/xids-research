@@ -1,0 +1,10 @@
+Model,Task,Brier pre (macro),Brier post (macro),ECE pre (macro),ECE post (macro),Platt for
+rf_binary_cw,binary,0.09506,0.10611,0.10181,0.11782,—
+xgb_binary_cw,binary,0.09669,0.10875,0.10637,0.12251,—
+dnn_binary_cw,binary,0.0984,0.11602,0.10587,0.1302,—
+rf_5class_smote,5-class,0.07224,0.06981,0.0679,0.05203,—
+xgb_5class_smote,5-class,0.07125,0.06888,0.06258,0.05509,—
+dnn_5class_smote,5-class,0.08687,0.07319,0.08761,0.05385,—
+rf_5class_cw,5-class,0.06965,0.06856,0.06199,0.0512,—
+xgb_5class_cw,5-class,0.07505,0.07055,0.06872,0.05619,—
+dnn_5class_cw,5-class,0.09312,0.0761,0.09544,0.05499,—
