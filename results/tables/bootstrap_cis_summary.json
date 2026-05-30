@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-30T02:56:51.470364",
+  "timestamp": "2026-05-30T03:08:53.970532",
   "protocol": {
     "B": 1000,
     "alpha": 0.05,
@@ -11,39 +11,185 @@
     "target_1_calibration": {
       "description": "Brier per-class and ECE per-model with CIs",
       "output": "bootstrap_cis_calibration.csv",
-      "n_rows": 108
+      "n_rows": 108,
+      "note": "All per-class Brier CIs tight (~5% relative width). NSL Normal/R2L Brier substantially higher than UNSW/CIC equivalents, consistent with calibration cliff finding."
     },
     "target_2_krishna": {
-      "description": "Mean rank correlation CIs per (dataset, pair, K)",
-      "output": "bootstrap_cis_krishna.csv",
-      "n_rows": 27
+      "description": "Sample-level rank correlation per (dataset, variant, pair) with bootstrap CIs from 1000 canonical samples per cell",
+      "outputs": [
+        "bootstrap_cis_krishna.csv",
+        "bootstrap_cis_krishna_per_pair.csv",
+        "bootstrap_cis_krishna_per_cell.csv"
+      ],
+      "per_dataset": [
+        {
+          "dataset": "cic_ids2017_v2",
+          "mean_RC": 0.19528484848484845,
+          "lo_95": 0.18690388888888887,
+          "hi_95": 0.20371489898989895,
+          "significantly_positive": true
+        },
+        {
+          "dataset": "nsl_kdd_v2",
+          "mean_RC": 0.15677171717171715,
+          "lo_95": 0.14661555555555553,
+          "hi_95": 0.1662463636363636,
+          "significantly_positive": true
+        },
+        {
+          "dataset": "unsw_nb15_v2",
+          "mean_RC": 0.3318444444444444,
+          "lo_95": 0.32363808080808076,
+          "hi_95": 0.34022095959595955,
+          "significantly_positive": true
+        }
+      ],
+      "per_pair": [
+        {
+          "dataset": "cic_ids2017_v2",
+          "pair": "rf-dnn",
+          "mean_RC": -0.01919393939393939,
+          "lo_95": -0.03313106060606061,
+          "hi_95": -0.004011363636363635,
+          "significantly_positive": false,
+          "significantly_negative": true
+        },
+        {
+          "dataset": "cic_ids2017_v2",
+          "pair": "rf-xgb",
+          "mean_RC": 0.31533939393939386,
+          "lo_95": 0.30295030303030296,
+          "hi_95": 0.3283993939393938,
+          "significantly_positive": true,
+          "significantly_negative": false
+        },
+        {
+          "dataset": "cic_ids2017_v2",
+          "pair": "xgb-dnn",
+          "mean_RC": 0.2897090909090908,
+          "lo_95": 0.27899333333333337,
+          "hi_95": 0.3004390909090908,
+          "significantly_positive": true,
+          "significantly_negative": false
+        },
+        {
+          "dataset": "nsl_kdd_v2",
+          "pair": "rf-dnn",
+          "mean_RC": 0.01309696969696969,
+          "lo_95": 0.002224090909090907,
+          "hi_95": 0.024054999999999993,
+          "significantly_positive": true,
+          "significantly_negative": false
+        },
+        {
+          "dataset": "nsl_kdd_v2",
+          "pair": "rf-xgb",
+          "mean_RC": 0.5877696969696969,
+          "lo_95": 0.5784090909090908,
+          "hi_95": 0.5967636363636364,
+          "significantly_positive": true,
+          "significantly_negative": false
+        },
+        {
+          "dataset": "nsl_kdd_v2",
+          "pair": "xgb-dnn",
+          "mean_RC": -0.13055151515151514,
+          "lo_95": -0.14299666666666663,
+          "hi_95": -0.11848257575757574,
+          "significantly_positive": false,
+          "significantly_negative": true
+        },
+        {
+          "dataset": "unsw_nb15_v2",
+          "pair": "rf-dnn",
+          "mean_RC": 0.17906666666666665,
+          "lo_95": 0.1657971212121212,
+          "hi_95": 0.19228893939393935,
+          "significantly_positive": true,
+          "significantly_negative": false
+        },
+        {
+          "dataset": "unsw_nb15_v2",
+          "pair": "rf-xgb",
+          "mean_RC": 0.5560666666666666,
+          "lo_95": 0.5434240909090908,
+          "hi_95": 0.5682425757575756,
+          "significantly_positive": true,
+          "significantly_negative": false
+        },
+        {
+          "dataset": "unsw_nb15_v2",
+          "pair": "xgb-dnn",
+          "mean_RC": 0.26039999999999996,
+          "lo_95": 0.2485084848484848,
+          "hi_95": 0.2725824242424242,
+          "significantly_positive": true,
+          "significantly_negative": false
+        }
+      ],
+      "key_findings": [
+        "Tree-pair (RF-XGB) RC strongly positive on all 3 datasets (0.32 to 0.59)",
+        "Tree-vs-DNN RC weak to negative; XGB-DNN on NSL is significantly NEGATIVE (-0.131, CI [-0.143, -0.118])",
+        "v9's reported 'RC ~ 0.50' applies specifically to RF-XGB pair; overall dataset-level RC is 0.16-0.33"
+      ]
     },
     "target_3_stability": {
-      "description": "Mean Jaccard per (dataset, model) + DNN advantage CI",
+      "description": "Mean Jaccard per (dataset, model) + DNN advantage paired bootstrap CI",
       "outputs": [
         "bootstrap_cis_stability.csv",
         "bootstrap_cis_stability_advantage.csv"
       ],
-      "dnn_advantage_point_count": 9,
-      "dnn_advantage_significant_count": 9,
-      "total_comparisons": 12
+      "dnn_significantly_better_count": 9,
+      "dnn_significantly_worse_count": 3,
+      "total_comparisons": 12,
+      "key_findings": [
+        "9/12 comparisons show significant DNN advantage",
+        "3/12 comparisons show significant DNN DISADVANTAGE (NSL CW vs both trees, NSL SMOTE vs XGB)",
+        "DNN advantage is dataset-dependent: strong on UNSW and CIC, mixed-to-negative on NSL"
+      ]
     },
     "target_4_scts_pearson": {
-      "description": "SCTS-vs-correctness Pearson per (dataset, model) with CI",
+      "description": "SCTS-vs-correctness Pearson per (dataset, model) with paired bootstrap CI",
       "output": "bootstrap_cis_scts_pearson.csv",
-      "n_rows": 18
+      "n_rows": 18,
+      "per_dataset_mean": {
+        "nsl_kdd_v2": {
+          "mean_pearson": 0.05526458443391947,
+          "lo_95": -0.031433327522657324,
+          "hi_95": 0.1446140847737317,
+          "n_models": 6
+        },
+        "unsw_nb15_v2": {
+          "mean_pearson": 0.4651275304747467,
+          "lo_95": 0.4384664463749388,
+          "hi_95": 0.49130540444055004,
+          "n_models": 6
+        },
+        "cic_ids2017_v2": {
+          "mean_pearson": 0.31844885317509114,
+          "lo_95": 0.2330979910658375,
+          "hi_95": 0.4080856446176784,
+          "n_models": 6
+        }
+      },
+      "key_findings": [
+        "NSL Pearson +0.055 [95% CI -0.031, +0.145] \u2014 NOT significantly different from zero",
+        "UNSW Pearson +0.465 [+0.438, +0.491] \u2014 significantly positive",
+        "CIC Pearson +0.318 [+0.233, +0.408] \u2014 significantly positive"
+      ]
     },
     "target_5_class_gap": {
-      "description": "Normal-vs-U2R SCTS gap with CI",
+      "description": "Normal-vs-U2R SCTS gap with stratified bootstrap CI",
       "output": "bootstrap_cis_scts_class_gap.csv",
-      "aggregate_gap": {
+      "aggregate_gap_sample_pooled": {
         "point": 12.03307920149637,
         "lo_95": 11.185297226966949,
         "hi_95": 13.030218202902569
-      }
+      },
+      "note": "Sample-pooled gap is 12.0 points; v11/v12 reported 15.6 which is the dataset-averaged (model-weighted) version. Both statistics are valid but answer different questions. Per-dataset gaps: NSL 6.30, UNSW 10.54, CIC 29.72 \u2014 all significantly positive."
     },
     "target_6_flag_pearson_gap": {
-      "description": "GREEN vs RED Pearson gap with CI",
+      "description": "GREEN vs RED Pearson gap with model-level bootstrap CI",
       "outputs": [
         "bootstrap_cis_flag_pearson.csv",
         "bootstrap_cis_flag_pearson_summary.csv"
@@ -53,18 +199,28 @@
         "lo_95": -0.015837444865154413,
         "hi_95": 0.2300378885366231,
         "significantly_positive": false
-      }
+      },
+      "finding": "NOT statistically significant \u2014 point estimate +0.108 in expected direction but CI [-0.016, +0.230] crosses zero. v12 claim of \"demonstrates separation\" needs rewording to descriptive only."
     },
     "target_7_r2l_red_rate": {
-      "description": "NSL R2L true-class RED-flag rate, Wilson CI",
+      "description": "NSL R2L true-class RED-flag rate, Wilson binomial CI",
       "output": "bootstrap_cis_r2l_flag_rate.csv",
       "red_rate": {
         "point": 0.9436619718309859,
-        "lo_95": 0.9296402172760557,
-        "hi_95": 0.9550245688382039,
+        "lo_95": 0.32363808080808076,
+        "hi_95": 0.34022095959595955,
         "n_total": 1278,
         "n_red": 1206
-      }
+      },
+      "finding": "94.4% [93.0%, 95.5%] \u2014 tight CI, lower bound well above any threshold of interest. Strongest empirical claim for the health flag."
     }
+  },
+  "overall_status": {
+    "strong_claims_confirmed": 4,
+    "claims_refined": 3,
+    "claims_failed": 1,
+    "claims_failed_list": [
+      "GREEN-vs-RED Pearson gap not significant"
+    ]
   }
 }
