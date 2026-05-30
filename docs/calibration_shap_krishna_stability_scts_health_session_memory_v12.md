@@ -113,7 +113,7 @@ Counter-intuitive on first read: pred=R2L is green but pred=Normal is red. The f
 
 ### UNSW pattern (mostly healthy)
 
-22/30 cells GREEN. Only U2R consistently RED (fallback). 3 AMBER from DNN models on DoS/Probe (slightly degraded calibration).
+21/30 cells GREEN. Only U2R consistently RED (fallback). 3 AMBER from DNN models on DoS/Probe (slightly degraded calibration).
 
 ### CIC pattern (mixed)
 
@@ -166,7 +166,7 @@ The R2L row was the headline failure in v11. n=1278 NSL R2L true-class samples a
 | Mean SCTS (all 1,278) | 77.2 |
 | Mean accuracy (all 1,278) | 0.067 |
 
-**The flag catches 94.4% of the catastrophic failure cases.**
+**The flag marks 94.4% of true R2L samples in the NSL test cohort as RED.**
 
 The 71 GREEN-flagged R2L samples are precisely the cases where the model **correctly** predicted R2L (per-row inspection: every GREEN-flagged group has accuracy = 1.000):
 
@@ -182,7 +182,7 @@ These green-flagged samples are the model's rare correct R2L predictions, with l
 - "Model predicted Normal on actual R2L" → RED via predicted-Normal route → don't trust the high SCTS
 - "Model correctly predicted R2L on actual R2L" → GREEN via predicted-R2L route → trust the score (even if low)
 
-This is precisely the desired behavior. The flag system catches the catastrophic case without false-positive-flagging the rare correct R2L predictions.
+This is precisely the desired behavior. The flag system marks the cohort where SCTS is empirically unreliable while leaving the rare correct R2L predictions GREEN-flagged.
 
 ## §24.7 — Honest caveats
 
@@ -200,7 +200,7 @@ The flag is assigned per (model, predicted_class), then joined per-sample by pre
 
 ### Coverage of the failure mode
 
-94.4% catch rate on NSL R2L is the best statistic. The remaining 5.6% are GREEN-flagged correct predictions (accuracy 1.000) where the flag intentionally lets the user trust the score. No false negatives in the failure direction; some samples we'd want to flag may be missed but these are exactly the cases where the model got the prediction right.
+94.4% of the true-R2L cohort is RED-flagged. Of the remaining 5.6%, 71 are GREEN-flagged correct predictions (accuracy 1.000) — the flag intentionally lets the user trust those scores. The flag is mildly over-conservative on the other side: of 1,206 RED-flagged R2L samples, 14 are actually correct predictions (in dnn_5class_smote where the entire predicted-R2L group flagged RED due to threshold/cliff signals even though the predictions happened to be right). This is a deliberate trade-off — false-positive RED flags warn the user about predictions that ARE right but came from a model-class combination where calibration is unreliable as a population, even if it happened to land correctly on these samples.
 
 ## §24.8 — What the flag changes for the paper
 
@@ -208,7 +208,7 @@ Before 07d, the paper claim was: "SCTS-v2 works on UNSW (Pearson +0.47), partial
 
 After 07d, the claim upgrades to:
 
-> "SCTS-v2 produces per-sample trust scores accompanied by a three-signal calibration health flag (green/amber/red). The flag correctly identifies 94.4% of the catastrophic failure cases on NSL R2L (where SCTS may exceed 75 despite the model being wrong 93% of the time). Sample-level Pearson(SCTS, correctness) within green-flagged samples is +0.29 versus +0.18 within red-flagged samples. The system honestly admits which 38.7% of its scores are operationally unreliable, making the trust score deployable with explicit uncertainty surfacing."
+> "SCTS-v2 produces per-sample trust scores accompanied by a three-signal calibration health flag (green/amber/red). The flag marks 94.4% of true R2L samples in the NSL test cohort as RED, where SCTS may exceed 75 despite the model being wrong 93% of the time on R2L overall. Sample-level Pearson(SCTS, correctness) within green-flagged samples is +0.29 versus +0.18 within red-flagged samples. The system honestly admits which 38.7% of its scores are operationally unreliable, making the trust score deployable with explicit uncertainty surfacing."
 
 The transformation is from **honest disclosure** to **operationally responsible deployment**. The R2L row in the per-class table can now carry a `[RED]` annotation directly. Reviewers see the system handles its own failure mode.
 
@@ -263,7 +263,7 @@ Updating v11 §23 paper outline with health flag integration:
 
 - §SCTS.2 Validation on UNSW
   - Pearson +0.47 (95% CI from Day 4 bootstrap)
-  - 22/30 cells GREEN-flagged → high operational reliability
+  - 21/30 cells GREEN-flagged → high operational reliability
   - Quartile validation monotonic
 
 - §SCTS.3 Validation on CIC
@@ -274,12 +274,12 @@ Updating v11 §23 paper outline with health flag integration:
 - §SCTS.4 NSL case study with health flag
   - Pearson +0.06 (raw, all samples)
   - 18/30 cells RED-flagged
-  - **The R2L row that fails empirically (SCTS=77.2, acc=6.7%) is 94.4% RED-flagged by our system** → user warning prevents misuse
+  - **The R2L row that fails empirically (SCTS=77.2, acc=6.7%) is 94.4% RED-flagged by our system** (1,206 of 1,278 true-R2L samples) → user warning prevents misuse
   - Demonstrates the value of the health flag: SCTS without the flag would be misleading on NSL; SCTS with the flag is operationally responsible
 
 - §SCTS.5 Per-flag validation
   - GREEN Pearson +0.29 vs RED Pearson +0.18 (gap +0.11)
-  - 94.4% catch rate on NSL R2L failure mode
+  - 94.4% of true R2L samples in the NSL test cohort RED-flagged
   - 38.7% of samples flagged RED — system admits which scores are unreliable
 
 - §SCTS.6 Discussion: trust scores inherit calibration quality
@@ -291,7 +291,7 @@ Updating v11 §23 paper outline with health flag integration:
 
 Add to v11 §Limitations:
 - "SCTS-v2 should be paired with the calibration health flag at deployment. Scores flagged RED carry a system warning and should not be used for automated decisions without human review."
-- "The health flag catches 94.4% of catastrophic failure cases on NSL R2L but is not a substitute for human judgment in safety-critical contexts."
+- "The health flag marks 94.4% of true R2L samples in the NSL test cohort as RED, but flag coverage does not substitute for human judgment in safety-critical contexts."
 - "RED-flagged samples retain weak SCTS-correctness correlation (Pearson +0.18); the flag indicates operational unreliability due to methodology concerns, not absence of information."
 
 ### §Future Work (revised)
@@ -325,7 +325,7 @@ v11 §21 listed 5 bootstrap CI targets. With 07d added, the list is:
 4. **SCTS Mondrian per-dataset Pearson** (+0.47 UNSW, +0.32 CIC, +0.06 NSL)
 5. **SCTS Normal-vs-U2R per-class gap** (15.6 points aggregate)
 6. **NEW: Per-flag Pearson gap** (GREEN +0.29 vs RED +0.18; CI on the +0.11 gap to confirm it's not noise)
-7. **NEW: NSL R2L catch rate** (94.4% with binomial CI)
+7. **NEW: NSL R2L RED-flag rate** (94.4% of true R2L samples flagged RED; binomial CI)
 
 Bootstrap protocol unchanged: B=1000 stratified resamples, 95% CIs at 2.5/97.5 percentiles. Estimated time: 3-4h.
 
