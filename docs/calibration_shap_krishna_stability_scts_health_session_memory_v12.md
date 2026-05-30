@@ -141,7 +141,7 @@ Computed within each flag group: for each (dataset, model), Pearson(SCTS, correc
 | AMBER | 3,423 | 6 | **+0.351** | +0.339 | +0.149 | +0.564 |
 | RED | 6,959 | 15 | **+0.184** | +0.205 | -0.040 | +0.396 |
 
-**GREEN-vs-RED Pearson gap: +0.108.**
+**GREEN-vs-RED Pearson gap: +0.108 [95% CI: -0.016, +0.230], NOT statistically significant at α=0.05** (model-level bootstrap; see v13 §29.7 for Day 4 CI methodology). Point estimate is in the expected direction; gap is not statistically distinguishable from zero over the 14-vs-15 valid-model comparison.
 
 Mean SCTS and accuracy per flag:
 
@@ -166,7 +166,7 @@ The R2L row was the headline failure in v11. n=1278 NSL R2L true-class samples a
 | Mean SCTS (all 1,278) | 77.2 |
 | Mean accuracy (all 1,278) | 0.067 |
 
-**The flag marks 94.4% of true R2L samples in the NSL test cohort as RED.**
+**The flag marks 94.4% of true R2L samples in the NSL test cohort as RED (n=1,278; 95% Wilson CI: 93.0%, 95.5%).**
 
 The 71 GREEN-flagged R2L samples are precisely the cases where the model **correctly** predicted R2L (per-row inspection: every GREEN-flagged group has accuracy = 1.000):
 
@@ -188,7 +188,7 @@ This is precisely the desired behavior. The flag system marks the cohort where S
 
 ### RED is not "uninformative"
 
-RED samples have mean Pearson +0.184 (15 valid models, range -0.04 to +0.40). Within RED samples, higher SCTS still weakly predicts correctness. The flag separation is GREEN +0.29 vs RED +0.18 — meaningful but not stark. **RED means "operationally untrustworthy due to methodology concerns," not "the score has no information at all."** A reviewer who reads the per-flag Pearson and expects RED to be near zero will see otherwise; the framing should be careful about this.
+RED samples have mean Pearson +0.184 [95% CI: +0.122, +0.242] (15 valid models, range -0.04 to +0.40). Within RED samples, higher SCTS still weakly predicts correctness — and the within-RED CI excludes zero. The GREEN-vs-RED gap (+0.108) is in the expected direction but **NOT statistically significant** at α=0.05 (95% CI for gap: -0.016, +0.230). **RED means "operationally untrustworthy due to methodology concerns," not "the score has no information at all."** A reviewer who reads the per-flag Pearson and expects RED to be near zero will see otherwise; the framing should be careful about this. (See v13 §29.7 for the Day 4 bootstrap.)
 
 ### Amber has highest Pearson — that's not a contradiction
 
@@ -208,7 +208,7 @@ Before 07d, the paper claim was: "SCTS-v2 works on UNSW (Pearson +0.47), partial
 
 After 07d, the claim upgrades to:
 
-> "SCTS-v2 produces per-sample trust scores accompanied by a three-signal calibration health flag (green/amber/red). The flag marks 94.4% of true R2L samples in the NSL test cohort as RED, where SCTS may exceed 75 despite the model being wrong 93% of the time on R2L overall. Sample-level Pearson(SCTS, correctness) within green-flagged samples is +0.29 versus +0.18 within red-flagged samples. The system honestly admits which 38.7% of its scores are operationally unreliable, making the trust score deployable with explicit uncertainty surfacing."
+> "SCTS-v2 produces per-sample trust scores accompanied by a three-signal calibration health flag (green/amber/red). The flag marks 94.4% of true R2L samples in the NSL test cohort as RED (n=1,278; 95% Wilson CI: 93.0%, 95.5%), where SCTS may exceed 75 despite the model being wrong 93% of the time on R2L overall. Within-flag mean per-model Pearson is +0.29 [95% CI: +0.17, +0.40] for green-flagged samples and +0.18 [+0.12, +0.24] for red-flagged samples; the +0.11 gap is in the expected direction but not statistically significant at α=0.05 over the 14-vs-15 valid-model bootstrap (95% CI for gap: -0.02 to +0.23). The flag's primary empirical validation is its RED-flag catch rate on the NSL R2L failure cohort. The system honestly admits which 38.7% of its scores are operationally unreliable, making the trust score deployable with explicit uncertainty surfacing."
 
 The transformation is from **honest disclosure** to **operationally responsible deployment**. The R2L row in the per-class table can now carry a `[RED]` annotation directly. Reviewers see the system handles its own failure mode.
 
@@ -278,8 +278,9 @@ Updating v11 §23 paper outline with health flag integration:
   - Demonstrates the value of the health flag: SCTS without the flag would be misleading on NSL; SCTS with the flag is operationally responsible
 
 - §SCTS.5 Per-flag validation
-  - GREEN Pearson +0.29 vs RED Pearson +0.18 (gap +0.11)
-  - 94.4% of true R2L samples in the NSL test cohort RED-flagged
+  - Within-flag mean Pearson all significantly positive: GREEN +0.29 [+0.17, +0.40], AMBER +0.35 [+0.22, +0.48], RED +0.18 [+0.12, +0.24]
+  - GREEN-vs-RED gap +0.11 in expected direction but NOT significant at α=0.05 (95% CI: -0.02 to +0.23) — gap is descriptive, not inferential
+  - Primary validation: 94.4% of true R2L samples in the NSL test cohort RED-flagged (95% Wilson CI: 93.0%, 95.5%)
   - 38.7% of samples flagged RED — system admits which scores are unreliable
 
 - §SCTS.6 Discussion: trust scores inherit calibration quality
@@ -292,7 +293,7 @@ Updating v11 §23 paper outline with health flag integration:
 Add to v11 §Limitations:
 - "SCTS-v2 should be paired with the calibration health flag at deployment. Scores flagged RED carry a system warning and should not be used for automated decisions without human review."
 - "The health flag marks 94.4% of true R2L samples in the NSL test cohort as RED, but flag coverage does not substitute for human judgment in safety-critical contexts."
-- "RED-flagged samples retain weak SCTS-correctness correlation (Pearson +0.18); the flag indicates operational unreliability due to methodology concerns, not absence of information."
+- "RED-flagged samples retain weak but non-zero SCTS-correctness correlation (within-RED Pearson +0.18, 95% CI [+0.12, +0.24]); the flag indicates operational unreliability due to methodology concerns, not absence of information. The GREEN-vs-RED Pearson gap is +0.11 in the expected direction but not statistically significant; the flag is validated by its catch rate, not by the Pearson differential."
 
 ### §Future Work (revised)
 
