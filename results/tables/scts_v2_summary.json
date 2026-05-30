@@ -1,0 +1,146 @@
+{
+  "timestamp": "2026-05-30T00:44:09.954288",
+  "method": "canonical_shared_samples_per_dataset",
+  "n_datasets": 3,
+  "n_models": 18,
+  "n_samples_per_model": 1000,
+  "primary_alpha": 0.05,
+  "sensitivity_alphas": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "overall_stats": {
+    "mean_scts": 66.56089051408568,
+    "median_scts": 74.27781295776367,
+    "min_scts": 0.36133965849876404,
+    "max_scts": 100.0,
+    "std_scts": 21.148380424209577
+  },
+  "mean_components": {
+    "c1_calibration": 0.8935438867459694,
+    "c2_stability": 0.4780308663567735,
+    "c3_conformal": 0.8042154038627115
+  },
+  "mean_scts_by_dataset_architecture": {
+    "cic_ids2017_v2|dnn": 68.24699671360851,
+    "cic_ids2017_v2|rf": 44.72023232874274,
+    "cic_ids2017_v2|xgb": 64.2588207912147,
+    "nsl_kdd_v2|dnn": 77.12689383888245,
+    "nsl_kdd_v2|rf": 79.55130216979981,
+    "nsl_kdd_v2|xgb": 81.28001439285278,
+    "unsw_nb15_v2|dnn": 62.11006261825562,
+    "unsw_nb15_v2|rf": 60.08238160896301,
+    "unsw_nb15_v2|xgb": 61.6713101644516
+  },
+  "mean_pearson_corr_scts_correctness": 0.2724765403020886,
+  "conformal_thresholds": {
+    "nsl_kdd_v2/rf_5class_cw": {
+      "threshold_alpha_0.05": 1.0,
+      "empirical_coverage_on_canonical": 1.0,
+      "n_conformal_calibration_samples": 21544
+    },
+    "nsl_kdd_v2/xgb_5class_cw": {
+      "threshold_alpha_0.05": 1.0,
+      "empirical_coverage_on_canonical": 1.0,
+      "n_conformal_calibration_samples": 21544
+    },
+    "nsl_kdd_v2/dnn_5class_cw": {
+      "threshold_alpha_0.05": 1.0,
+      "empirical_coverage_on_canonical": 1.0,
+      "n_conformal_calibration_samples": 21544
+    },
+    "nsl_kdd_v2/rf_5class_smote": {
+      "threshold_alpha_0.05": 1.0,
+      "empirical_coverage_on_canonical": 1.0,
+      "n_conformal_calibration_samples": 21544
+    },
+    "nsl_kdd_v2/xgb_5class_smote": {
+      "threshold_alpha_0.05": 1.0,
+      "empirical_coverage_on_canonical": 1.0,
+      "n_conformal_calibration_samples": 21544
+    },
+    "nsl_kdd_v2/dnn_5class_smote": {
+      "threshold_alpha_0.05": 1.0,
+      "empirical_coverage_on_canonical": 1.0,
+      "n_conformal_calibration_samples": 21544
+    },
+    "unsw_nb15_v2/rf_5class_cw": {
+      "threshold_alpha_0.05": 0.8898914956726482,
+      "empirical_coverage_on_canonical": 0.907,
+      "n_conformal_calibration_samples": 62461
+    },
+    "unsw_nb15_v2/xgb_5class_cw": {
+      "threshold_alpha_0.05": 0.8888731598854065,
+      "empirical_coverage_on_canonical": 0.93,
+      "n_conformal_calibration_samples": 62461
+    },
+    "unsw_nb15_v2/dnn_5class_cw": {
+      "threshold_alpha_0.05": 0.8887551426887512,
+      "empirical_coverage_on_canonical": 0.883,
+      "n_conformal_calibration_samples": 62461
+    },
+    "unsw_nb15_v2/rf_5class_smote": {
+      "threshold_alpha_0.05": 0.8852753291544543,
+      "empirical_coverage_on_canonical": 0.918,
+      "n_conformal_calibration_samples": 62461
+    },
+    "unsw_nb15_v2/xgb_5class_smote": {
+      "threshold_alpha_0.05": 0.8874526619911194,
+      "empirical_coverage_on_canonical": 0.917,
+      "n_conformal_calibration_samples": 62461
+    },
+    "unsw_nb15_v2/dnn_5class_smote": {
+      "threshold_alpha_0.05": 0.8808138370513916,
+      "empirical_coverage_on_canonical": 0.891,
+      "n_conformal_calibration_samples": 62461
+    },
+    "cic_ids2017_v2/rf_5class_cw": {
+      "threshold_alpha_0.05": 0.006021504765367003,
+      "empirical_coverage_on_canonical": 0.884,
+      "n_conformal_calibration_samples": 39007
+    },
+    "cic_ids2017_v2/xgb_5class_cw": {
+      "threshold_alpha_0.05": 0.001264035701751709,
+      "empirical_coverage_on_canonical": 0.869,
+      "n_conformal_calibration_samples": 39007
+    },
+    "cic_ids2017_v2/dnn_5class_cw": {
+      "threshold_alpha_0.05": 0.48829638957977295,
+      "empirical_coverage_on_canonical": 0.778,
+      "n_conformal_calibration_samples": 39007
+    },
+    "cic_ids2017_v2/rf_5class_smote": {
+      "threshold_alpha_0.05": 0.003867778123281762,
+      "empirical_coverage_on_canonical": 0.753,
+      "n_conformal_calibration_samples": 39007
+    },
+    "cic_ids2017_v2/xgb_5class_smote": {
+      "threshold_alpha_0.05": 0.001849353313446045,
+      "empirical_coverage_on_canonical": 0.879,
+      "n_conformal_calibration_samples": 39007
+    },
+    "cic_ids2017_v2/dnn_5class_smote": {
+      "threshold_alpha_0.05": 0.1858748197555542,
+      "empirical_coverage_on_canonical": 0.886,
+      "n_conformal_calibration_samples": 39007
+    }
+  },
+  "alpha_sensitivity_mean": {
+    "threshold": {
+      "0.05": 0.6671241948712747,
+      "0.1": 0.6064333831637827,
+      "0.2": 0.4709997701539399
+    },
+    "empirical_coverage": {
+      "0.05": 0.9163888888888889,
+      "0.1": 0.8502222222222222,
+      "0.2": 0.6649444444444444
+    },
+    "mean_scts": {
+      "0.05": 66.56089146931966,
+      "0.1": 62.21097946166992,
+      "0.2": 52.49001617564095
+    }
+  }
+}
