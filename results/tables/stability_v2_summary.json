@@ -1,0 +1,211 @@
+{
+  "timestamp": "2026-05-30T00:05:51.161723",
+  "method": "canonical_shared_samples_per_dataset",
+  "n_datasets": 3,
+  "n_models": 18,
+  "n_perturbations": 3,
+  "perturbation_params": {
+    "epsilon": 0.05,
+    "pgd_alpha": 0.005,
+    "pgd_steps": 10,
+    "attack_source_model": "dnn_5class_cw"
+  },
+  "mean_jaccard_by_arch_perturbation": {
+    "mean": {
+      "fgsm|dnn": 0.5741,
+      "fgsm|rf": 0.4824,
+      "fgsm|xgb": 0.556,
+      "gaussian|dnn": 0.602,
+      "gaussian|rf": 0.5145,
+      "gaussian|xgb": 0.5751,
+      "pgd|dnn": 0.5905,
+      "pgd|rf": 0.5076,
+      "pgd|xgb": 0.5657
+    },
+    "std": {
+      "fgsm|dnn": 0.0491,
+      "fgsm|rf": 0.1353,
+      "fgsm|xgb": 0.0886,
+      "gaussian|dnn": 0.0546,
+      "gaussian|rf": 0.1296,
+      "gaussian|xgb": 0.0837,
+      "pgd|dnn": 0.0501,
+      "pgd|rf": 0.1393,
+      "pgd|xgb": 0.0855
+    }
+  },
+  "prediction_dnn_stability_advantage": {
+    "supported_count": 11,
+    "total_count": 18,
+    "details": [
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_cw",
+        "perturbation": "gaussian",
+        "dnn_jaccard": 0.61,
+        "rf_jaccard": 0.711,
+        "xgb_jaccard": 0.703,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_cw",
+        "perturbation": "fgsm",
+        "dnn_jaccard": 0.594,
+        "rf_jaccard": 0.682,
+        "xgb_jaccard": 0.687,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_cw",
+        "perturbation": "pgd",
+        "dnn_jaccard": 0.603,
+        "rf_jaccard": 0.715,
+        "xgb_jaccard": 0.695,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_smote",
+        "perturbation": "gaussian",
+        "dnn_jaccard": 0.619,
+        "rf_jaccard": 0.59,
+        "xgb_jaccard": 0.641,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_smote",
+        "perturbation": "fgsm",
+        "dnn_jaccard": 0.606,
+        "rf_jaccard": 0.554,
+        "xgb_jaccard": 0.622,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "nsl_kdd_v2",
+        "variant": "5class_smote",
+        "perturbation": "pgd",
+        "dnn_jaccard": 0.612,
+        "rf_jaccard": 0.571,
+        "xgb_jaccard": 0.634,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "unsw_nb15_v2",
+        "variant": "5class_cw",
+        "perturbation": "gaussian",
+        "dnn_jaccard": 0.618,
+        "rf_jaccard": 0.512,
+        "xgb_jaccard": 0.513,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "unsw_nb15_v2",
+        "variant": "5class_cw",
+        "perturbation": "fgsm",
+        "dnn_jaccard": 0.567,
+        "rf_jaccard": 0.482,
+        "xgb_jaccard": 0.491,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "unsw_nb15_v2",
+        "variant": "5class_cw",
+        "perturbation": "pgd",
+        "dnn_jaccard": 0.598,
+        "rf_jaccard": 0.518,
+        "xgb_jaccard": 0.515,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "unsw_nb15_v2",
+        "variant": "5class_smote",
+        "perturbation": "gaussian",
+        "dnn_jaccard": 0.573,
+        "rf_jaccard": 0.524,
+        "xgb_jaccard": 0.492,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "unsw_nb15_v2",
+        "variant": "5class_smote",
+        "perturbation": "fgsm",
+        "dnn_jaccard": 0.551,
+        "rf_jaccard": 0.51,
+        "xgb_jaccard": 0.468,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "unsw_nb15_v2",
+        "variant": "5class_smote",
+        "perturbation": "pgd",
+        "dnn_jaccard": 0.569,
+        "rf_jaccard": 0.537,
+        "xgb_jaccard": 0.485,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "cic_ids2017_v2",
+        "variant": "5class_cw",
+        "perturbation": "gaussian",
+        "dnn_jaccard": 0.677,
+        "rf_jaccard": 0.355,
+        "xgb_jaccard": 0.587,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "cic_ids2017_v2",
+        "variant": "5class_cw",
+        "perturbation": "fgsm",
+        "dnn_jaccard": 0.633,
+        "rf_jaccard": 0.309,
+        "xgb_jaccard": 0.583,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "cic_ids2017_v2",
+        "variant": "5class_cw",
+        "perturbation": "pgd",
+        "dnn_jaccard": 0.655,
+        "rf_jaccard": 0.331,
+        "xgb_jaccard": 0.576,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "cic_ids2017_v2",
+        "variant": "5class_smote",
+        "perturbation": "gaussian",
+        "dnn_jaccard": 0.514,
+        "rf_jaccard": 0.395,
+        "xgb_jaccard": 0.515,
+        "supports_dnn_advantage": false
+      },
+      {
+        "dataset": "cic_ids2017_v2",
+        "variant": "5class_smote",
+        "perturbation": "fgsm",
+        "dnn_jaccard": 0.493,
+        "rf_jaccard": 0.358,
+        "xgb_jaccard": 0.485,
+        "supports_dnn_advantage": true
+      },
+      {
+        "dataset": "cic_ids2017_v2",
+        "variant": "5class_smote",
+        "perturbation": "pgd",
+        "dnn_jaccard": 0.506,
+        "rf_jaccard": 0.373,
+        "xgb_jaccard": 0.489,
+        "supports_dnn_advantage": true
+      }
+    ]
+  },
+  "overall_stats": {
+    "min_jaccard": 0.30858409134724923,
+    "max_jaccard": 0.7146866466866467,
+    "mean_jaccard": 0.5519838310633803,
+    "median_jaccard": 0.5676981890658361
+  }
+}
