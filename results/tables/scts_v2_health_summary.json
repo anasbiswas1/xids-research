@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-05-30T02:09:43.539679",
+  "method": "three_signal_health_flag_per_predicted_class",
+  "signal_thresholds": {
+    "threshold_green_range": [
+      0.05,
+      0.95
+    ],
+    "threshold_red_high": 0.999,
+    "threshold_red_low": 0.001,
+    "cliff_green_max": 0.05,
+    "cliff_red_min": 0.2,
+    "cliff_score_threshold": 0.95,
+    "support_green_min": 100,
+    "support_red_max": 30
+  },
+  "overall_flag_counts": {
+    "class_level": {
+      "red": 37,
+      "green": 37,
+      "amber": 16
+    },
+    "sample_level": {
+      "green": 7618,
+      "red": 6959,
+      "amber": 3423
+    }
+  },
+  "per_dataset_class_level_counts": {
+    "amber": {
+      "cic_ids2017_v2": 12,
+      "nsl_kdd_v2": 1,
+      "unsw_nb15_v2": 3
+    },
+    "green": {
+      "cic_ids2017_v2": 5,
+      "nsl_kdd_v2": 11,
+      "unsw_nb15_v2": 21
+    },
+    "red": {
+      "cic_ids2017_v2": 13,
+      "nsl_kdd_v2": 18,
+      "unsw_nb15_v2": 6
+    }
+  },
+  "summary_by_flag": {
+    "green": {
+      "n_samples": 7618,
+      "mean_scts": 64.8824415020185,
+      "mean_accuracy": 0.6571278550800735,
+      "n_models_with_data": 14,
+      "mean_pearson_per_model": 0.2917405181093046,
+      "median_pearson_per_model": 0.33287644044483355
+    },
+    "amber": {
+      "n_samples": 3423,
+      "mean_scts": 63.91925375259762,
+      "mean_accuracy": 0.9585159217061058,
+      "n_models_with_data": 8,
+      "mean_pearson_per_model": NaN,
+      "median_pearson_per_model": NaN
+    },
+    "red": {
+      "n_samples": 6959,
+      "mean_scts": 72.82312919708448,
+      "mean_accuracy": 0.6881735881592183,
+      "n_models_with_data": 17,
+      "mean_pearson_per_model": NaN,
+      "median_pearson_per_model": NaN
+    }
+  }
+}
