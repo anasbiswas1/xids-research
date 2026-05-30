@@ -48,25 +48,31 @@
       "n_samples": 7618,
       "mean_scts": 64.8824415020185,
       "mean_accuracy": 0.6571278550800735,
-      "n_models_with_data": 14,
+      "n_models_valid_pearson": 14,
       "mean_pearson_per_model": 0.2917405181093046,
-      "median_pearson_per_model": 0.33287644044483355
+      "median_pearson_per_model": 0.33287644044483355,
+      "min_pearson_per_model": -0.07241116049320002,
+      "max_pearson_per_model": 0.5236897017441752
     },
     "amber": {
       "n_samples": 3423,
       "mean_scts": 63.91925375259762,
       "mean_accuracy": 0.9585159217061058,
-      "n_models_with_data": 8,
-      "mean_pearson_per_model": NaN,
-      "median_pearson_per_model": NaN
+      "n_models_valid_pearson": 6,
+      "mean_pearson_per_model": 0.3505791875245284,
+      "median_pearson_per_model": 0.338779190797296,
+      "min_pearson_per_model": 0.14878473728830918,
+      "max_pearson_per_model": 0.5635134916155288
     },
     "red": {
       "n_samples": 6959,
       "mean_scts": 72.82312919708448,
       "mean_accuracy": 0.6881735881592183,
-      "n_models_with_data": 17,
-      "mean_pearson_per_model": NaN,
-      "median_pearson_per_model": NaN
+      "n_models_valid_pearson": 15,
+      "mean_pearson_per_model": 0.1839585552459145,
+      "median_pearson_per_model": 0.2046359780839962,
+      "min_pearson_per_model": -0.03996635982576356,
+      "max_pearson_per_model": 0.39587296834506047
     }
   }
 }
