@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-05-30T02:56:51.470364",
+  "protocol": {
+    "B": 1000,
+    "alpha": 0.05,
+    "ci_level": "95%",
+    "seed": 42,
+    "method": "percentile_bootstrap (Wilson for binomial)"
+  },
+  "targets": {
+    "target_1_calibration": {
+      "description": "Brier per-class and ECE per-model with CIs",
+      "output": "bootstrap_cis_calibration.csv",
+      "n_rows": 108
+    },
+    "target_2_krishna": {
+      "description": "Mean rank correlation CIs per (dataset, pair, K)",
+      "output": "bootstrap_cis_krishna.csv",
+      "n_rows": 27
+    },
+    "target_3_stability": {
+      "description": "Mean Jaccard per (dataset, model) + DNN advantage CI",
+      "outputs": [
+        "bootstrap_cis_stability.csv",
+        "bootstrap_cis_stability_advantage.csv"
+      ],
+      "dnn_advantage_point_count": 9,
+      "dnn_advantage_significant_count": 9,
+      "total_comparisons": 12
+    },
+    "target_4_scts_pearson": {
+      "description": "SCTS-vs-correctness Pearson per (dataset, model) with CI",
+      "output": "bootstrap_cis_scts_pearson.csv",
+      "n_rows": 18
+    },
+    "target_5_class_gap": {
+      "description": "Normal-vs-U2R SCTS gap with CI",
+      "output": "bootstrap_cis_scts_class_gap.csv",
+      "aggregate_gap": {
+        "point": 12.03307920149637,
+        "lo_95": 11.185297226966949,
+        "hi_95": 13.030218202902569
+      }
+    },
+    "target_6_flag_pearson_gap": {
+      "description": "GREEN vs RED Pearson gap with CI",
+      "outputs": [
+        "bootstrap_cis_flag_pearson.csv",
+        "bootstrap_cis_flag_pearson_summary.csv"
+      ],
+      "green_minus_red": {
+        "point": 0.10778196286339012,
+        "lo_95": -0.015837444865154413,
+        "hi_95": 0.2300378885366231,
+        "significantly_positive": false
+      }
+    },
+    "target_7_r2l_red_rate": {
+      "description": "NSL R2L true-class RED-flag rate, Wilson CI",
+      "output": "bootstrap_cis_r2l_flag_rate.csv",
+      "red_rate": {
+        "point": 0.9436619718309859,
+        "lo_95": 0.9296402172760557,
+        "hi_95": 0.9550245688382039,
+        "n_total": 1278,
+        "n_red": 1206
+      }
+    }
+  }
+}
