@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-06-09T03:40:16.616049",
+  "protocol": "phase_a_strict_holdout_mondrian",
+  "method": "three_signal_health_flag_per_predicted_class",
+  "signal_thresholds": {
+    "threshold_green_range": [
+      0.05,
+      0.95
+    ],
+    "threshold_red_high": 0.999,
+    "threshold_red_low": 0.001,
+    "cliff_green_max": 0.05,
+    "cliff_red_min": 0.2,
+    "cliff_score_threshold": 0.95,
+    "support_green_min": 100,
+    "support_red_max": 30
+  },
+  "overall_flag_counts": {
+    "class_level": {
+      "red": 37,
+      "amber": 29,
+      "green": 24
+    },
+    "sample_level": {
+      "green": 6663,
+      "red": 6365,
+      "amber": 4972
+    }
+  },
+  "per_dataset_class_level_counts": {
+    "amber": {
+      "cic_ids2017_v2": 14,
+      "nsl_kdd_v2": 8,
+      "unsw_nb15_v2": 7
+    },
+    "green": {
+      "cic_ids2017_v2": 6,
+      "nsl_kdd_v2": 1,
+      "unsw_nb15_v2": 17
+    },
+    "red": {
+      "cic_ids2017_v2": 10,
+      "nsl_kdd_v2": 21,
+      "unsw_nb15_v2": 6
+    }
+  },
+  "summary_by_flag": {
+    "green": {
+      "n_samples": 6663,
+      "mean_scts": 63.263500649417715,
+      "mean_accuracy": 0.6235929761368753,
+      "n_models_valid_pearson": 9,
+      "mean_pearson_per_model": 0.4317198631970461,
+      "median_pearson_per_model": 0.504201646751037,
+      "min_pearson_per_model": 0.18667020189280023,
+      "max_pearson_per_model": 0.5309154590951355
+    },
+    "amber": {
+      "n_samples": 4972,
+      "mean_scts": 63.19647184410526,
+      "mean_accuracy": 0.9044650040225262,
+      "n_models_valid_pearson": 16,
+      "mean_pearson_per_model": 0.15071928904152854,
+      "median_pearson_per_model": 0.19149707327146592,
+      "min_pearson_per_model": -0.8136112220389148,
+      "max_pearson_per_model": 0.5438503023329555
+    },
+    "red": {
+      "n_samples": 6365,
+      "mean_scts": 17.465324486512586,
+      "mean_accuracy": 0.6994501178318931,
+      "n_models_valid_pearson": 11,
+      "mean_pearson_per_model": 0.19834088318638485,
+      "median_pearson_per_model": 0.22848557080385193,
+      "min_pearson_per_model": 0.007940530375922973,
+      "max_pearson_per_model": 0.3962708009359906
+    }
+  }
+}

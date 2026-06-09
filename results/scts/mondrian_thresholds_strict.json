@@ -1,0 +1,401 @@
+{
+  "protocol": "phase_a_strict_holdout_mondrian",
+  "timestamp": "2026-06-09T03:40:21.550523",
+  "thresholds_per_cell": {
+    "nsl_kdd_v2/rf_5class_cw": {
+      "marginal_threshold_alpha_0.05": 1.0646886856258142e-05,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 1.0646886856258142e-05,
+        "1": 1.0646886856258142e-05,
+        "2": 1.0646886856258142e-05,
+        "3": 0.6515731034498284,
+        "4": 1.0646886856258142e-05
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2691,
+        "1": 1838,
+        "2": 467,
+        "3": 41,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.529,
+      "n_mondrian_holdout_samples": 5037
+    },
+    "nsl_kdd_v2/xgb_5class_cw": {
+      "marginal_threshold_alpha_0.05": 2.0265579223632812e-06,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 2.086162567138672e-06,
+        "1": 2.0265579223632812e-06,
+        "2": 2.0265579223632812e-06,
+        "3": 0.4321458041667938,
+        "4": 2.0265579223632812e-06
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2695,
+        "1": 1836,
+        "2": 466,
+        "3": 40,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.555,
+      "n_mondrian_holdout_samples": 5037
+    },
+    "nsl_kdd_v2/dnn_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.02159399911761284,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.031620092689991,
+        "1": 9.012222290039062e-05,
+        "2": 0.18288248777389526,
+        "3": 0.8595784306526184,
+        "4": 0.02159399911761284
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2691,
+        "1": 1841,
+        "2": 461,
+        "3": 43,
+        "4": 1
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.555,
+      "n_mondrian_holdout_samples": 5037
+    },
+    "nsl_kdd_v2/rf_5class_smote": {
+      "marginal_threshold_alpha_0.05": 9.586237386227658e-06,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 1.0123870551986838e-05,
+        "1": 9.556758022055689e-06,
+        "2": 9.556758022055689e-06,
+        "3": 0.5838168046881556,
+        "4": 9.586237386227658e-06
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2689,
+        "1": 1838,
+        "2": 466,
+        "3": 44,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.52,
+      "n_mondrian_holdout_samples": 5037
+    },
+    "nsl_kdd_v2/xgb_5class_smote": {
+      "marginal_threshold_alpha_0.05": 2.6226043701171875e-06,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 2.6226043701171875e-06,
+        "1": 2.6226043701171875e-06,
+        "2": 2.6226043701171875e-06,
+        "3": 0.025644950568675995,
+        "4": 2.6226043701171875e-06
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2696,
+        "1": 1836,
+        "2": 466,
+        "3": 39,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.593,
+      "n_mondrian_holdout_samples": 5037
+    },
+    "nsl_kdd_v2/dnn_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.0044321417808532715,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.00010460615158081055,
+        "1": 0.00010406970977783203,
+        "2": 0.008349001407623291,
+        "3": 0.9333398342132568,
+        "4": 0.0044321417808532715
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2696,
+        "1": 1839,
+        "2": 464,
+        "3": 37,
+        "4": 1
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.529,
+      "n_mondrian_holdout_samples": 5037
+    },
+    "unsw_nb15_v2/rf_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.804796172841667,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.508852118727751,
+        "1": 0.804796172841667,
+        "2": 0.5803534129233457,
+        "3": 0.89307657822119,
+        "4": 0.9780305604999536
+      },
+      "fallback_classes": [
+        1
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2178,
+        "1": 16,
+        "2": 339,
+        "3": 2830,
+        "4": 52
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.898,
+      "n_mondrian_holdout_samples": 5415
+    },
+    "unsw_nb15_v2/xgb_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.7937555909156799,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.49233824014663696,
+        "1": 0.8407449722290039,
+        "2": 0.7467396855354309,
+        "3": 0.8903102278709412,
+        "4": 0.9951592683792114
+      },
+      "fallback_classes": [],
+      "n_calib_per_predicted_class": {
+        "0": 2138,
+        "1": 39,
+        "2": 359,
+        "3": 2811,
+        "4": 68
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.913,
+      "n_mondrian_holdout_samples": 5415
+    },
+    "unsw_nb15_v2/dnn_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.8166871070861816,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.0,
+        "1": 0.8166871070861816,
+        "2": 0.8506355881690979,
+        "3": 0.8910475969314575,
+        "4": 0.9770077466964722
+      },
+      "fallback_classes": [
+        1
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 1811,
+        "1": 16,
+        "2": 423,
+        "3": 3103,
+        "4": 62
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.88,
+      "n_mondrian_holdout_samples": 5415
+    },
+    "unsw_nb15_v2/rf_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.821473904734338,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.4898282879714695,
+        "1": 0.821473904734338,
+        "2": 0.6556167977121395,
+        "3": 0.893963805851238,
+        "4": 0.9806986207336031
+      },
+      "fallback_classes": [
+        1
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2131,
+        "1": 18,
+        "2": 332,
+        "3": 2880,
+        "4": 54
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.92,
+      "n_mondrian_holdout_samples": 5415
+    },
+    "unsw_nb15_v2/xgb_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.8033283948898315,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.5203753709793091,
+        "1": 0.8033283948898315,
+        "2": 0.735349714756012,
+        "3": 0.8894880414009094,
+        "4": 0.9834945797920227
+      },
+      "fallback_classes": [
+        1
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 2174,
+        "1": 26,
+        "2": 343,
+        "3": 2808,
+        "4": 64
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.894,
+      "n_mondrian_holdout_samples": 5415
+    },
+    "unsw_nb15_v2/dnn_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.8247913122177124,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.5049170851707458,
+        "1": 0.8247913122177124,
+        "2": 0.8196023106575012,
+        "3": 0.8927103281021118,
+        "4": 0.9813778400421143
+      },
+      "fallback_classes": [
+        1
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 1993,
+        "1": 25,
+        "2": 379,
+        "3": 2953,
+        "4": 65
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.908,
+      "n_mondrian_holdout_samples": 5415
+    },
+    "cic_ids2017_v2/rf_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.006403103777999242,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.0011074155635416583,
+        "1": 0.01727519033700231,
+        "2": 0.012733246247872648,
+        "3": 0.4708609292325353,
+        "4": 0.006403103777999242
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 6425,
+        "1": 1077,
+        "2": 455,
+        "3": 43,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.965,
+      "n_mondrian_holdout_samples": 8000
+    },
+    "cic_ids2017_v2/xgb_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.00156480073928833,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.0006804466247558594,
+        "1": 0.009773492813110352,
+        "2": 0.02907489612698555,
+        "3": 0.02895846590399742,
+        "4": 0.00156480073928833
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 6427,
+        "1": 1074,
+        "2": 454,
+        "3": 45,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.975,
+      "n_mondrian_holdout_samples": 8000
+    },
+    "cic_ids2017_v2/dnn_5class_cw": {
+      "marginal_threshold_alpha_0.05": 0.5230257511138916,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.4771433174610138,
+        "1": 0.49221915006637573,
+        "2": 0.8286464214324951,
+        "3": 0.5230257511138916,
+        "4": 0.5230257511138916
+      },
+      "fallback_classes": [
+        3,
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 6627,
+        "1": 839,
+        "2": 522,
+        "3": 12,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.788,
+      "n_mondrian_holdout_samples": 8000
+    },
+    "cic_ids2017_v2/rf_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.004071871096882118,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.0009135153850574618,
+        "1": 0.02337204130973774,
+        "2": 0.004255890575112997,
+        "3": 0.9209928037459517,
+        "4": 0.004071871096882118
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 6425,
+        "1": 1076,
+        "2": 454,
+        "3": 45,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.961,
+      "n_mondrian_holdout_samples": 8000
+    },
+    "cic_ids2017_v2/xgb_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.0013252496719360352,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.0004558563232421875,
+        "1": 0.014304757118225098,
+        "2": 0.05542445182800293,
+        "3": 0.23879463970661163,
+        "4": 0.0013252496719360352
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 6421,
+        "1": 1079,
+        "2": 454,
+        "3": 46,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.973,
+      "n_mondrian_holdout_samples": 8000
+    },
+    "cic_ids2017_v2/dnn_5class_smote": {
+      "marginal_threshold_alpha_0.05": 0.1871861219406128,
+      "mondrian_thresholds_alpha_0.05": {
+        "0": 0.013442754745483398,
+        "1": 0.48006415367126465,
+        "2": 0.7811199426651001,
+        "3": 0.8608280420303345,
+        "4": 0.1871861219406128
+      },
+      "fallback_classes": [
+        4
+      ],
+      "n_calib_per_predicted_class": {
+        "0": 6412,
+        "1": 1091,
+        "2": 452,
+        "3": 45,
+        "4": 0
+      },
+      "empirical_coverage_on_canonical_mondrian": 0.943,
+      "n_mondrian_holdout_samples": 8000
+    }
+  }
+}
