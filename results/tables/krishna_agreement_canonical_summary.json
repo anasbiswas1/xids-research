@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-05-29T19:08:26.848221",
+  "timestamp": "2026-06-09T13:22:11.673755",
   "method": "canonical_shared_samples_per_dataset",
-  "n_datasets": 3,
+  "n_datasets": 1,
   "n_variants": 2,
   "n_pairs": 3,
   "n_k_values": 3,
   "n_classes": 5,
-  "total_aggregate_rows": 54,
-  "total_perclass_rows": 270,
-  "total_sample_records": 18000,
+  "total_aggregate_rows": 18,
+  "total_perclass_rows": 90,
+  "total_sample_records": 6000,
   "k10_aggregate_stats": {
     "FA": {
-      "mean": 0.4710777777777779,
-      "min": 0.28580000000000033,
-      "max": 0.7428000000000013,
-      "median": 0.45429999999999904
+      "mean": 0.5267999999999996,
+      "min": 0.38650000000000007,
+      "max": 0.7577999999999978,
+      "median": 0.4543499999999994
     },
     "RA": {
-      "mean": 0.08086111111111106,
-      "min": 0.031500000000000125,
-      "max": 0.16229999999999906,
-      "median": 0.06720000000000032
+      "mean": 0.08965000000000001,
+      "min": 0.04670000000000028,
+      "max": 0.16059999999999947,
+      "median": 0.06385000000000035
     },
     "SA": {
-      "mean": 0.9958333333333331,
-      "min": 0.949,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "median": 1.0
     },
     "SRA": {
-      "mean": 0.08086111111111106,
-      "min": 0.031500000000000125,
-      "max": 0.16229999999999906,
-      "median": 0.06720000000000032
+      "mean": 0.08965000000000001,
+      "min": 0.04670000000000028,
+      "max": 0.16059999999999947,
+      "median": 0.06385000000000035
     },
     "RC": {
-      "mean": 0.2279670033670034,
-      "min": -0.19328484848484828,
-      "max": 0.606751515151515,
-      "median": 0.25713333333333344
+      "mean": 0.15022020202020192,
+      "min": -0.18590303030303054,
+      "max": 0.5749575757575761,
+      "median": 0.011309090909090928
     },
     "PRA": {
-      "mean": 0.586953086419753,
-      "min": 0.43264444444444417,
-      "max": 0.7322888888888891,
-      "median": 0.5952111111111105
+      "mean": 0.5617296296296288,
+      "min": 0.43546666666666545,
+      "max": 0.7249111111111088,
+      "median": 0.508477777777778
     }
   },
   "prediction_1_tree_vs_tree_higher": {
-    "supported_count": 5,
-    "total_count": 6,
+    "supported_count": 2,
+    "total_count": 2,
     "details": [
       {
         "dataset": "nsl_kdd_v2",
         "variant": "5class_cw",
-        "rf-xgb RC": 0.569,
-        "rf-dnn RC": 0.015,
-        "xgb-dnn RC": -0.193,
+        "rf-xgb RC": 0.575,
+        "rf-dnn RC": -0.011,
+        "xgb-dnn RC": -0.186,
         "supports_pred1": 
