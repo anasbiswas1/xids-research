@@ -1,0 +1,40 @@
+notebook,cell_idx,line_idx,pattern,line
+03_nsl_calibration_v2.ipynb,3,14,SEED_assignment,SEED = 42
+03_nsl_calibration_v2.ipynb,3,15,np_random_seed,np.random.seed(SEED)
+03_nsl_calibration_v2.ipynb,3,15,python_random_seed,np.random.seed(SEED)
+03_unsw_calibration.ipynb,7,9,sklearn_random_state,"random_state=42,"
+03_unsw_calibration.ipynb,7,9,sklearn_random_state_var,"random_state=42,"
+03_cic_calibration.ipynb,2,8,SEED_assignment,SEED = 42
+03_cic_calibration.ipynb,2,9,np_random_seed,np.random.seed(SEED)
+03_cic_calibration.ipynb,2,9,python_random_seed,np.random.seed(SEED)
+03_cic_calibration.ipynb,4,4,sklearn_random_state_var,"all_idx, test_size=0.50, stratify=y_test_5, random_state=SEED"
+03d_calibration_bootstrap_cis.ipynb,3,10,SEED_assignment,SEED = 42
+04_shap_analysis.ipynb,4,23,SEED_assignment,SEED = 42
+04_shap_analysis.ipynb,4,24,torch_manual_seed,torch.manual_seed(SEED)
+04_shap_analysis.ipynb,4,25,np_random_seed,np.random.seed(SEED)
+04_shap_analysis.ipynb,4,25,python_random_seed,np.random.seed(SEED)
+04b_calibration_shap_validation.ipynb,3,20,SEED_assignment,SEED = 42
+04b_calibration_shap_validation.ipynb,3,21,np_random_seed,np.random.seed(SEED)
+04b_calibration_shap_validation.ipynb,3,21,python_random_seed,np.random.seed(SEED)
+04b_calibration_shap_validation.ipynb,3,22,torch_manual_seed,torch.manual_seed(SEED)
+04c_shap_canonical.ipynb,3,17,SEED_assignment,SEED = 42  # Canonical seed for all dataset sample selections
+05c_stability_canonical.ipynb,3,19,SEED_assignment,SEED = 42
+05c_stability_canonical.ipynb,3,20,np_random_seed,np.random.seed(SEED)
+05c_stability_canonical.ipynb,3,20,python_random_seed,np.random.seed(SEED)
+05c_stability_canonical.ipynb,3,21,torch_manual_seed,torch.manual_seed(SEED)
+05c_stability_canonical.ipynb,7,2,np_random_RandomState,rng = np.random.RandomState(seed)
+05c_stability_canonical.ipynb,7,22,torch_manual_seed,torch.manual_seed(seed)
+06_krishna_agreement_v3.ipynb,3,10,SEED_assignment,SEED = 42
+06_krishna_agreement_v3.ipynb,3,11,np_random_seed,np.random.seed(SEED)
+06_krishna_agreement_v3.ipynb,3,11,python_random_seed,np.random.seed(SEED)
+07c_scts_canonical_mondrian_v2.ipynb,3,9,SEED_assignment,SEED = 42
+07c_scts_canonical_mondrian_v2.ipynb,3,10,np_random_seed,np.random.seed(SEED)
+07c_scts_canonical_mondrian_v2.ipynb,3,10,python_random_seed,np.random.seed(SEED)
+07e_phase_a_strict_protocol.ipynb,2,13,SEED_assignment,SEED = 42
+07e_phase_a_strict_protocol.ipynb,2,14,np_random_seed,np.random.seed(SEED)
+07e_phase_a_strict_protocol.ipynb,2,14,python_random_seed,np.random.seed(SEED)
+07e_phase_a_strict_protocol.ipynb,4,7,np_random_RandomState,rng = np.random.RandomState(SEED)
+07e_phase_a_strict_protocol.ipynb,15,5,np_random_RandomState,rng_boot = np.random.RandomState(BOOTSTRAP_SEED)
+07f_phase_a_diagnostic.ipynb,2,9,SEED_assignment,SEED = 42
+07f_phase_a_diagnostic.ipynb,2,10,np_random_seed,np.random.seed(SEED)
+07f_phase_a_diagnostic.ipynb,2,10,python_random_seed,np.random.seed(SEED)

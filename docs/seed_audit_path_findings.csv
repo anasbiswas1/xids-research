@@ -1,0 +1,61 @@
+notebook,cell_idx,line_idx,pattern,path_matched,line,is_write
+03_nsl_calibration_v2.ipynb,17,3,results_csv_path,results/tables/nslkdd_v2_calibration_summary.csv,!git add results/tables/nslkdd_v2_calibration_summary.csv,False
+03_nsl_calibration_v2.ipynb,17,4,results_csv_path,results/tables/nslkdd_v2_calibration_perclass.csv,!git add results/tables/nslkdd_v2_calibration_perclass.csv,False
+03_unsw_calibration.ipynb,13,17,results_csv_path,results/tables/unsw_calibration_metrics.csv,summary_path = REPO / 'results/tables/unsw_calibration_metrics.csv',False
+03_unsw_calibration.ipynb,17,3,results_csv_path,results/tables/unsw_calibration_metrics.csv,results/tables/unsw_calibration_metrics.csv,False
+03d_calibration_bootstrap_cis.ipynb,15,2,results_csv_path,results/tables/calibration_bootstrap_cis.csv,!git add results/tables/calibration_bootstrap_cis.csv,False
+03d_calibration_bootstrap_cis.ipynb,16,4,results_csv_path,results/tables/calibration_bootstrap_cis.csv,df = pd.read_csv('results/tables/calibration_bootstrap_cis.csv'),False
+03d_calibration_bootstrap_cis.ipynb,17,42,results_csv_path,results/tables/calibration_brier_recomputed.csv,"df_recompute.to_csv('results/tables/calibration_brier_recomputed.csv', index=False)",True
+03d_calibration_bootstrap_cis.ipynb,18,13,results_csv_path,results/tables/calibration_brier_recomputed.csv,'results/tables/calibration_brier_recomputed.csv']:,False
+03d_calibration_bootstrap_cis.ipynb,18,17,results_csv_path,results/tables/calibration_brier_recomputed.csv,!git add docs/ results/tables/calibration_brier_recomputed.csv,False
+04b_calibration_shap_validation.ipynb,19,2,results_csv_path,results/tables/shap_raw_vs_calibrated.csv,!git add results/tables/shap_raw_vs_calibrated.csv,False
+04b_calibration_shap_validation.ipynb,19,3,results_json_path,results/tables/shap_validation_summary.json,!git add results/tables/shap_validation_summary.json,False
+04c_shap_canonical.ipynb,17,3,shap_output_path,shap_values/nsl_kdd_v2/canonical_eval_idx.npy,!git add -f shap_values/nsl_kdd_v2/canonical_eval_idx.npy,False
+04c_shap_canonical.ipynb,17,4,shap_output_path,shap_values/nsl_kdd_v2/canonical_bg_idx.npy,!git add -f shap_values/nsl_kdd_v2/canonical_bg_idx.npy,False
+04c_shap_canonical.ipynb,17,5,shap_output_path,shap_values/unsw_nb15_v2/canonical_eval_idx.npy,!git add -f shap_values/unsw_nb15_v2/canonical_eval_idx.npy,False
+04c_shap_canonical.ipynb,17,6,shap_output_path,shap_values/unsw_nb15_v2/canonical_bg_idx.npy,!git add -f shap_values/unsw_nb15_v2/canonical_bg_idx.npy,False
+04c_shap_canonical.ipynb,17,7,shap_output_path,shap_values/cic_ids2017_v2/canonical_eval_idx.npy,!git add -f shap_values/cic_ids2017_v2/canonical_eval_idx.npy,False
+04c_shap_canonical.ipynb,17,8,shap_output_path,shap_values/cic_ids2017_v2/canonical_bg_idx.npy,!git add -f shap_values/cic_ids2017_v2/canonical_bg_idx.npy,False
+05c_stability_canonical.ipynb,20,2,results_csv_path,results/tables/stability_v2.csv,!git add results/tables/stability_v2.csv,False
+05c_stability_canonical.ipynb,20,3,results_csv_path,results/tables/stability_v2_per_sample_jaccard.csv,!git add results/tables/stability_v2_per_sample_jaccard.csv,False
+05c_stability_canonical.ipynb,20,4,results_json_path,results/tables/stability_v2_summary.json,!git add results/tables/stability_v2_summary.json,False
+06_krishna_agreement_v3.ipynb,22,2,results_csv_path,results/tables/krishna_agreement_canonical.csv,!git add results/tables/krishna_agreement_canonical.csv,False
+06_krishna_agreement_v3.ipynb,22,3,results_csv_path,results/tables/sample_disagreement_canonical.csv,!git add results/tables/sample_disagreement_canonical.csv,False
+06_krishna_agreement_v3.ipynb,22,4,results_json_path,results/tables/krishna_agreement_canonical_summary.json,!git add results/tables/krishna_agreement_canonical_summary.json,False
+07c_scts_canonical_mondrian_v2.ipynb,17,2,results_csv_path,results/tables/scts_v2_canonical.csv,!git add results/tables/scts_v2_canonical.csv,False
+07c_scts_canonical_mondrian_v2.ipynb,17,3,results_csv_path,results/tables/scts_v2_per_class_summary.csv,!git add results/tables/scts_v2_per_class_summary.csv,False
+07c_scts_canonical_mondrian_v2.ipynb,17,4,results_csv_path,results/tables/scts_v2_alpha_sensitivity.csv,!git add results/tables/scts_v2_alpha_sensitivity.csv,False
+07c_scts_canonical_mondrian_v2.ipynb,17,5,results_csv_path,results/tables/scts_v2_validation.csv,!git add results/tables/scts_v2_validation.csv,False
+07c_scts_canonical_mondrian_v2.ipynb,17,6,results_json_path,results/tables/scts_v2_summary.json,!git add results/tables/scts_v2_summary.json,False
+07d_scts_calib_health.ipynb,19,2,results_csv_path,results/tables/scts_v2_calib_health.csv,!git add results/tables/scts_v2_calib_health.csv,False
+07d_scts_calib_health.ipynb,19,3,results_csv_path,results/tables/scts_v2_canonical_with_health.csv,!git add results/tables/scts_v2_canonical_with_health.csv,False
+07d_scts_calib_health.ipynb,19,4,results_json_path,results/tables/scts_v2_health_summary.json,!git add results/tables/scts_v2_health_summary.json,False
+07d_scts_calib_health.ipynb,21,3,results_csv_path,results/tables/scts_v2_calib_health.csv,!git add results/tables/scts_v2_calib_health.csv,False
+07d_scts_calib_health.ipynb,21,4,results_csv_path,results/tables/scts_v2_canonical_with_health.csv,!git add results/tables/scts_v2_canonical_with_health.csv,False
+07d_scts_calib_health.ipynb,21,5,results_json_path,results/tables/scts_v2_health_summary.json,!git add results/tables/scts_v2_health_summary.json,False
+07d_scts_calib_health.ipynb,22,9,results_csv_path,results/tables/scts_v2_calib_health.csv,"result = subprocess.run(['git', '-C', REPO, 'ls-files', 'results/tables/scts_v2_calib_health.csv',",False
+07d_scts_calib_health.ipynb,22,10,results_csv_path,results/tables/scts_v2_canonical_with_health.csv,"'results/tables/scts_v2_canonical_with_health.csv'],",False
+07d_scts_calib_health.ipynb,22,16,results_csv_path,results/tables/scts_v2_calib_health.csv,"result = subprocess.run(['git', '-C', REPO, 'log', '--oneline', '--', 'results/tables/scts_v2_calib_health.csv'],",False
+07d_scts_calib_health.ipynb,22,21,results_csv_path,results/tables/scts_v2_canonical_with_health.csv,"result = subprocess.run(['git', '-C', REPO, 'log', '--oneline', '--', 'results/tables/scts_v2_canonical_with_health.csv'],",False
+07e_phase_a_strict_protocol.ipynb,19,12,results_csv_path,results/tables/scts_v2_canonical_strict.csv,!git add results/tables/scts_v2_canonical_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,13,results_csv_path,results/tables/scts_v2_canonical_with_health_strict.csv,!git add results/tables/scts_v2_canonical_with_health_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,14,results_csv_path,results/tables/scts_v2_per_class_summary_strict.csv,!git add results/tables/scts_v2_per_class_summary_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,15,results_csv_path,results/tables/scts_v2_alpha_sensitivity_strict.csv,!git add results/tables/scts_v2_alpha_sensitivity_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,16,results_csv_path,results/tables/scts_v2_validation_strict.csv,!git add results/tables/scts_v2_validation_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,17,results_json_path,results/tables/scts_v2_summary_strict.json,!git add results/tables/scts_v2_summary_strict.json,False
+07e_phase_a_strict_protocol.ipynb,19,18,results_csv_path,results/tables/scts_v2_calib_health_strict.csv,!git add results/tables/scts_v2_calib_health_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,19,results_json_path,results/tables/scts_v2_health_summary_strict.json,!git add results/tables/scts_v2_health_summary_strict.json,False
+07e_phase_a_strict_protocol.ipynb,19,20,results_csv_path,results/tables/bootstrap_cis_strict.csv,!git add results/tables/bootstrap_cis_strict.csv,False
+07e_phase_a_strict_protocol.ipynb,19,21,results_csv_path,results/tables/phase_a_v2_vs_strict_diff.csv,!git add results/tables/phase_a_v2_vs_strict_diff.csv,False
+07f_phase_a_diagnostic.ipynb,13,62,results_csv_path,results/tables/scts_v2_canonical_strict.csv,"- `results/tables/scts_v2_canonical_strict.csv` — strict per-sample SCTS (07e, with NaN in 1 cell)",False
+07f_phase_a_diagnostic.ipynb,13,63,results_csv_path,results/tables/scts_v2_canonical_strict_safe.csv,"- `results/tables/scts_v2_canonical_strict_safe.csv` — strict per-sample SCTS (07f, safe c3, no NaN)",False
+07f_phase_a_diagnostic.ipynb,13,64,results_csv_path,results/tables/scts_v2_canonical_with_health_strict_safe.csv,- `results/tables/scts_v2_canonical_with_health_strict_safe.csv` — augmented with health flag,False
+07f_phase_a_diagnostic.ipynb,13,65,results_csv_path,results/tables/scts_v2_calib_health_strict_safe.csv,- `results/tables/scts_v2_calib_health_strict_safe.csv` — safe-protocol health table,False
+07f_phase_a_diagnostic.ipynb,13,66,results_csv_path,results/tables/phase_a_calibration_drift_diagnostic.csv,- `results/tables/phase_a_calibration_drift_diagnostic.csv` — Brier/ECE/accuracy per partition,False
+07f_phase_a_diagnostic.ipynb,13,67,results_csv_path,results/tables/phase_a_nsl_per_class_drift.csv,- `results/tables/phase_a_nsl_per_class_drift.csv` — NSL drift drill-down,False
+07f_phase_a_diagnostic.ipynb,13,68,results_csv_path,results/tables/phase_a_v2_vs_strict_diff.csv,- `results/tables/phase_a_v2_vs_strict_diff.csv` — cell-by-cell v2-vs-strict comparison,False
+07f_phase_a_diagnostic.ipynb,14,6,results_csv_path,results/tables/scts_v2_canonical_strict_safe.csv,!git add results/tables/scts_v2_canonical_strict_safe.csv,False
+07f_phase_a_diagnostic.ipynb,14,7,results_csv_path,results/tables/scts_v2_canonical_with_health_strict_safe.csv,!git add results/tables/scts_v2_canonical_with_health_strict_safe.csv,False
+07f_phase_a_diagnostic.ipynb,14,8,results_csv_path,results/tables/scts_v2_calib_health_strict_safe.csv,!git add results/tables/scts_v2_calib_health_strict_safe.csv,False
+07f_phase_a_diagnostic.ipynb,14,9,results_csv_path,results/tables/phase_a_calibration_drift_diagnostic.csv,!git add results/tables/phase_a_calibration_drift_diagnostic.csv,False
+07f_phase_a_diagnostic.ipynb,14,10,results_csv_path,results/tables/phase_a_nsl_per_class_drift.csv,!git add results/tables/phase_a_nsl_per_class_drift.csv,False
