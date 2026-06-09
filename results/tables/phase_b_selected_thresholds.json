@@ -1,0 +1,16 @@
+{
+  "T_GREEN_LO": 0.001,
+  "T_GREEN_HI": 0.95,
+  "T_RED_LO": 0.001,
+  "T_RED_HI": 0.999,
+  "CLIFF_GREEN_HI": 0.01,
+  "CLIFF_RED_LO": 0.2,
+  "CLIFF_THRESH": 0.95,
+  "N_GREEN_LO": 500,
+  "N_RED_HI": 30,
+  "selected_by": "pooled per-sample F1 on threshold-calibration partition (50% of Mondrian holdout)",
+  "grid_size": 150,
+  "pooled_f1_on_tcal": 0.02433621215526375,
+  "tcal_sample_count": 55356,
+  "selected_at": "2026-06-09T04:19:59.871758"
+}
