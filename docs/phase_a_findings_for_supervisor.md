@@ -14,11 +14,11 @@ The models were not retrained. Macro-F1 numbers are unchanged.
 
 | Metric | v2 protocol | Strict protocol |
 |---|---|---|
-| Mean SCTS overall | 67.77 | 47.48 |
-| Mean c3 (conformal component) | 0.823 | 0.571 |
-| Mean SCTS-correctness Pearson | +0.280 | +0.314 |
-| NSL R2L RED-flag catch rate | 94.4% | 78.8% |
-| Class-level flag distribution | G37/A16/R37 | G24/A29/R37 |
+| Mean SCTS overall | 78.69 | 13.07 |
+| Mean c3 (conformal component) | 0.945 | 0.125 |
+| Mean SCTS-correctness Pearson | +0.086 | +0.067 |
+| NSL R2L RED-flag catch rate | 95.1% | 79.4% |
+| Class-level flag distribution | G10/A2/R18 | G1/A8/R21 |
 
 ## What changed and why
 
