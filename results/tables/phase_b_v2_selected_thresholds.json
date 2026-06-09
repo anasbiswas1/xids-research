@@ -1,0 +1,8 @@
+{
+  "status": "fallback_unconstrained",
+  "note": "No combo satisfied constraints. Reporting unconstrained optimum for transparency.",
+  "T_GREEN_LO": 0.2,
+  "CLIFF_GREEN_HI": 0.05,
+  "N_GREEN_LO": 30,
+  "selected_gap_on_tcal": -0.1760452584488117
+}
