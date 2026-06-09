@@ -33,3 +33,8 @@ Grid size: 150 combinations. Selection criterion: pooled per-sample F1 against m
 - `results/tables/scts_v2_canonical_with_health_phaseb.csv`
 - `results/tables/phase_b_v2_vs_strict_vs_phaseb.csv`
 - `results/tables/bootstrap_cis_phaseb.csv`
+
+
+## Update (Phase B v2 attempt)
+
+A second attempt with a different objective (notebook 08b) also produced no valid selection. See `docs/phase_b_v2_findings.md` for the consolidated negative-result writeup. Both 08a and 08b serve as a sensitivity audit confirming v2 thresholds are retained as boundary defaults.
