@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-13T21:04:32.698487",
+  "notebook": "16b_cctl_shrinkage.ipynb",
+  "calibrators": [
+    "raw",
+    "temperature",
+    "perclass_isotonic_renorm",
+    "toplabel_isotonic",
+    "cctl",
+    "cctl_shrunk",
+    "dirichlet"
+  ],
+  "kappa_grid": [
+    0,
+    25,
+    50,
+    100,
+    200,
+    400,
+    800,
+    1600
+  ],
+  "tie_break_with_raw": true,
+  "decision_preserving": {
+    "raw": true,
+    "temperature": true,
+    "perclass_isotonic_renorm": false,
+    "toplabel_isotonic": true,
+    "cctl": true,
+    "cctl_shrunk": true,
+    "dirichlet": false
+  },
+  "fit_surface": "strict 80% slice of the calibration partition (07e split)",
+  "gate_surface": "20% holdout of the calibration partition",
+  "n_bootstrap": 1000,
+  "risk_targets": [
+    0.02,
+    0.05,
+    0.1
+  ]
+}
