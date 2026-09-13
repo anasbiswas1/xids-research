@@ -1,0 +1,16 @@
+{
+  "dataset": "5G-NIDD",
+  "model": "LightGBM (class-balanced)",
+  "macro_f1": 0.924,
+  "high_conf_n": 172611,
+  "confident_wrong_n": 251,
+  "detector_dist_auroc": 0.637,
+  "confidence_auroc": 0.988,
+  "mean_dist_conf_correct": 0.004,
+  "mean_dist_conf_wrong": 0.058,
+  "dominant_confusions": {
+    "SlowrateDoS<->HTTPFlood": 224,
+    "scan_type_confusions": 27
+  },
+  "conclusion": "negative control: confident-wrong cases arise from class similarity not geometric displacement; detector correctly does not fire; confidence handles them. Confirms detector scope = displacement-type confident errors."
+}

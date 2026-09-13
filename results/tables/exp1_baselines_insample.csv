@@ -1,0 +1,15 @@
+dataset,model,baseline,aurc,auroc,risk_at_10,risk_at_20,risk_at_50,full_risk,n,n_correct
+nsl_kdd_v2,rf_5class_cw,trust_score,0.1784,0.8747,0.06,0.09,0.084,0.433,1000,567
+nsl_kdd_v2,rf_5class_cw,max_softmax,0.1601,0.892,0.03,0.03,0.076,0.433,1000,567
+nsl_kdd_v2,xgb_5class_cw,trust_score,0.1677,0.7851,0.06,0.09,0.084,0.362,1000,638
+nsl_kdd_v2,xgb_5class_cw,max_softmax,0.1284,0.8488,0.0,0.0,0.078,0.362,1000,638
+nsl_kdd_v2,dnn_5class_cw,trust_score,0.1592,0.7884,0.06,0.09,0.084,0.347,1000,653
+nsl_kdd_v2,dnn_5class_cw,max_softmax,0.1514,0.8021,0.03,0.02,0.172,0.347,1000,653
+nsl_kdd_v2,dnn_5class_cw,mc_dropout,0.1433,0.8189,0.03,0.035,0.116,0.347,1000,653
+nsl_kdd_v2,rf_5class_smote,trust_score,0.176,0.8415,0.06,0.09,0.084,0.41,1000,590
+nsl_kdd_v2,rf_5class_smote,max_softmax,0.1485,0.8771,0.03,0.02,0.068,0.41,1000,590
+nsl_kdd_v2,xgb_5class_smote,trust_score,0.166,0.7767,0.06,0.09,0.084,0.354,1000,646
+nsl_kdd_v2,xgb_5class_smote,max_softmax,0.134,0.8252,0.0,0.0,0.09,0.354,1000,646
+nsl_kdd_v2,dnn_5class_smote,trust_score,0.1647,0.7793,0.06,0.09,0.084,0.353,1000,647
+nsl_kdd_v2,dnn_5class_smote,max_softmax,0.3118,0.6284,0.43,0.395,0.25,0.353,1000,647
+nsl_kdd_v2,dnn_5class_smote,mc_dropout,0.2538,0.6987,0.29,0.235,0.206,0.353,1000,647

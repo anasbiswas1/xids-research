@@ -1,0 +1,4 @@
+dataset,worst_cell,failure_type,pooled_cell_acc,auroc_trustscore,auroc_maxsoftmax,auroc_mcdropout,health_flag_catch,flag_note
+nsl_kdd_v2,R2L,confident-wrong,0.06,0.036,0.186,0.319,0.95,consistent across 6 models
+unsw_nb15_v2,class1,uncertain-wrong,0.04,0.192,0.704,0.948,0.025,consistent ~2.5% across 6 models
+cic_ids2017_v2,class3,healthy/few-failures,0.84,0.904,0.651,0.861,n/a,"model-dependent, not a clean catch cell"

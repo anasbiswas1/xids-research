@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T13:54:01.109998",
+  "timestamp": "2026-06-10T11:51:45.518082",
   "protocol": "phase_a_strict_holdout_mondrian",
   "method": "three_signal_health_flag_per_predicted_class",
   "signal_thresholds": {
@@ -17,57 +17,60 @@
   },
   "overall_flag_counts": {
     "class_level": {
-      "red": 21,
-      "amber": 8,
-      "green": 1
+      "green": 23,
+      "amber": 21,
+      "red": 16
     },
     "sample_level": {
-      "red": 5033,
-      "amber": 811,
-      "green": 156
+      "green": 6507,
+      "amber": 4159,
+      "red": 1334
     }
   },
   "per_dataset_class_level_counts": {
     "amber": {
-      "nsl_kdd_v2": 8
+      "cic_ids2017_v2": 14,
+      "unsw_nb15_v2": 7
     },
     "green": {
-      "nsl_kdd_v2": 1
+      "cic_ids2017_v2": 6,
+      "unsw_nb15_v2": 17
     },
     "red": {
-      "nsl_kdd_v2": 21
+      "cic_ids2017_v2": 10,
+      "unsw_nb15_v2": 6
     }
   },
   "summary_by_flag": {
     "green": {
-      "n_samples": 156,
-      "mean_scts": 67.99371681648951,
-      "mean_accuracy": 0.9230769230769231,
-      "n_models_valid_pearson": 1,
-      "mean_pearson_per_model": 0.22084896956188155,
-      "median_pearson_per_model": 0.22084896956188155,
-      "min_pearson_per_model": 0.22084896956188155,
-      "max_pearson_per_model": 0.22084896956188155
+      "n_samples": 6507,
+      "mean_scts": 63.14233580761577,
+      "mean_accuracy": 0.6164130935915169,
+      "n_models_valid_pearson": 8,
+      "mean_pearson_per_model": 0.45784633812593645,
+      "median_pearson_per_model": 0.5058435675576749,
+      "min_pearson_per_model": 0.18667020189280023,
+      "max_pearson_per_model": 0.5309154590951355
     },
     "amber": {
-      "n_samples": 811,
-      "mean_scts": 60.87204430723602,
-      "mean_accuracy": 0.5524044389642416,
-      "n_models_valid_pearson": 6,
-      "mean_pearson_per_model": 0.19868886078773706,
-      "median_pearson_per_model": 0.24882134520513816,
-      "min_pearson_per_model": -0.33611261156451044,
-      "max_pearson_per_model": 0.5135021596005541
+      "n_samples": 4159,
+      "mean_scts": 63.72654973615761,
+      "mean_accuracy": 0.9716277951430632,
+      "n_models_valid_pearson": 10,
+      "mean_pearson_per_model": 0.2493516672021093,
+      "median_pearson_per_model": 0.20234932953501897,
+      "min_pearson_per_model": 0.14941041945185066,
+      "max_pearson_per_model": 0.5438503023329555
     },
     "red": {
-      "n_samples": 5033,
-      "mean_scts": 3.6617135184791296,
-      "mean_accuracy": 0.6320286111663024,
-      "n_models_valid_pearson": 6,
-      "mean_pearson_per_model": 0.040675850528749474,
-      "median_pearson_per_model": 0.056941058385933885,
-      "min_pearson_per_model": -0.07138408098795164,
-      "max_pearson_per_model": 0.10016693647104281
+      "n_samples": 1334,
+      "mean_scts": 68.19211561466405,
+      "mean_accuracy": 0.9692653673163418,
+      "n_models_valid_pearson": 5,
+      "mean_pearson_per_model": 0.3360292616489592,
+      "median_pearson_per_model": 0.3659504550504927,
+      "min_pearson_per_model": 0.22848557080385193,
+      "max_pearson_per_model": 0.3962708009359906
     }
   }
 }

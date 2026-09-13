@@ -1,0 +1,4 @@
+dataset,c3_insample,c3_strict,delta_c3,scts_insample,scts_strict,has_known_drift
+nsl_kdd_v2,0.945,0.125,-0.82,78.69,13.07,True
+unsw_nb15_v2,0.712,0.705,-0.007,60.64,60.39,False
+cic_ids2017_v2,0.814,0.876,0.062,64.26,67.27,False
