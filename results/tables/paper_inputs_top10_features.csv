@@ -1,0 +1,241 @@
+dataset,variant,source,rank,feature_index,feature,mean_abs_shap,share_of_total
+nsl_kdd_v2,5class_cw,xgb (logit),1,1,src_bytes,5.96768045425415,0.1391838639974594
+nsl_kdd_v2,5class_cw,xgb (logit),2,29,dst_host_srv_count,3.893686056137085,0.09081220626831055
+nsl_kdd_v2,5class_cw,xgb (logit),3,19,count,3.5009765625,0.08165306597948074
+nsl_kdd_v2,5class_cw,xgb (logit),4,2,dst_bytes,3.145150899887085,0.07335416972637177
+nsl_kdd_v2,5class_cw,xgb (logit),5,32,dst_host_same_src_port_rate,2.040344476699829,0.0475868321955204
+nsl_kdd_v2,5class_cw,xgb (logit),6,31,dst_host_diff_srv_rate,2.0050466060638428,0.0467635840177536
+nsl_kdd_v2,5class_cw,xgb (logit),7,36,dst_host_rerror_rate,1.4373998641967773,0.03352439031004906
+nsl_kdd_v2,5class_cw,xgb (logit),8,34,dst_host_serror_rate,1.4275729656219482,0.033295199275016785
+nsl_kdd_v2,5class_cw,xgb (logit),9,28,dst_host_count,1.4094384908676147,0.03287225216627121
+nsl_kdd_v2,5class_cw,xgb (logit),10,0,duration,1.3576840162277222,0.03166518360376358
+nsl_kdd_v2,5class_cw,rf (prob),1,1,src_bytes,0.2096253770562882,0.09595480907305426
+nsl_kdd_v2,5class_cw,rf (prob),2,29,dst_host_srv_count,0.13558117942862216,0.06206150404432962
+nsl_kdd_v2,5class_cw,rf (prob),3,2,dst_bytes,0.11294361524680796,0.051699289414362734
+nsl_kdd_v2,5class_cw,rf (prob),4,32,dst_host_same_src_port_rate,0.10221896225966116,0.04679014127491727
+nsl_kdd_v2,5class_cw,rf (prob),5,8,logged_in,0.0987426589163037,0.04519888344022144
+nsl_kdd_v2,5class_cw,rf (prob),6,31,dst_host_diff_srv_rate,0.09309698484497926,0.04261460864863852
+nsl_kdd_v2,5class_cw,rf (prob),7,19,count,0.07268426638892385,0.03327080433630633
+nsl_kdd_v2,5class_cw,rf (prob),8,30,dst_host_same_srv_rate,0.07207093991606264,0.03299005767562391
+nsl_kdd_v2,5class_cw,rf (prob),9,28,dst_host_count,0.07140029880872319,0.0326830755710955
+nsl_kdd_v2,5class_cw,rf (prob),10,20,srv_count,0.07032798922359011,0.03219223203414615
+nsl_kdd_v2,5class_cw,dnn (softmax),1,32,dst_host_same_src_port_rate,0.17650514377629525,0.05844862318057531
+nsl_kdd_v2,5class_cw,dnn (softmax),2,6,hot,0.1648402157945607,0.054585852014557214
+nsl_kdd_v2,5class_cw,dnn (softmax),3,29,dst_host_srv_count,0.14724139958769827,0.048758109236687816
+nsl_kdd_v2,5class_cw,dnn (softmax),4,10,root_shell,0.13259558507437538,0.04390823531603455
+nsl_kdd_v2,5class_cw,dnn (softmax),5,18,is_guest_login,0.12715613557210234,0.042106994131408955
+nsl_kdd_v2,5class_cw,dnn (softmax),6,28,dst_host_count,0.11492512207059428,0.03805676712968356
+nsl_kdd_v2,5class_cw,dnn (softmax),7,26,diff_srv_rate,0.11402620743471925,0.037759096921894296
+nsl_kdd_v2,5class_cw,dnn (softmax),8,36,dst_host_rerror_rate,0.10960608144467575,0.03629539862463585
+nsl_kdd_v2,5class_cw,dnn (softmax),9,65,service_http,0.1015397615786087,0.03362428502296494
+nsl_kdd_v2,5class_cw,dnn (softmax),10,8,logged_in,0.10110919429920068,0.03348170524240115
+nsl_kdd_v2,5class_cw,dnn (logit),1,6,hot,2.399653911590576,0.050453562289476395
+nsl_kdd_v2,5class_cw,dnn (logit),2,18,is_guest_login,2.373257637023926,0.04989857226610184
+nsl_kdd_v2,5class_cw,dnn (logit),3,10,root_shell,2.110870122909546,0.04438178241252899
+nsl_kdd_v2,5class_cw,dnn (logit),4,32,dst_host_same_src_port_rate,1.9418936967849731,0.040828995406627655
+nsl_kdd_v2,5class_cw,dnn (logit),5,30,dst_host_same_srv_rate,1.9002708196640015,0.03995385766029358
+nsl_kdd_v2,5class_cw,dnn (logit),6,36,dst_host_rerror_rate,1.8646091222763062,0.03920406103134155
+nsl_kdd_v2,5class_cw,dnn (logit),7,31,dst_host_diff_srv_rate,1.7541248798370361,0.036881089210510254
+nsl_kdd_v2,5class_cw,dnn (logit),8,65,service_http,1.6745893955230713,0.03520882874727249
+nsl_kdd_v2,5class_cw,dnn (logit),9,8,logged_in,1.6721735000610352,0.03515803441405296
+nsl_kdd_v2,5class_cw,dnn (logit),10,26,diff_srv_rate,1.6653512716293335,0.03501459211111069
+nsl_kdd_v2,5class_smote,xgb (logit),1,1,src_bytes,5.918128490447998,0.12958405911922455
+nsl_kdd_v2,5class_smote,xgb (logit),2,19,count,4.017290115356445,0.08796307444572449
+nsl_kdd_v2,5class_smote,xgb (logit),3,29,dst_host_srv_count,3.549471378326416,0.07771965861320496
+nsl_kdd_v2,5class_smote,xgb (logit),4,32,dst_host_same_src_port_rate,3.3043429851531982,0.07235229760408401
+nsl_kdd_v2,5class_smote,xgb (logit),5,2,dst_bytes,3.086956024169922,0.06759236752986908
+nsl_kdd_v2,5class_smote,xgb (logit),6,31,dst_host_diff_srv_rate,2.4074764251708984,0.05271439626812935
+nsl_kdd_v2,5class_smote,xgb (logit),7,34,dst_host_serror_rate,1.6212204694747925,0.03549844026565552
+nsl_kdd_v2,5class_smote,xgb (logit),8,8,logged_in,1.559719204902649,0.034151799976825714
+nsl_kdd_v2,5class_smote,xgb (logit),9,36,dst_host_rerror_rate,1.4073883295059204,0.030816346406936646
+nsl_kdd_v2,5class_smote,xgb (logit),10,61,service_ftp_data,1.2060987949371338,0.026408886536955833
+nsl_kdd_v2,5class_smote,rf (prob),1,1,src_bytes,0.1916594099850086,0.08539761068436885
+nsl_kdd_v2,5class_smote,rf (prob),2,29,dst_host_srv_count,0.14009617367749422,0.06242259902092037
+nsl_kdd_v2,5class_smote,rf (prob),3,8,logged_in,0.1270575916942305,0.056613002987153625
+nsl_kdd_v2,5class_smote,rf (prob),4,32,dst_host_same_src_port_rate,0.11728399361999885,0.05225818459658247
+nsl_kdd_v2,5class_smote,rf (prob),5,2,dst_bytes,0.10962988118277557,0.04884774461818795
+nsl_kdd_v2,5class_smote,rf (prob),6,31,dst_host_diff_srv_rate,0.08855401990571471,0.039456981094930794
+nsl_kdd_v2,5class_smote,rf (prob),7,20,srv_count,0.07748607992462904,0.03452544327136844
+nsl_kdd_v2,5class_smote,rf (prob),8,34,dst_host_serror_rate,0.07195611910861711,0.03206146072596386
+nsl_kdd_v2,5class_smote,rf (prob),9,19,count,0.06903292758808112,0.030758975387800147
+nsl_kdd_v2,5class_smote,rf (prob),10,30,dst_host_same_srv_rate,0.0685203737008952,0.03053059694650114
+nsl_kdd_v2,5class_smote,dnn (softmax),1,6,hot,0.5557201311233569,0.13219267880492824
+nsl_kdd_v2,5class_smote,dnn (softmax),2,32,dst_host_same_src_port_rate,0.24574780599438012,0.05845759216813357
+nsl_kdd_v2,5class_smote,dnn (softmax),3,29,dst_host_srv_count,0.23855592571355266,0.05674681390633998
+nsl_kdd_v2,5class_smote,dnn (softmax),4,60,service_ftp,0.23069226698261425,0.054876235435934055
+nsl_kdd_v2,5class_smote,dnn (softmax),5,18,is_guest_login,0.23036422105852858,0.054798201067468286
+nsl_kdd_v2,5class_smote,dnn (softmax),6,28,dst_host_count,0.19310707632948523,0.045935607307549434
+nsl_kdd_v2,5class_smote,dnn (softmax),7,30,dst_host_same_srv_rate,0.17672451384721086,0.042038583070109596
+nsl_kdd_v2,5class_smote,dnn (softmax),8,31,dst_host_diff_srv_rate,0.1416168728682394,0.03368730542582048
+nsl_kdd_v2,5class_smote,dnn (softmax),9,23,rerror_rate,0.12870663193561951,0.03061626437958344
+nsl_kdd_v2,5class_smote,dnn (softmax),10,26,diff_srv_rate,0.124573968329277,0.029633201427342132
+nsl_kdd_v2,5class_smote,dnn (logit),1,6,hot,7.81844425201416,0.08099588006734848
+nsl_kdd_v2,5class_smote,dnn (logit),2,29,dst_host_srv_count,5.6577253341674805,0.05861171707510948
+nsl_kdd_v2,5class_smote,dnn (logit),3,28,dst_host_count,4.86356258392334,0.0503845140337944
+nsl_kdd_v2,5class_smote,dnn (logit),4,30,dst_host_same_srv_rate,4.569606781005859,0.04733925312757492
+nsl_kdd_v2,5class_smote,dnn (logit),5,32,dst_host_same_src_port_rate,4.2289862632751465,0.043810565024614334
+nsl_kdd_v2,5class_smote,dnn (logit),6,31,dst_host_diff_srv_rate,3.5159924030303955,0.036424241960048676
+nsl_kdd_v2,5class_smote,dnn (logit),7,60,service_ftp,3.291529655456543,0.034098897129297256
+nsl_kdd_v2,5class_smote,dnn (logit),8,18,is_guest_login,3.2096071243286133,0.03325021266937256
+nsl_kdd_v2,5class_smote,dnn (logit),9,34,dst_host_serror_rate,3.135373115539551,0.032481178641319275
+nsl_kdd_v2,5class_smote,dnn (logit),10,36,dst_host_rerror_rate,3.097642660140991,0.032090310007333755
+unsw_nb15_v2,5class_cw,xgb (logit),1,6,sttl,2.7058475017547607,0.10363224893808365
+unsw_nb15_v2,5class_cw,xgb (logit),2,3,sbytes,2.402737855911255,0.0920233353972435
+unsw_nb15_v2,5class_cw,xgb (logit),3,23,smean,2.320736885070801,0.08888275176286697
+unsw_nb15_v2,5class_cw,xgb (logit),4,158,proto_udp,1.7775005102157593,0.06807714700698853
+unsw_nb15_v2,5class_cw,xgb (logit),5,32,ct_dst_src_ltm,1.7588210105895996,0.0673617348074913
+unsw_nb15_v2,5class_cw,xgb (logit),6,30,ct_src_dport_ltm,1.2225615978240967,0.04682333394885063
+unsw_nb15_v2,5class_cw,xgb (logit),7,10,sloss,1.0511767864227295,0.040259405970573425
+unsw_nb15_v2,5class_cw,xgb (logit),8,37,ct_srv_dst,0.9924321174621582,0.03800952062010765
+unsw_nb15_v2,5class_cw,xgb (logit),9,4,dbytes,0.844732403755188,0.032352715730667114
+unsw_nb15_v2,5class_cw,xgb (logit),10,24,dmean,0.7130680084228516,0.027310052886605263
+unsw_nb15_v2,5class_cw,rf (prob),1,3,sbytes,0.1061324715841631,0.0616933053825527
+unsw_nb15_v2,5class_cw,rf (prob),2,32,ct_dst_src_ltm,0.10036471793301892,0.0583405917214071
+unsw_nb15_v2,5class_cw,rf (prob),3,23,smean,0.09243336870228887,0.05373021053567282
+unsw_nb15_v2,5class_cw,rf (prob),4,6,sttl,0.08460009854260178,0.04917684132743397
+unsw_nb15_v2,5class_cw,rf (prob),5,158,proto_udp,0.07955974571518827,0.04624695548216892
+unsw_nb15_v2,5class_cw,rf (prob),6,37,ct_srv_dst,0.07837365592098935,0.04555749825204481
+unsw_nb15_v2,5class_cw,rf (prob),7,28,ct_state_ttl,0.06048590144597665,0.035159599447248176
+unsw_nb15_v2,5class_cw,rf (prob),8,4,dbytes,0.058869783308429284,0.034220172820262226
+unsw_nb15_v2,5class_cw,rf (prob),9,24,dmean,0.057186962508903066,0.03324197287881496
+unsw_nb15_v2,5class_cw,rf (prob),10,10,sloss,0.050698057565649844,0.0294700641661735
+unsw_nb15_v2,5class_cw,dnn (softmax),1,23,smean,0.3100139341085498,0.09595148309879575
+unsw_nb15_v2,5class_cw,dnn (softmax),2,7,dttl,0.23789480956634607,0.07363010912730121
+unsw_nb15_v2,5class_cw,dnn (softmax),3,32,ct_dst_src_ltm,0.21164273623562793,0.06550490863351063
+unsw_nb15_v2,5class_cw,dnn (softmax),4,24,dmean,0.18697360686809547,0.057869640378948914
+unsw_nb15_v2,5class_cw,dnn (softmax),5,6,sttl,0.18519912472041353,0.05732042573060733
+unsw_nb15_v2,5class_cw,dnn (softmax),6,8,sload,0.16017962212379175,0.04957671450858383
+unsw_nb15_v2,5class_cw,dnn (softmax),7,5,rate,0.13573143766129694,0.04200983024902688
+unsw_nb15_v2,5class_cw,dnn (softmax),8,159,proto_unas,0.1254737285720694,0.038834997468888834
+unsw_nb15_v2,5class_cw,dnn (softmax),9,30,ct_src_dport_ltm,0.11640911709736262,0.036029436753647136
+unsw_nb15_v2,5class_cw,dnn (softmax),10,28,ct_state_ttl,0.09176436385018606,0.028401713078999444
+unsw_nb15_v2,5class_cw,dnn (logit),1,23,smean,3.390118360519409,0.07957673817873001
+unsw_nb15_v2,5class_cw,dnn (logit),2,6,sttl,3.0047390460968018,0.07053067535161972
+unsw_nb15_v2,5class_cw,dnn (logit),3,7,dttl,2.6111810207366943,0.061292629688978195
+unsw_nb15_v2,5class_cw,dnn (logit),4,159,proto_unas,2.152717351913452,0.0505310483276844
+unsw_nb15_v2,5class_cw,dnn (logit),5,32,ct_dst_src_ltm,1.9194397926330566,0.045055288821458817
+unsw_nb15_v2,5class_cw,dnn (logit),6,24,dmean,1.807532787322998,0.042428478598594666
+unsw_nb15_v2,5class_cw,dnn (logit),7,28,ct_state_ttl,1.7077308893203735,0.0400858148932457
+unsw_nb15_v2,5class_cw,dnn (logit),8,8,sload,1.6787924766540527,0.039406538009643555
+unsw_nb15_v2,5class_cw,dnn (logit),9,5,rate,1.4510084390640259,0.034059733152389526
+unsw_nb15_v2,5class_cw,dnn (logit),10,30,ct_src_dport_ltm,1.1459481716156006,0.026899008080363274
+unsw_nb15_v2,5class_smote,xgb (logit),1,6,sttl,2.909672498703003,0.10723443329334259
+unsw_nb15_v2,5class_smote,xgb (logit),2,3,sbytes,2.2250454425811768,0.08200287073850632
+unsw_nb15_v2,5class_smote,xgb (logit),3,23,smean,2.082645893096924,0.07675480842590332
+unsw_nb15_v2,5class_smote,xgb (logit),4,32,ct_dst_src_ltm,1.6688311100006104,0.06150388717651367
+unsw_nb15_v2,5class_smote,xgb (logit),5,158,proto_udp,1.6196925640106201,0.05969291180372238
+unsw_nb15_v2,5class_smote,xgb (logit),6,30,ct_src_dport_ltm,1.3816252946853638,0.0509190671145916
+unsw_nb15_v2,5class_smote,xgb (logit),7,10,sloss,1.053826093673706,0.03883820027112961
+unsw_nb15_v2,5class_smote,xgb (logit),8,37,ct_srv_dst,1.0250638723373413,0.037778183817863464
+unsw_nb15_v2,5class_smote,xgb (logit),9,4,dbytes,0.9036842584609985,0.03330480307340622
+unsw_nb15_v2,5class_smote,xgb (logit),10,24,dmean,0.8848832249641418,0.0326119028031826
+unsw_nb15_v2,5class_smote,rf (prob),1,32,ct_dst_src_ltm,0.11309737070024073,0.06335192107289607
+unsw_nb15_v2,5class_smote,rf (prob),2,3,sbytes,0.10920636888778468,0.061172361652628425
+unsw_nb15_v2,5class_smote,rf (prob),3,23,smean,0.09762844413816352,0.05468694319962129
+unsw_nb15_v2,5class_smote,rf (prob),4,6,sttl,0.09646326198329856,0.05403426199710069
+unsw_nb15_v2,5class_smote,rf (prob),5,37,ct_srv_dst,0.08368106014479272,0.046874263166030376
+unsw_nb15_v2,5class_smote,rf (prob),6,158,proto_udp,0.0815682159329563,0.04569074546867951
+unsw_nb15_v2,5class_smote,rf (prob),7,28,ct_state_ttl,0.06613800062487728,0.037047451851128295
+unsw_nb15_v2,5class_smote,rf (prob),8,4,dbytes,0.059176459508500076,0.033147918196014675
+unsw_nb15_v2,5class_smote,rf (prob),9,24,dmean,0.05675078080547237,0.031789165072127167
+unsw_nb15_v2,5class_smote,rf (prob),10,2,dpkts,0.05451541649416294,0.03053701727644952
+unsw_nb15_v2,5class_smote,dnn (softmax),1,23,smean,0.3917901730159043,0.09452499767161018
+unsw_nb15_v2,5class_smote,dnn (softmax),2,24,dmean,0.3550534356202772,0.08566173295505682
+unsw_nb15_v2,5class_smote,dnn (softmax),3,6,sttl,0.24635821761423188,0.05943745287716033
+unsw_nb15_v2,5class_smote,dnn (softmax),4,32,ct_dst_src_ltm,0.22283317511611528,0.053761699015746525
+unsw_nb15_v2,5class_smote,dnn (softmax),5,7,dttl,0.19235349982035257,0.046408040259618276
+unsw_nb15_v2,5class_smote,dnn (softmax),6,8,sload,0.18454309071383634,0.04452366705820621
+unsw_nb15_v2,5class_smote,dnn (softmax),7,5,rate,0.16161142179658577,0.03899107308239647
+unsw_nb15_v2,5class_smote,dnn (softmax),8,30,ct_src_dport_ltm,0.14950767693396422,0.03607087106163108
+unsw_nb15_v2,5class_smote,dnn (softmax),9,159,proto_unas,0.149215107998537,0.03600028461040092
+unsw_nb15_v2,5class_smote,dnn (softmax),10,37,ct_srv_dst,0.10715613642578103,0.025852954575597595
+unsw_nb15_v2,5class_smote,dnn (logit),1,6,sttl,4.355740070343018,0.0715561956167221
+unsw_nb15_v2,5class_smote,dnn (logit),2,23,smean,4.33822774887085,0.07126849889755249
+unsw_nb15_v2,5class_smote,dnn (logit),3,24,dmean,3.5781173706054688,0.05878138914704323
+unsw_nb15_v2,5class_smote,dnn (logit),4,7,dttl,2.873004913330078,0.04719778895378113
+unsw_nb15_v2,5class_smote,dnn (logit),5,159,proto_unas,2.735896348953247,0.0449453666806221
+unsw_nb15_v2,5class_smote,dnn (logit),6,28,ct_state_ttl,2.619615077972412,0.04303509369492531
+unsw_nb15_v2,5class_smote,dnn (logit),7,32,ct_dst_src_ltm,2.3792765140533447,0.039086807519197464
+unsw_nb15_v2,5class_smote,dnn (logit),8,30,ct_src_dport_ltm,2.280534505844116,0.03746467083692551
+unsw_nb15_v2,5class_smote,dnn (logit),9,8,sload,2.134082078933716,0.035058747977018356
+unsw_nb15_v2,5class_smote,dnn (logit),10,5,rate,1.8364996910095215,0.030170056968927383
+cic_ids2017_v2,5class_cw,xgb (logit),1,0,Destination Port,9.359766960144043,0.21891185641288757
+cic_ids2017_v2,5class_cw,xgb (logit),2,37,Bwd Packets/s,3.0995099544525146,0.07249320298433304
+cic_ids2017_v2,5class_cw,xgb (logit),3,66,Init_Win_bytes_forward,2.442995071411133,0.05713823810219765
+cic_ids2017_v2,5class_cw,xgb (logit),4,67,Init_Win_bytes_backward,1.8193583488464355,0.042552247643470764
+cic_ids2017_v2,5class_cw,xgb (logit),5,46,PSH Flag Count,1.6441527605056763,0.03845443204045296
+cic_ids2017_v2,5class_cw,xgb (logit),6,8,Fwd Packet Length Mean,1.5961673259735107,0.03733212128281593
+cic_ids2017_v2,5class_cw,xgb (logit),7,13,Bwd Packet Length Std,1.427983045578003,0.033398523926734924
+cic_ids2017_v2,5class_cw,xgb (logit),8,1,Flow Duration,1.3744299411773682,0.032145991921424866
+cic_ids2017_v2,5class_cw,xgb (logit),9,2,Total Fwd Packets,1.3165236711502075,0.030791645869612694
+cic_ids2017_v2,5class_cw,xgb (logit),10,19,Flow IAT Min,1.30508553981781,0.030524125322699547
+cic_ids2017_v2,5class_cw,rf (prob),1,0,Destination Port,0.20392137037043206,0.10594375676528088
+cic_ids2017_v2,5class_cw,rf (prob),2,11,Bwd Packet Length Min,0.07148521056028782,0.037138882237582986
+cic_ids2017_v2,5class_cw,rf (prob),3,13,Bwd Packet Length Std,0.059234904577795136,0.030774451501599402
+cic_ids2017_v2,5class_cw,rf (prob),4,52,Average Packet Size,0.05699772495886554,0.029612164229021878
+cic_ids2017_v2,5class_cw,rf (prob),5,42,Packet Length Variance,0.05289261926057825,0.02747942885751528
+cic_ids2017_v2,5class_cw,rf (prob),6,66,Init_Win_bytes_forward,0.05152568815635669,0.026769263875015027
+cic_ids2017_v2,5class_cw,rf (prob),7,37,Bwd Packets/s,0.04935624307640551,0.025642166889306907
+cic_ids2017_v2,5class_cw,rf (prob),8,62,Subflow Fwd Packets,0.0492819330672777,0.025603560432720423
+cic_ids2017_v2,5class_cw,rf (prob),9,23,Fwd IAT Max,0.04867344263258802,0.025287429943357496
+cic_ids2017_v2,5class_cw,rf (prob),10,21,Fwd IAT Mean,0.04842879948998194,0.025160329906968613
+cic_ids2017_v2,5class_cw,dnn (softmax),1,46,PSH Flag Count,0.20181611777256794,0.09662796980176168
+cic_ids2017_v2,5class_cw,dnn (softmax),2,37,Bwd Packets/s,0.12925280235455547,0.06188522512747837
+cic_ids2017_v2,5class_cw,dnn (softmax),3,48,URG Flag Count,0.09936331202716554,0.04757437225496485
+cic_ids2017_v2,5class_cw,dnn (softmax),4,51,Down/Up Ratio,0.08776387549233904,0.0420206532776344
+cic_ids2017_v2,5class_cw,dnn (softmax),5,47,ACK Flag Count,0.07537891340584682,0.03609083084472959
+cic_ids2017_v2,5class_cw,dnn (softmax),6,44,SYN Flag Count,0.0715628090168513,0.03426371007890565
+cic_ids2017_v2,5class_cw,dnn (softmax),7,0,Destination Port,0.06100344460785953,0.02920796945472175
+cic_ids2017_v2,5class_cw,dnn (softmax),8,30,Fwd PSH Flags,0.06036197803649607,0.028900840305817996
+cic_ids2017_v2,5class_cw,dnn (softmax),9,38,Min Packet Length,0.058987596205428164,0.02824279709532388
+cic_ids2017_v2,5class_cw,dnn (softmax),10,52,Average Packet Size,0.057799976375170786,0.027674174061838485
+cic_ids2017_v2,5class_cw,dnn (logit),1,46,PSH Flag Count,1.4848353862762451,0.09471355378627777
+cic_ids2017_v2,5class_cw,dnn (logit),2,37,Bwd Packets/s,0.8878212571144104,0.0566316694021225
+cic_ids2017_v2,5class_cw,dnn (logit),3,51,Down/Up Ratio,0.647043764591217,0.04127313569188118
+cic_ids2017_v2,5class_cw,dnn (logit),4,47,ACK Flag Count,0.589595377445221,0.037608660757541656
+cic_ids2017_v2,5class_cw,dnn (logit),5,52,Average Packet Size,0.5276362895965576,0.03365646302700043
+cic_ids2017_v2,5class_cw,dnn (logit),6,48,URG Flag Count,0.5270241498947144,0.03361741825938225
+cic_ids2017_v2,5class_cw,dnn (logit),7,12,Bwd Packet Length Mean,0.4385271966457367,0.02797243930399418
+cic_ids2017_v2,5class_cw,dnn (logit),8,74,Idle Mean,0.4161623418331146,0.026545846834778786
+cic_ids2017_v2,5class_cw,dnn (logit),9,54,Avg Bwd Segment Size,0.4061661958694458,0.025908220559358597
+cic_ids2017_v2,5class_cw,dnn (logit),10,40,Packet Length Mean,0.3860361874103546,0.024624183773994446
+cic_ids2017_v2,5class_smote,xgb (logit),1,0,Destination Port,9.86310863494873,0.20335769653320312
+cic_ids2017_v2,5class_smote,xgb (logit),2,37,Bwd Packets/s,3.663104295730591,0.0755259245634079
+cic_ids2017_v2,5class_smote,xgb (logit),3,66,Init_Win_bytes_forward,2.7899274826049805,0.05752275884151459
+cic_ids2017_v2,5class_smote,xgb (logit),4,46,PSH Flag Count,2.181654930114746,0.04498138651251793
+cic_ids2017_v2,5class_smote,xgb (logit),5,69,min_seg_size_forward,1.781416416168213,0.03672926500439644
+cic_ids2017_v2,5class_smote,xgb (logit),6,67,Init_Win_bytes_backward,1.773939847946167,0.036575112491846085
+cic_ids2017_v2,5class_smote,xgb (logit),7,19,Flow IAT Min,1.7109105587005615,0.035275574773550034
+cic_ids2017_v2,5class_smote,xgb (logit),8,8,Fwd Packet Length Mean,1.488905906677246,0.030698278918862343
+cic_ids2017_v2,5class_smote,xgb (logit),9,13,Bwd Packet Length Std,1.4017671346664429,0.02890165150165558
+cic_ids2017_v2,5class_smote,xgb (logit),10,24,Fwd IAT Min,1.3690317869186401,0.028226712718605995
+cic_ids2017_v2,5class_smote,rf (prob),1,0,Destination Port,0.21544225217306184,0.10867461541383701
+cic_ids2017_v2,5class_smote,rf (prob),2,11,Bwd Packet Length Min,0.10288696486209972,0.051898832400359154
+cic_ids2017_v2,5class_smote,rf (prob),3,66,Init_Win_bytes_forward,0.06031605219201122,0.0304249686824771
+cic_ids2017_v2,5class_smote,rf (prob),4,37,Bwd Packets/s,0.056481027236776414,0.02849048341828749
+cic_ids2017_v2,5class_smote,rf (prob),5,67,Init_Win_bytes_backward,0.056176658141773035,0.028336951815225803
+cic_ids2017_v2,5class_smote,rf (prob),6,13,Bwd Packet Length Std,0.05285453285052741,0.02666118633867161
+cic_ids2017_v2,5class_smote,rf (prob),7,12,Bwd Packet Length Mean,0.051830995710997106,0.026144887869461016
+cic_ids2017_v2,5class_smote,rf (prob),8,2,Total Fwd Packets,0.05087133383891612,0.02566080972868876
+cic_ids2017_v2,5class_smote,rf (prob),9,42,Packet Length Variance,0.050191828106786,0.025318049553440403
+cic_ids2017_v2,5class_smote,rf (prob),10,46,PSH Flag Count,0.05016249218009665,0.02530325175719284
+cic_ids2017_v2,5class_smote,dnn (softmax),1,46,PSH Flag Count,0.2616069167268967,0.0845626518244394
+cic_ids2017_v2,5class_smote,dnn (softmax),2,37,Bwd Packets/s,0.19175578562296614,0.061983750039318324
+cic_ids2017_v2,5class_smote,dnn (softmax),3,66,Init_Win_bytes_forward,0.18142039617312272,0.058642905881021515
+cic_ids2017_v2,5class_smote,dnn (softmax),4,38,Min Packet Length,0.12111169786405301,0.039148530422978875
+cic_ids2017_v2,5class_smote,dnn (softmax),5,13,Bwd Packet Length Std,0.11371180474036142,0.03675656543372728
+cic_ids2017_v2,5class_smote,dnn (softmax),6,47,ACK Flag Count,0.10758464027246509,0.03477600130318981
+cic_ids2017_v2,5class_smote,dnn (softmax),7,42,Packet Length Variance,0.10308900330079271,0.03332281730973494
+cic_ids2017_v2,5class_smote,dnn (softmax),8,41,Packet Length Std,0.09398556280128259,0.030380192248455628
+cic_ids2017_v2,5class_smote,dnn (softmax),9,51,Down/Up Ratio,0.09064741611249272,0.02930115909552974
+cic_ids2017_v2,5class_smote,dnn (softmax),10,52,Average Packet Size,0.08937231750842353,0.028888992167197737
+cic_ids2017_v2,5class_smote,dnn (logit),1,46,PSH Flag Count,5.565485000610352,0.0688067302107811
+cic_ids2017_v2,5class_smote,dnn (logit),2,66,Init_Win_bytes_forward,5.133724689483643,0.0634688287973404
+cic_ids2017_v2,5class_smote,dnn (logit),3,6,Fwd Packet Length Max,5.050437927246094,0.062439143657684326
+cic_ids2017_v2,5class_smote,dnn (logit),4,38,Min Packet Length,3.512794017791748,0.04342907667160034
+cic_ids2017_v2,5class_smote,dnn (logit),5,47,ACK Flag Count,3.4976134300231934,0.04324139654636383
+cic_ids2017_v2,5class_smote,dnn (logit),6,37,Bwd Packets/s,3.4776546955108643,0.04299464449286461
+cic_ids2017_v2,5class_smote,dnn (logit),7,42,Packet Length Variance,3.2739152908325195,0.040475789457559586
+cic_ids2017_v2,5class_smote,dnn (logit),8,13,Bwd Packet Length Std,2.5972368717193604,0.03210993856191635
+cic_ids2017_v2,5class_smote,dnn (logit),9,9,Fwd Packet Length Std,2.565420150756836,0.03171658515930176
+cic_ids2017_v2,5class_smote,dnn (logit),10,25,Bwd IAT Total,2.2270736694335938,0.02753356657922268

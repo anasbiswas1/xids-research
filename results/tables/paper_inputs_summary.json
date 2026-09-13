@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-13T18:54:43.836751",
+  "notebook": "14_paper_inputs.ipynb",
+  "n_bootstrap": 2000,
+  "bootstrap": "stratified by class over the full test partition",
+  "ece_definition": "10 equal-width bins; ece_top = top-label confidence vs correctness; ece_macro = mean over classes of one-vs-rest ECE (03d convention)",
+  "outputs": [
+    "paper_inputs_calibration.csv",
+    "paper_inputs_macro_f1.csv",
+    "paper_inputs_top10_features.csv",
+    "paper_inputs_reliability.png"
+  ]
+}
