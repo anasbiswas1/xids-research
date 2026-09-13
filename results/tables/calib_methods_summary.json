@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-13T20:23:49.632445",
+  "notebook": "16_decision_preserving_calibration.ipynb",
+  "calibrators": [
+    "raw",
+    "temperature",
+    "perclass_isotonic_renorm",
+    "toplabel_isotonic",
+    "cctl",
+    "dirichlet"
+  ],
+  "decision_preserving": {
+    "raw": true,
+    "temperature": true,
+    "perclass_isotonic_renorm": false,
+    "toplabel_isotonic": true,
+    "cctl": true,
+    "dirichlet": false
+  },
+  "fit_surface": "strict 80% slice of the calibration partition (07e split)",
+  "gate_surface": "20% holdout of the calibration partition",
+  "n_bootstrap": 1000,
+  "risk_targets": [
+    0.02,
+    0.05,
+    0.1
+  ]
+}
