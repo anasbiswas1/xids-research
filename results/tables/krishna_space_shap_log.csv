@@ -1,0 +1,7 @@
+dataset,model,cached,seconds
+nsl_kdd_v2,dnn_5class_cw,False,308.8
+nsl_kdd_v2,dnn_5class_smote,False,298.7
+unsw_nb15_v2,dnn_5class_cw,False,305.6
+unsw_nb15_v2,dnn_5class_smote,False,300.5
+cic_ids2017_v2,dnn_5class_cw,False,301.9
+cic_ids2017_v2,dnn_5class_smote,False,296.4

@@ -1,0 +1,10 @@
+{
+  "model": "dnn_5class_cw",
+  "dataset": "cic_ids2017_v2",
+  "shap_target": "logits (pre-softmax)",
+  "explainer": "GradientExplainer",
+  "n_background": 50,
+  "n_eval": 1000,
+  "seed": 42,
+  "timestamp": "2026-09-13T17:41:13.261231"
+}
