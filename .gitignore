@@ -245,3 +245,5 @@ shap_values/**/*.npy
 calibrators/*.pkl
 calibrators/**/*.npy
 calibrators/**/*.pkl
+# per-split raw table, over the GitHub size warning; aggregate is committed
+results/tables/budget_recall_certificates.csv

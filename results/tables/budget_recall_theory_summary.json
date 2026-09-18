@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-18T04:10:00.234189",
+  "notebook": "19_certificate_theory.ipynb",
+  "grid_cells": 215,
+  "repeats_per_cell": 800,
+  "COVERAGE": {
+    "rule": "no grid cell may exceed its nominal level",
+    "cells_exceeding_nominal": 0,
+    "max_violation_by_delta": {
+      "0.05": 0.0,
+      "0.1": 0.005,
+      "0.2": 0.0075
+    },
+    "max_budget_overrun": 0.9588749999999999
+  },
+  "SPLIT_SENSITIVITY": {
+    "rule": "the equal-thirds split must not be doing the work",
+    "median_tightness_by_split": {
+      "equal thirds": 0.6452,
+      "heavy count stage": 0.5741,
+      "heavy future stage": 0.614,
+      "light count stage": 0.6607,
+      "light future stage": 0.6182,
+      "two-way, no count stage": 0.7665
+    },
+    "exceedances_by_split": {
+      "equal thirds": 0,
+      "heavy count stage": 0,
+      "heavy future stage": 0,
+      "light count stage": 0,
+      "light future stage": 0,
+      "two-way, no count stage": 0
+    },
+    "median_overrun_by_split": {
+      "equal thirds": 0.892,
+      "heavy count stage": 0.916,
+      "heavy future stage": 0.848,
+      "light count stage": 0.864,
+      "light future stage": 0.901,
+      "two-way, no count stage": 1.004
+    }
+  },
+  "OPERATING_REGION": {
+    "rule": "state where the certificate is non-vacuous rather than claiming it always is",
+    "median_tightness_overall": 0.4,
+    "cells_vacuous": 30,
+    "cells_total": 125
+  }
+}
