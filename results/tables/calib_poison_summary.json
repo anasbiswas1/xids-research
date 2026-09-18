@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-18T00:34:32.449920",
+  "notebook": "17_calibration_poisoning.ipynb",
+  "budget_grid": [
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "rules": [
+    "block_greedy",
+    "block_greedy_stealth",
+    "random",
+    "highest_pt"
+  ],
+  "stealth_max_acc_drop": 0.005,
+  "stealth_max_ece_rise": 0.01,
+  "noise_rates": [
+    0.02,
+    0.05,
+    0.0667,
+    0.0753,
+    0.1
+  ],
+  "noise_seeds": 10,
+  "KILL_1_practical_budget": {
+    "rule": "fails if the median budget to halve is above 10% on all three datasets",
+    "median_budget_by_dataset": {
+      "cic_ids2017_v2": 0.0751,
+      "nsl_kdd_v2": 0.01,
+      "unsw_nb15_v2": 0.005
+    },
+    "models_halved_by_dataset": {
+      "cic_ids2017_v2": 12,
+      "nsl_kdd_v2": 6,
+      "unsw_nb15_v2": 6
+    }
+  },
+  "KILL_2_algorithm_matters": {
+    "rule": "fails if block_greedy is not clearly better than random AND highest_pt",
+    "median_budget_by_rule": {
+      "block_greedy": 0.0502,
+      "block_greedy_stealth": 0.001,
+      "highest_pt": 0.0502,
+      "random": 0.1
+    },
+    "median_final_recall_by_rule": {
+      "block_greedy": 0.0,
+      "block_greedy_stealth": 0.6835,
+      "highest_pt": 0.0,
+      "random": 0.171
+    }
+  },
+  "KILL_3_stable_targets": {
+    "rule": "weak if only already-fragile classes can be suppressed",
+    "models_halved_fragile": 18,
+    "models_halved_stable": 6,
+    "n_per_kind": 18
+  },
+  "STEALTH_DEFENDER_AUDIT": {
+    "median_audit_acc_delta": -0.018157301710443774,
+    "median_audit_ece_delta": 0.09527245466738657,
+    "frac_min_budget_points_stealthy": 0.19444444444444445
+  },
+  "STEALTH": {
+    "median_accuracy_delta": -0.05378225208061055,
+    "median_macro_f1_delta": -0.06850282334065919,
+    "median_ece_delta": 0.09265729921845836,
+    "median_tpcr": 0.15275369194173843
+  }
+}
