@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-18T01:39:45.379468",
+  "timestamp": "2026-09-18T02:25:14.037793",
   "notebook": "18_budget_recall_certificate.ipynb",
   "delta": 0.1,
   "delta_split_two_stage": 0.5,
@@ -14,71 +14,80 @@
   ],
   "KILL_1_validity_on_exchangeable": {
     "rule": "fails if the two-stage violation rate on CIC-IDS2017 exceeds the nominal delta",
-    "violation_rate_cic": 0.20425,
+    "violation_rate_cic": 0.0030833333333333333,
     "nominal": 0.1,
     "violation_rate_cic_by_scope": {
-      "DoS": 0.2765,
-      "Probe": 0.2675,
-      "R2L": 0.0005,
-      "all_attacks": 0.2725
+      "DoS": 0.0018,
+      "Probe": 0.005,
+      "R2L": 0.0025,
+      "all_attacks": 0.003
     }
   },
   "KILL_2_non_vacuity": {
     "rule": "fails if the certified floor is at or below zero at operational budgets on the exchangeable dataset",
-    "frac_bound_above_zero_cic_operational": 0.6679166666666667,
-    "median_tightness_cic": 0.8728028242432326,
+    "frac_bound_above_zero_cic_operational": 0.8409375,
+    "median_tightness_cic": 0.6948228882833788,
     "mean_bound_cic_by_scope": {
-      "DoS": 0.4773,
-      "Probe": 0.4357,
-      "R2L": 0.1727,
-      "all_attacks": 0.4628
+      "DoS": 0.3392,
+      "Probe": 0.2988,
+      "R2L": 0.1815,
+      "all_attacks": 0.3308
     }
   },
   "KILL_3_rare_class_floor": {
     "rule": "weak if the rare-class floor is vacuous everywhere",
-    "frac_above_zero": 0.4325833333333333,
+    "frac_above_zero": 0.669,
     "mean_bound_by_dataset": {
-      "cic_ids2017_v2": 0.1727,
-      "nsl_kdd_v2": 0.1504,
-      "unsw_nb15_v2": 0.0438
+      "cic_ids2017_v2": 0.1815,
+      "nsl_kdd_v2": 0.0637,
+      "unsw_nb15_v2": 0.061
     },
-    "violation_rate": 0.10745833333333334
+    "violation_rate": 0.18170833333333333
   },
   "STAGE2_NECESSITY": {
     "rule": "the two-stage construction is only justified if the calibration-only bound under-covers",
     "viol_calibration_only_by_scope": {
-      "DoS": 0.3191,
-      "Probe": 0.2463,
-      "R2L": 0.1546,
-      "U2R": 0.0023,
-      "all_attacks": 0.4319
+      "DoS": 0.0307,
+      "Probe": 0.1774,
+      "R2L": 0.29,
+      "U2R": 0.0387,
+      "all_attacks": 0.3434
     },
     "viol_two_stage_by_scope": {
-      "DoS": 0.2522,
-      "Probe": 0.2134,
-      "R2L": 0.1433,
-      "U2R": 0.0,
-      "all_attacks": 0.3894
+      "DoS": 0.0126,
+      "Probe": 0.0581,
+      "R2L": 0.2382,
+      "U2R": 0.0123,
+      "all_attacks": 0.2595
     }
   },
   "BUDGET_VIOLATION_BY_BASELINES": {
     "rule": "fixed-risk and fixed-FDR methods select a set whose size is an output, not an input",
     "median_selected_frac": {
-      "conformal_selection_fdr": 0.45,
-      "dual_threshold_deferral": 0.264,
-      "fixed_risk_crc": 0.264
+      "conformal_selection_fdr": 0.444,
+      "dual_threshold_deferral": 0.295,
+      "fixed_risk_crc": 0.295
     },
     "p90_selected_frac": {
-      "conformal_selection_fdr": 0.617,
+      "conformal_selection_fdr": 0.603,
       "dual_threshold_deferral": 0.521,
-      "fixed_risk_crc": 0.52
+      "fixed_risk_crc": 0.521
     }
+  },
+  "TIE_SANITY": {
+    "rule": "the certified set must fit inside the budget; median selected/k should be at or below 1",
+    "median_budget_overrun_by_dataset": {
+      "cic_ids2017_v2": 0.891,
+      "nsl_kdd_v2": 0.621,
+      "unsw_nb15_v2": 0.535
+    },
+    "p95_budget_overrun": 0.950012496875781
   },
   "SHIFT_LADDER": {
     "violation_rate_by_exchangeability": {
-      "composition shift": 0.001,
-      "exchangeable": 0.2042,
-      "non-exchangeable by construction": 0.5432
+      "composition shift": 0.0139,
+      "exchangeable": 0.0031,
+      "non-exchangeable by construction": 0.4088
     }
   }
 }
